@@ -1,0 +1,115 @@
+INFO  20:21:23,714 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:21:23,730 - #2 program
+INFO  20:21:23,730 - #39 MJProgram
+INFO  20:21:23,730 - #42 const
+INFO  20:21:23,730 - #39 int
+INFO  20:21:23,730 - #39 x
+INFO  20:21:23,730 - #8 ,
+INFO  20:21:23,730 - Deklasirana globalna konstanta x na liniji 2
+INFO  20:21:23,730 - #39 y
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - Deklasirana globalna konstanta y na liniji 2
+INFO  20:21:23,730 - #39 int
+INFO  20:21:23,730 - #39 haos
+INFO  20:21:23,730 - #8 ,
+INFO  20:21:23,730 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  20:21:23,730 - #39 niz
+INFO  20:21:23,730 - #34 [
+INFO  20:21:23,730 - #35 ]
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - Deklasiran globalni niz niz na liniji 3
+INFO  20:21:23,730 - #3 {
+INFO  20:21:23,730 - #39 int
+INFO  20:21:23,730 - #39 k
+INFO  20:21:23,730 - #6 (
+INFO  20:21:23,730 - Obradjuje se metoda k na liniji 5
+INFO  20:21:23,730 - #7 )
+INFO  20:21:23,730 - #39 int
+INFO  20:21:23,730 - #39 c
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - Deklasirana lokalna promenljiva c na liniji 5
+INFO  20:21:23,730 - #3 {
+INFO  20:21:23,730 - #39 c
+INFO  20:21:23,730 - #11 =
+INFO  20:21:23,730 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  20:21:23,730 - #37 0
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #10 return
+INFO  20:21:23,730 - #39 c
+INFO  20:21:23,730 - #13 -
+INFO  20:21:23,730 - Detektovano koriscenje lokalne promenljive c na liniji 7
+INFO  20:21:23,730 - #37 5
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #4 }
+INFO  20:21:23,730 - #41 class
+INFO  20:21:23,730 - #39 Klasa
+INFO  20:21:23,730 - #3 {
+INFO  20:21:23,730 - #4 }
+INFO  20:21:23,730 - #39 int
+INFO  20:21:23,730 - #39 main
+INFO  20:21:23,730 - #6 (
+INFO  20:21:23,730 - #7 )
+INFO  20:21:23,730 - #39 int
+INFO  20:21:23,730 - #39 i
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #3 {
+INFO  20:21:23,730 - #9 print
+INFO  20:21:23,730 - #6 (
+ERROR 20:21:23,730 - Uspesan oporavak od greske pri dodeli vrednosti promenljivoj
+INFO  20:21:23,730 - #37 1
+INFO  20:21:23,730 - #7 )
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #39 x
+INFO  20:21:23,730 - #11 =
+INFO  20:21:23,730 - Detektovano koriscenje konstante x na liniji 17
+INFO  20:21:23,730 - #37 3
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #9 print
+INFO  20:21:23,730 - #6 (
+INFO  20:21:23,730 - #37 2
+INFO  20:21:23,730 - #7 )
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #39 x
+INFO  20:21:23,730 - #32 --
+INFO  20:21:23,730 - Detektovano koriscenje konstante x na liniji 21
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #45 for
+INFO  20:21:23,730 - #6 (
+INFO  20:21:23,730 - #39 i
+INFO  20:21:23,730 - #11 =
+ERROR 20:21:23,730 - Greska: i nije deklarisano. na liniji 23
+INFO  20:21:23,730 - #37 0
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #39 i
+INFO  20:21:23,730 - #5 ;
+ERROR 20:21:23,730 - Greska: i nije deklarisano. na liniji 23
+INFO  20:21:23,730 - #39 i
+INFO  20:21:23,730 - #31 ++
+ERROR 20:21:23,730 - Greska: i nije deklarisano. na liniji 23
+INFO  20:21:23,730 - #7 )
+INFO  20:21:23,730 - #3 {
+INFO  20:21:23,730 - #9 print
+INFO  20:21:23,730 - #6 (
+INFO  20:21:23,730 - #39 i
+INFO  20:21:23,730 - #7 )
+ERROR 20:21:23,730 - Greska: i nije deklarisano. na liniji 24
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #9 print
+ERROR 20:21:23,730 - Greska: operand instrukcije PRINT mora biti char ili int, na liniji 24
+INFO  20:21:23,730 - #6 (
+INFO  20:21:23,730 - #39 niz
+INFO  20:21:23,730 - #34 [
+INFO  20:21:23,730 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  20:21:23,730 - #39 i
+INFO  20:21:23,730 - #35 ]
+ERROR 20:21:23,730 - Greska: i nije deklarisano. na liniji 25
+INFO  20:21:23,730 - #7 )
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #4 }
+INFO  20:21:23,730 - #10 return
+INFO  20:21:23,730 - #37 0
+INFO  20:21:23,730 - #5 ;
+INFO  20:21:23,730 - #4 }
+INFO  20:21:23,730 - #4 }
+INFO  20:21:23,730 - Print calls = 4
+ERROR 20:21:23,730 - Greske pri parsiranju!

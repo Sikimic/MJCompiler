@@ -1,0 +1,36 @@
+INFO  12:17:03,093 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  12:17:03,097 - #2 program
+INFO  12:17:03,097 - #15 MJProgram
+INFO  12:17:03,097 - #15 int
+INFO  12:17:03,097 - #15 x
+INFO  12:17:03,097 - #5 ;
+INFO  12:17:03,097 - #15 int
+INFO  12:17:03,101 - #15 y
+INFO  12:17:03,101 - #5 ;
+INFO  12:17:03,101 - #3 {
+INFO  12:17:03,101 - #15 int
+INFO  12:17:03,101 - #15 main
+INFO  12:17:03,101 - #6 (
+INFO  12:17:03,101 - #7 )
+INFO  12:17:03,101 - #3 {
+INFO  12:17:03,101 - #9 print
+INFO  12:17:03,101 - #6 (
+INFO  12:17:03,101 - #14 1
+INFO  12:17:03,101 - #7 )
+INFO  12:17:03,101 - #5 ;
+INFO  12:17:03,101 - #15 x
+INFO  12:17:03,101 - #11 =
+INFO  12:17:03,101 - #15 y
+INFO  12:17:03,101 - #12 +
+INFO  12:17:03,101 - #14 6
+INFO  12:17:03,101 - #12 +
+INFO  12:17:03,101 - #15 z
+INFO  12:17:03,101 - #5 ;
+INFO  12:17:03,101 - #9 print
+INFO  12:17:03,101 - #6 (
+INFO  12:17:03,101 - #14 2
+INFO  12:17:03,101 - #7 )
+INFO  12:17:03,101 - #5 ;
+INFO  12:17:03,101 - #4 }
+INFO  12:17:03,101 - #4 }
+INFO  12:17:03,101 - Print calls = 2

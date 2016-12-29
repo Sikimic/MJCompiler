@@ -1,0 +1,64 @@
+INFO  19:28:02,261 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:28:02,261 - #2 program
+INFO  19:28:02,261 - #14 MJProgram
+INFO  19:28:02,261 - #14 int
+INFO  19:28:02,261 - #14 x
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - Deklasirana promenljiva x na liniji 2
+INFO  19:28:02,261 - #14 int
+INFO  19:28:02,261 - #14 y
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - Deklasirana promenljiva y na liniji 2
+INFO  19:28:02,261 - #3 {
+INFO  19:28:02,261 - #14 void
+INFO  19:28:02,261 - #14 k
+ERROR 19:28:02,261 - Greska: Nije pronadjen tip: void na liniji 4
+INFO  19:28:02,261 - #6 (
+INFO  19:28:02,261 - Obradjuje se metoda k na liniji 4
+INFO  19:28:02,261 - #7 )
+INFO  19:28:02,261 - #14 int
+INFO  19:28:02,261 - #14 c
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - Deklasirana promenljiva c na liniji 4
+INFO  19:28:02,261 - #3 {
+INFO  19:28:02,261 - #14 c
+INFO  19:28:02,261 - #11 =
+INFO  19:28:02,261 - #13 0
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - #10 return
+INFO  19:28:02,261 - #14 c
+INFO  19:28:02,261 - #12 +
+INFO  19:28:02,261 - #13 6
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - #4 }
+ERROR 19:28:02,261 - Greska: nekompatibilni izrazi, u liniji 6
+INFO  19:28:02,261 - #14 int
+INFO  19:28:02,261 - #14 main
+INFO  19:28:02,261 - #6 (
+INFO  19:28:02,261 - Obradjuje se metoda main na liniji 9
+INFO  19:28:02,261 - #7 )
+INFO  19:28:02,261 - #3 {
+INFO  19:28:02,261 - #9 print
+INFO  19:28:02,261 - #6 (
+INFO  19:28:02,261 - #13 1
+INFO  19:28:02,261 - #7 )
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - #14 x
+INFO  19:28:02,261 - #11 =
+INFO  19:28:02,261 - #14 y
+INFO  19:28:02,261 - #12 +
+INFO  19:28:02,261 - #13 6
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - #14 k
+INFO  19:28:02,261 - #6 (
+INFO  19:28:02,261 - #7 )
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - #9 print
+INFO  19:28:02,261 - Pronadjen poziv funkcije k na liniji 12
+INFO  19:28:02,261 - #6 (
+INFO  19:28:02,261 - #13 2
+INFO  19:28:02,261 - #7 )
+INFO  19:28:02,261 - #5 ;
+INFO  19:28:02,261 - #4 }
+INFO  19:28:02,261 - #4 }
+INFO  19:28:02,261 - Print calls = 2

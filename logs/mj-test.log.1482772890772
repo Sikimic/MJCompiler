@@ -1,0 +1,68 @@
+INFO  18:21:04,327 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:21:04,343 - #2 program
+INFO  18:21:04,343 - #39 MJProgram
+INFO  18:21:04,343 - #39 int
+INFO  18:21:04,343 - #39 x
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - Deklasirana promenljiva x na liniji 2
+INFO  18:21:04,343 - #39 int
+INFO  18:21:04,343 - #39 y
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - Deklasirana promenljiva y na liniji 2
+INFO  18:21:04,343 - #3 {
+INFO  18:21:04,343 - #39 int
+INFO  18:21:04,343 - #39 k
+INFO  18:21:04,343 - #6 (
+INFO  18:21:04,343 - Obradjuje se metoda k na liniji 4
+INFO  18:21:04,343 - #7 )
+INFO  18:21:04,343 - #39 int
+INFO  18:21:04,343 - #39 c
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - Deklasirana promenljiva c na liniji 4
+INFO  18:21:04,343 - #3 {
+INFO  18:21:04,343 - #39 c
+INFO  18:21:04,343 - #11 =
+INFO  18:21:04,343 - #37 0
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #10 return
+INFO  18:21:04,343 - #39 c
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #4 }
+ERROR 18:21:04,343 - Greska: nekompatibilni return izrazi, na liniji 6
+INFO  18:21:04,343 - #39 int
+ERROR 18:21:04,343 - Greska: funkcija k nema pravilan return iskaz
+INFO  18:21:04,343 - #39 main
+INFO  18:21:04,343 - #6 (
+INFO  18:21:04,343 - Obradjuje se metoda main na liniji 9
+INFO  18:21:04,343 - #7 )
+INFO  18:21:04,343 - #3 {
+INFO  18:21:04,343 - #9 print
+INFO  18:21:04,343 - #6 (
+INFO  18:21:04,343 - #37 1
+INFO  18:21:04,343 - #7 )
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #39 x
+INFO  18:21:04,343 - #11 =
+INFO  18:21:04,343 - #39 y
+INFO  18:21:04,343 - #12 +
+INFO  18:21:04,343 - #37 6
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #9 print
+INFO  18:21:04,343 - #6 (
+INFO  18:21:04,343 - #37 2
+INFO  18:21:04,343 - #7 )
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #45 for
+INFO  18:21:04,343 - #6 (
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #7 )
+INFO  18:21:04,343 - #3 {
+INFO  18:21:04,343 - #4 }
+INFO  18:21:04,343 - #10 return
+INFO  18:21:04,343 - #37 0
+INFO  18:21:04,343 - #5 ;
+INFO  18:21:04,343 - #4 }
+INFO  18:21:04,343 - #4 }
+INFO  18:21:04,343 - Print calls = 2
+ERROR 18:21:04,343 - Greske pri parsiranju!

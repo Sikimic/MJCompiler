@@ -1,0 +1,74 @@
+INFO  18:40:55,051 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:40:55,067 - #2 program
+INFO  18:40:55,067 - #39 MJProgram
+INFO  18:40:55,067 - #39 int
+INFO  18:40:55,067 - #39 x
+INFO  18:40:55,067 - #8 ,
+INFO  18:40:55,067 - Deklasirana promenljiva x na liniji 2
+INFO  18:40:55,067 - #39 y
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - Deklasirana promenljiva y na liniji 2
+INFO  18:40:55,067 - #3 {
+INFO  18:40:55,067 - #39 int
+INFO  18:40:55,067 - #39 k
+INFO  18:40:55,067 - #6 (
+INFO  18:40:55,067 - Obradjuje se metoda k na liniji 4
+INFO  18:40:55,067 - #7 )
+INFO  18:40:55,067 - #39 int
+INFO  18:40:55,067 - #39 c
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - Deklasirana promenljiva c na liniji 4
+INFO  18:40:55,067 - #3 {
+INFO  18:40:55,067 - #39 c
+INFO  18:40:55,067 - #11 =
+INFO  18:40:55,067 - #37 0
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #10 return
+INFO  18:40:55,067 - #37 0
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #4 }
+INFO  18:40:55,067 - #39 int
+INFO  18:40:55,067 - #39 main
+INFO  18:40:55,067 - #6 (
+INFO  18:40:55,067 - Obradjuje se metoda main na liniji 9
+INFO  18:40:55,067 - #7 )
+INFO  18:40:55,067 - #3 {
+INFO  18:40:55,067 - #9 print
+INFO  18:40:55,067 - #6 (
+INFO  18:40:55,067 - #37 1
+INFO  18:40:55,067 - #7 )
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #39 x
+INFO  18:40:55,067 - #11 =
+INFO  18:40:55,067 - #37 3
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #9 print
+INFO  18:40:55,067 - #6 (
+INFO  18:40:55,067 - #37 2
+INFO  18:40:55,067 - #7 )
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #45 for
+INFO  18:40:55,067 - #6 (
+INFO  18:40:55,067 - #39 i
+INFO  18:40:55,067 - #11 =
+ERROR 18:40:55,067 - Greska: Nije pronadjena funkcija: i na liniji 15
+INFO  18:40:55,067 - #37 0
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #39 i
+INFO  18:40:55,067 - #22 <
+ERROR 18:40:55,067 - Greska: Nije pronadjena funkcija: i na liniji 15
+INFO  18:40:55,067 - #37 10
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #39 i
+INFO  18:40:55,067 - #31 ++
+ERROR 18:40:55,067 - Greska: Nije pronadjena funkcija: i na liniji 15
+INFO  18:40:55,067 - #7 )
+INFO  18:40:55,067 - #3 {
+INFO  18:40:55,067 - #4 }
+INFO  18:40:55,067 - #10 return
+INFO  18:40:55,067 - #37 0
+INFO  18:40:55,067 - #5 ;
+INFO  18:40:55,067 - #4 }
+INFO  18:40:55,067 - #4 }
+INFO  18:40:55,067 - Print calls = 2
+ERROR 18:40:55,067 - Greske pri parsiranju!

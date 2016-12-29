@@ -1,0 +1,62 @@
+INFO  18:19:50,201 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:19:50,217 - #2 program
+INFO  18:19:50,217 - #14 MJProgram
+INFO  18:19:50,217 - #14 int
+INFO  18:19:50,217 - #14 x
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - Deklasirana promenljiva x na liniji 2
+INFO  18:19:50,217 - #14 int
+INFO  18:19:50,217 - #14 y
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - Deklasirana promenljiva y na liniji 2
+INFO  18:19:50,217 - #3 {
+INFO  18:19:50,217 - #14 int
+INFO  18:19:50,217 - #14 k
+INFO  18:19:50,217 - #6 (
+INFO  18:19:50,217 - Obradjuje se metoda k na liniji 4
+INFO  18:19:50,217 - #7 )
+INFO  18:19:50,217 - #14 int
+INFO  18:19:50,217 - #14 c
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - Deklasirana promenljiva c na liniji 4
+INFO  18:19:50,217 - #3 {
+INFO  18:19:50,217 - #14 c
+INFO  18:19:50,217 - #11 =
+INFO  18:19:50,217 - #13 0
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - #10 return
+INFO  18:19:50,217 - #14 c
+INFO  18:19:50,217 - #12 +
+INFO  18:19:50,217 - #13 6
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - #4 }
+INFO  18:19:50,217 - #14 int
+INFO  18:19:50,217 - #14 main
+INFO  18:19:50,217 - #6 (
+INFO  18:19:50,217 - Obradjuje se metoda main na liniji 9
+INFO  18:19:50,217 - #7 )
+INFO  18:19:50,217 - #3 {
+INFO  18:19:50,217 - #9 print
+INFO  18:19:50,217 - #6 (
+INFO  18:19:50,217 - #13 1
+INFO  18:19:50,217 - #7 )
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - #14 x
+INFO  18:19:50,217 - #11 =
+INFO  18:19:50,217 - #14 y
+INFO  18:19:50,217 - #12 +
+INFO  18:19:50,217 - #13 6
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - #14 k
+INFO  18:19:50,217 - #6 (
+INFO  18:19:50,217 - #7 )
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - #9 print
+ERROR 18:19:50,217 - Greska: k nije funkcija, na liniji 12
+INFO  18:19:50,217 - #6 (
+INFO  18:19:50,217 - #13 2
+INFO  18:19:50,217 - #7 )
+INFO  18:19:50,217 - #5 ;
+INFO  18:19:50,217 - #4 }
+INFO  18:19:50,217 - #4 }
+INFO  18:19:50,217 - Print calls = 2

@@ -1,0 +1,62 @@
+INFO  13:20:29,475 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  13:20:29,490 - #2 program
+INFO  13:20:29,490 - #18 MJProgram
+INFO  13:20:29,490 - #18 int
+INFO  13:20:29,490 - #18 x
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - Deklasirana promenljiva x na liniji 2
+INFO  13:20:29,490 - #18 int
+INFO  13:20:29,490 - #18 y
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - Deklasirana promenljiva y na liniji 2
+INFO  13:20:29,490 - #3 {
+INFO  13:20:29,490 - #18 int
+INFO  13:20:29,490 - #18 k
+INFO  13:20:29,490 - #6 (
+INFO  13:20:29,490 - #7 )
+INFO  13:20:29,490 - #18 int
+INFO  13:20:29,490 - #18 c
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - Deklasirana promenljiva c na liniji 4
+INFO  13:20:29,490 - #3 {
+INFO  13:20:29,490 - #18 c
+INFO  13:20:29,490 - Obradjuje se metoda k na liniji 4
+INFO  13:20:29,490 - #11 =
+INFO  13:20:29,490 - #17 0
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - #10 return
+INFO  13:20:29,490 - #18 c
+INFO  13:20:29,490 - #12 +
+INFO  13:20:29,490 - #17 6
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - #4 }
+INFO  13:20:29,490 - #18 int
+INFO  13:20:29,490 - #18 main
+INFO  13:20:29,490 - #6 (
+INFO  13:20:29,490 - #7 )
+INFO  13:20:29,490 - #3 {
+INFO  13:20:29,490 - #9 print
+INFO  13:20:29,490 - Obradjuje se metoda main na liniji 9
+INFO  13:20:29,490 - #6 (
+INFO  13:20:29,490 - #17 1
+INFO  13:20:29,490 - #7 )
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - #18 x
+INFO  13:20:29,490 - #11 =
+INFO  13:20:29,490 - #18 y
+INFO  13:20:29,490 - #13 -
+INFO  13:20:29,490 - #17 6
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - #9 print
+INFO  13:20:29,490 - #6 (
+INFO  13:20:29,490 - #17 2
+ERROR 13:20:29,490 - Uspesan oporavak od greske
+INFO  13:20:29,490 - #7 )
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - #10 return
+INFO  13:20:29,490 - #17 0
+INFO  13:20:29,490 - #5 ;
+INFO  13:20:29,490 - #4 }
+INFO  13:20:29,490 - #4 }
+INFO  13:20:29,490 - Print calls = 2
+ERROR 13:20:29,490 - Greske pri parsiranju!

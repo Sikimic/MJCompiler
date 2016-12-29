@@ -1,0 +1,115 @@
+INFO  20:16:22,940 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:16:22,956 - #2 program
+INFO  20:16:22,956 - #39 MJProgram
+INFO  20:16:22,956 - #42 const
+INFO  20:16:22,956 - #39 int
+INFO  20:16:22,956 - #39 x
+INFO  20:16:22,956 - #8 ,
+INFO  20:16:22,956 - Deklasirana globalna konstanta x na liniji 2
+INFO  20:16:22,956 - #39 y
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - Deklasirana globalna konstanta y na liniji 2
+INFO  20:16:22,956 - #39 int
+INFO  20:16:22,956 - #39 haos
+INFO  20:16:22,956 - #8 ,
+INFO  20:16:22,956 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  20:16:22,956 - #39 niz
+INFO  20:16:22,956 - #34 [
+INFO  20:16:22,956 - #35 ]
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - Deklasiran globalni niz niz na liniji 3
+INFO  20:16:22,956 - #3 {
+INFO  20:16:22,956 - #39 int
+INFO  20:16:22,956 - #39 k
+INFO  20:16:22,956 - #6 (
+INFO  20:16:22,956 - Obradjuje se metoda k na liniji 5
+INFO  20:16:22,956 - #7 )
+INFO  20:16:22,956 - #39 int
+INFO  20:16:22,956 - #39 c
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - Deklasirana lokalna promenljiva c na liniji 5
+INFO  20:16:22,956 - #3 {
+INFO  20:16:22,956 - #39 c
+INFO  20:16:22,956 - #11 =
+INFO  20:16:22,956 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  20:16:22,956 - #37 0
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #10 return
+INFO  20:16:22,956 - #39 c
+INFO  20:16:22,956 - #13 -
+INFO  20:16:22,956 - Detektovano koriscenje lokalne promenljive c na liniji 7
+INFO  20:16:22,956 - #37 5
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #4 }
+INFO  20:16:22,956 - #41 class
+INFO  20:16:22,956 - #39 A
+INFO  20:16:22,956 - #3 {
+INFO  20:16:22,956 - #4 }
+INFO  20:16:22,956 - #39 int
+INFO  20:16:22,956 - #39 main
+INFO  20:16:22,956 - #6 (
+INFO  20:16:22,956 - #7 )
+INFO  20:16:22,956 - #39 int
+INFO  20:16:22,956 - #39 i
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #3 {
+INFO  20:16:22,956 - #9 print
+INFO  20:16:22,956 - #6 (
+ERROR 20:16:22,956 - Uspesan oporavak od greske pri dodeli vrednosti promenljivoj
+INFO  20:16:22,956 - #37 1
+INFO  20:16:22,956 - #7 )
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #39 x
+INFO  20:16:22,956 - #11 =
+INFO  20:16:22,956 - Detektovano koriscenje konstante x na liniji 18
+INFO  20:16:22,956 - #37 3
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #9 print
+INFO  20:16:22,956 - #6 (
+INFO  20:16:22,956 - #37 2
+INFO  20:16:22,956 - #7 )
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #39 x
+INFO  20:16:22,956 - #32 --
+INFO  20:16:22,956 - Detektovano koriscenje konstante x na liniji 22
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #45 for
+INFO  20:16:22,956 - #6 (
+INFO  20:16:22,956 - #39 i
+INFO  20:16:22,956 - #11 =
+ERROR 20:16:22,956 - Greska: i nije deklarisano. na liniji 24
+INFO  20:16:22,956 - #37 0
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #39 i
+INFO  20:16:22,956 - #5 ;
+ERROR 20:16:22,956 - Greska: i nije deklarisano. na liniji 24
+INFO  20:16:22,956 - #39 i
+INFO  20:16:22,956 - #31 ++
+ERROR 20:16:22,956 - Greska: i nije deklarisano. na liniji 24
+INFO  20:16:22,956 - #7 )
+INFO  20:16:22,956 - #3 {
+INFO  20:16:22,956 - #9 print
+INFO  20:16:22,956 - #6 (
+INFO  20:16:22,956 - #39 i
+INFO  20:16:22,956 - #7 )
+ERROR 20:16:22,956 - Greska: i nije deklarisano. na liniji 25
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #9 print
+ERROR 20:16:22,956 - Greska: operand instrukcije PRINT mora biti char ili int, na liniji 25
+INFO  20:16:22,956 - #6 (
+INFO  20:16:22,956 - #39 niz
+INFO  20:16:22,956 - #34 [
+INFO  20:16:22,956 - Detektovano koriscenje globalne promenljive niz na liniji 26
+INFO  20:16:22,956 - #39 i
+INFO  20:16:22,956 - #35 ]
+ERROR 20:16:22,956 - Greska: i nije deklarisano. na liniji 26
+INFO  20:16:22,956 - #7 )
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #4 }
+INFO  20:16:22,956 - #10 return
+INFO  20:16:22,956 - #37 0
+INFO  20:16:22,956 - #5 ;
+INFO  20:16:22,956 - #4 }
+INFO  20:16:22,956 - #4 }
+INFO  20:16:22,956 - Print calls = 4
+ERROR 20:16:22,956 - Greske pri parsiranju!

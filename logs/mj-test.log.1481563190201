@@ -1,0 +1,54 @@
+INFO  18:19:11,920 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:19:11,940 - #2 program
+INFO  18:19:11,940 - #14 MJProgram
+INFO  18:19:11,941 - #14 int
+INFO  18:19:11,941 - #14 x
+INFO  18:19:11,941 - #5 ;
+INFO  18:19:11,941 - Deklasirana promenljiva x na liniji 2
+INFO  18:19:11,941 - #14 int
+INFO  18:19:11,941 - #14 y
+INFO  18:19:11,941 - #5 ;
+INFO  18:19:11,941 - Deklasirana promenljiva y na liniji 2
+INFO  18:19:11,941 - #3 {
+INFO  18:19:11,942 - #14 int
+INFO  18:19:11,942 - #14 k
+INFO  18:19:11,942 - #6 (
+INFO  18:19:11,942 - Obradjuje se metoda k na liniji 4
+INFO  18:19:11,942 - #7 )
+INFO  18:19:11,942 - #14 int
+INFO  18:19:11,942 - #14 c
+INFO  18:19:11,942 - #5 ;
+INFO  18:19:11,942 - Deklasirana promenljiva c na liniji 4
+INFO  18:19:11,942 - #3 {
+INFO  18:19:11,942 - #14 c
+INFO  18:19:11,942 - #11 =
+INFO  18:19:11,942 - #13 0
+INFO  18:19:11,942 - #5 ;
+INFO  18:19:11,942 - #10 return
+INFO  18:19:11,942 - #14 c
+INFO  18:19:11,942 - #12 +
+INFO  18:19:11,942 - #13 6
+INFO  18:19:11,942 - #5 ;
+INFO  18:19:11,942 - #4 }
+INFO  18:19:11,942 - #14 int
+INFO  18:19:11,942 - #14 main
+INFO  18:19:11,942 - #6 (
+INFO  18:19:11,942 - Obradjuje se metoda main na liniji 9
+INFO  18:19:11,942 - #7 )
+INFO  18:19:11,942 - #3 {
+INFO  18:19:11,942 - #9 print
+INFO  18:19:11,942 - #6 (
+INFO  18:19:11,942 - #13 1
+INFO  18:19:11,942 - #7 )
+INFO  18:19:11,942 - #5 ;
+INFO  18:19:11,942 - #14 x
+INFO  18:19:11,942 - #11 =
+INFO  18:19:11,942 - #14 y
+INFO  18:19:11,942 - #12 +
+INFO  18:19:11,942 - #13 6
+INFO  18:19:11,942 - #5 ;
+INFO  18:19:11,942 - #14 k
+INFO  18:19:11,942 - #6 (
+INFO  18:19:11,942 - #7 )
+INFO  18:19:11,942 - #5 ;
+INFO  18:19:11,942 - #9 print

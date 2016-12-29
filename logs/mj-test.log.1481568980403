@@ -1,0 +1,64 @@
+INFO  19:55:53,363 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:55:53,375 - #2 program
+INFO  19:55:53,375 - #15 MJProgram
+INFO  19:55:53,375 - #15 int
+INFO  19:55:53,375 - #15 x
+INFO  19:55:53,375 - #5 ;
+INFO  19:55:53,375 - Deklasirana promenljiva x na liniji 2
+INFO  19:55:53,375 - #15 int
+INFO  19:55:53,375 - #15 y
+INFO  19:55:53,375 - #5 ;
+INFO  19:55:53,376 - Deklasirana promenljiva y na liniji 2
+INFO  19:55:53,376 - #3 {
+INFO  19:55:53,376 - #15 int
+INFO  19:55:53,376 - #15 k
+INFO  19:55:53,376 - #6 (
+INFO  19:55:53,376 - Obradjuje se metoda k na liniji 4
+INFO  19:55:53,376 - #7 )
+INFO  19:55:53,376 - #15 int
+INFO  19:55:53,376 - #15 c
+INFO  19:55:53,376 - #5 ;
+INFO  19:55:53,377 - Deklasirana promenljiva c na liniji 4
+INFO  19:55:53,377 - #3 {
+INFO  19:55:53,377 - #15 c
+INFO  19:55:53,377 - #11 =
+INFO  19:55:53,377 - #14 0
+INFO  19:55:53,377 - #5 ;
+INFO  19:55:53,377 - #10 return
+INFO  19:55:53,377 - #15 c
+INFO  19:55:53,377 - #12 +
+INFO  19:55:53,377 - #14 6
+INFO  19:55:53,378 - #5 ;
+INFO  19:55:53,378 - #4 }
+INFO  19:55:53,378 - #15 int
+INFO  19:55:53,378 - #15 main
+INFO  19:55:53,378 - #6 (
+INFO  19:55:53,378 - Obradjuje se metoda main na liniji 9
+INFO  19:55:53,378 - #7 )
+INFO  19:55:53,378 - #3 {
+INFO  19:55:53,378 - #9 print
+INFO  19:55:53,378 - #6 (
+INFO  19:55:53,378 - #14 1
+INFO  19:55:53,378 - #7 )
+INFO  19:55:53,378 - #5 ;
+INFO  19:55:53,378 - #15 x
+INFO  19:55:53,378 - #11 =
+INFO  19:55:53,378 - #15 y
+INFO  19:55:53,378 - #12 +
+INFO  19:55:53,379 - #14 6
+INFO  19:55:53,379 - #5 ;
+INFO  19:55:53,379 - #15 k
+INFO  19:55:53,379 - #6 (
+INFO  19:55:53,379 - #7 )
+INFO  19:55:53,379 - #5 ;
+INFO  19:55:53,379 - #9 print
+INFO  19:55:53,379 - Pronadjen poziv funkcije k na liniji 12
+INFO  19:55:53,379 - #6 (
+INFO  19:55:53,379 - #14 2
+INFO  19:55:53,379 - #7 )
+INFO  19:55:53,379 - #5 ;
+INFO  19:55:53,379 - #4 }
+INFO  19:55:53,380 - #4 }
+ERROR 19:55:53,380 - Greska: funkcija main nema return iskaz, na liniji 9
+INFO  19:55:53,380 - Print calls = 2
+ERROR 19:55:53,381 - Greske pri parsiranju!

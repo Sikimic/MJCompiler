@@ -1,0 +1,61 @@
+INFO  18:19:49,625 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:19:49,625 - #2 program
+INFO  18:19:49,625 - #39 MJProgram
+INFO  18:19:49,625 - #39 int
+INFO  18:19:49,625 - #39 x
+INFO  18:19:49,625 - #5 ;
+INFO  18:19:49,625 - Deklasirana promenljiva x na liniji 2
+INFO  18:19:49,625 - #39 int
+INFO  18:19:49,641 - #39 y
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - Deklasirana promenljiva y na liniji 2
+INFO  18:19:49,641 - #3 {
+INFO  18:19:49,641 - #39 int
+INFO  18:19:49,641 - #39 k
+INFO  18:19:49,641 - #6 (
+INFO  18:19:49,641 - Obradjuje se metoda k na liniji 4
+INFO  18:19:49,641 - #7 )
+INFO  18:19:49,641 - #39 int
+INFO  18:19:49,641 - #39 c
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - Deklasirana promenljiva c na liniji 4
+INFO  18:19:49,641 - #3 {
+INFO  18:19:49,641 - #39 c
+INFO  18:19:49,641 - #11 =
+INFO  18:19:49,641 - #37 0
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - #10 return
+INFO  18:19:49,641 - #39 c
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - #4 }
+ERROR 18:19:49,641 - Greska: nekompatibilni return izrazi, na liniji 6
+INFO  18:19:49,641 - #39 int
+ERROR 18:19:49,641 - Greska: funkcija k nema pravilan return iskaz
+INFO  18:19:49,641 - #39 main
+INFO  18:19:49,641 - #6 (
+INFO  18:19:49,641 - Obradjuje se metoda main na liniji 9
+INFO  18:19:49,641 - #7 )
+INFO  18:19:49,641 - #3 {
+INFO  18:19:49,641 - #9 print
+INFO  18:19:49,641 - #6 (
+INFO  18:19:49,641 - #37 1
+INFO  18:19:49,641 - #7 )
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - #39 x
+INFO  18:19:49,641 - #11 =
+INFO  18:19:49,641 - #39 y
+INFO  18:19:49,641 - #12 +
+INFO  18:19:49,641 - #37 6
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - #9 print
+INFO  18:19:49,641 - #6 (
+INFO  18:19:49,641 - #37 2
+INFO  18:19:49,641 - #7 )
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - #10 return
+INFO  18:19:49,641 - #37 0
+INFO  18:19:49,641 - #5 ;
+INFO  18:19:49,641 - #4 }
+INFO  18:19:49,641 - #4 }
+INFO  18:19:49,641 - Print calls = 2
+ERROR 18:19:49,641 - Greske pri parsiranju!

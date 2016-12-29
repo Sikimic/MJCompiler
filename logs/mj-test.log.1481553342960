@@ -1,0 +1,37 @@
+INFO  15:33:50,619 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:33:50,641 - #2 program
+INFO  15:33:50,641 - #15 MJProgram
+INFO  15:33:50,641 - #15 int
+INFO  15:33:50,641 - #15 x
+ERROR 15:33:50,641 - Greska: Nije pronadjen tip: int na liniji
+INFO  15:33:50,641 - #5 ;
+INFO  15:33:50,641 - #15 int
+INFO  15:33:50,641 - #15 y
+ERROR 15:33:50,641 - Greska: Nije pronadjen tip: int na liniji
+INFO  15:33:50,641 - #5 ;
+INFO  15:33:50,641 - #3 {
+INFO  15:33:50,641 - #15 int
+INFO  15:33:50,641 - #15 main
+ERROR 15:33:50,641 - Greska: Nije pronadjen tip: int na liniji
+INFO  15:33:50,641 - #6 (
+INFO  15:33:50,641 - #7 )
+INFO  15:33:50,641 - #3 {
+INFO  15:33:50,641 - #9 print
+INFO  15:33:50,641 - #6 (
+INFO  15:33:50,641 - #14 1
+INFO  15:33:50,641 - #7 )
+INFO  15:33:50,641 - #5 ;
+INFO  15:33:50,641 - #15 x
+INFO  15:33:50,641 - #11 =
+INFO  15:33:50,641 - #15 y
+INFO  15:33:50,641 - #12 +
+INFO  15:33:50,641 - #14 6
+INFO  15:33:50,641 - #5 ;
+INFO  15:33:50,641 - #9 print
+INFO  15:33:50,641 - #6 (
+INFO  15:33:50,641 - #14 2
+INFO  15:33:50,641 - #7 )
+INFO  15:33:50,641 - #5 ;
+INFO  15:33:50,641 - #4 }
+INFO  15:33:50,641 - #4 }
+INFO  15:33:50,641 - Print calls = 2

@@ -1,0 +1,66 @@
+INFO  13:16:05,085 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  13:16:05,085 - #2 program
+INFO  13:16:05,085 - #15 MJProgram
+INFO  13:16:05,085 - #15 int
+INFO  13:16:05,085 - #15 x
+INFO  13:16:05,085 - #5 ;
+INFO  13:16:05,085 - Deklasirana promenljiva x na liniji 2
+INFO  13:16:05,085 - #15 int
+INFO  13:16:05,085 - #15 y
+INFO  13:16:05,085 - #5 ;
+INFO  13:16:05,085 - Deklasirana promenljiva y na liniji 2
+INFO  13:16:05,085 - #3 {
+INFO  13:16:05,085 - #15 int
+INFO  13:16:05,085 - #15 k
+INFO  13:16:05,085 - #6 (
+INFO  13:16:05,085 - #7 )
+INFO  13:16:05,085 - #15 int
+INFO  13:16:05,085 - #15 c
+INFO  13:16:05,085 - #5 ;
+INFO  13:16:05,085 - Deklasirana promenljiva c na liniji 4
+INFO  13:16:05,085 - #3 {
+INFO  13:16:05,085 - #15 c
+INFO  13:16:05,085 - Obradjuje se metoda k na liniji 4
+INFO  13:16:05,085 - #11 =
+INFO  13:16:05,085 - #14 0
+INFO  13:16:05,085 - #5 ;
+INFO  13:16:05,101 - #10 return
+INFO  13:16:05,101 - #15 c
+INFO  13:16:05,101 - #12 +
+INFO  13:16:05,101 - #14 6
+INFO  13:16:05,101 - #5 ;
+INFO  13:16:05,101 - #4 }
+INFO  13:16:05,101 - #15 int
+INFO  13:16:05,101 - #15 main
+INFO  13:16:05,101 - #6 (
+INFO  13:16:05,101 - #7 )
+INFO  13:16:05,101 - #3 {
+INFO  13:16:05,101 - #9 print
+INFO  13:16:05,101 - Obradjuje se metoda main na liniji 9
+INFO  13:16:05,101 - #6 (
+INFO  13:16:05,101 - #14 1
+INFO  13:16:05,101 - #7 )
+INFO  13:16:05,101 - #5 ;
+INFO  13:16:05,101 - #15 x
+INFO  13:16:05,101 - #11 =
+INFO  13:16:05,101 - #15 y
+INFO  13:16:05,101 - #12 +
+INFO  13:16:05,101 - #14 6
+INFO  13:16:05,101 - #5 ;
+INFO  13:16:05,101 - #15 k
+INFO  13:16:05,101 - #6 (
+INFO  13:16:05,101 - #7 )
+INFO  13:16:05,101 - #5 ;
+INFO  13:16:05,101 - #9 print
+INFO  13:16:05,101 - Pronadjen poziv funkcije k na liniji 12
+INFO  13:16:05,101 - #6 (
+INFO  13:16:05,101 - #14 2
+INFO  13:16:05,101 - #7 )
+INFO  13:16:05,101 - #5 ;
+INFO  13:16:05,101 - #10 return
+INFO  13:16:05,101 - #14 0
+INFO  13:16:05,101 - #5 ;
+INFO  13:16:05,101 - #4 }
+INFO  13:16:05,101 - #4 }
+INFO  13:16:05,101 - Print calls = 2
+INFO  13:16:05,101 - Parsiranje uspesno zavrseno!

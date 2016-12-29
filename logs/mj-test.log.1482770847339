@@ -1,0 +1,63 @@
+INFO  16:58:26,293 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  16:58:26,293 - #2 program
+INFO  16:58:26,293 - #39 MJProgram
+INFO  16:58:26,293 - #39 int
+INFO  16:58:26,293 - #39 x
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,293 - Deklasirana promenljiva x na liniji 2
+INFO  16:58:26,293 - #39 int
+INFO  16:58:26,293 - #39 y
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,293 - Deklasirana promenljiva y na liniji 2
+INFO  16:58:26,293 - #3 {
+INFO  16:58:26,293 - #39 int
+INFO  16:58:26,293 - #39 k
+INFO  16:58:26,293 - #6 (
+INFO  16:58:26,293 - Obradjuje se metoda k na liniji 4
+INFO  16:58:26,293 - #7 )
+INFO  16:58:26,293 - #39 int
+INFO  16:58:26,293 - #39 c
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,293 - Deklasirana promenljiva c na liniji 4
+INFO  16:58:26,293 - #3 {
+INFO  16:58:26,293 - #39 c
+INFO  16:58:26,293 - #11 =
+INFO  16:58:26,293 - #38 0
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,293 - #10 return
+INFO  16:58:26,293 - #39 c
+INFO  16:58:26,293 - #13 -
+INFO  16:58:26,293 - #38 6
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,293 - #4 }
+INFO  16:58:26,293 - #39 int
+ERROR 16:58:26,293 - Greska: funkcija k nema return iskaz
+INFO  16:58:26,293 - #39 main
+INFO  16:58:26,293 - #6 (
+INFO  16:58:26,293 - Obradjuje se metoda main na liniji 9
+INFO  16:58:26,293 - #7 )
+INFO  16:58:26,293 - #3 {
+INFO  16:58:26,293 - #9 print
+INFO  16:58:26,293 - #6 (
+INFO  16:58:26,293 - #38 1
+INFO  16:58:26,293 - #7 )
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,293 - #39 x
+INFO  16:58:26,293 - #11 =
+INFO  16:58:26,293 - #39 y
+INFO  16:58:26,293 - #12 +
+INFO  16:58:26,293 - #38 6
+INFO  16:58:26,293 - #5 ;
+INFO  16:58:26,309 - #9 print
+INFO  16:58:26,309 - #6 (
+INFO  16:58:26,309 - #38 2
+INFO  16:58:26,309 - #7 )
+INFO  16:58:26,309 - #5 ;
+INFO  16:58:26,309 - #10 return
+INFO  16:58:26,309 - #38 0
+INFO  16:58:26,309 - #5 ;
+INFO  16:58:26,309 - #4 }
+INFO  16:58:26,309 - #4 }
+ERROR 16:58:26,309 - Greska: funkcija main nema return iskaz
+INFO  16:58:26,309 - Print calls = 2
+ERROR 16:58:26,309 - Greske pri parsiranju!

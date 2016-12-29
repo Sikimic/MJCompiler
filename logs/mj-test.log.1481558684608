@@ -1,0 +1,21 @@
+INFO  17:03:53,539 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:03:53,549 - #2 program
+INFO  17:03:53,549 - #14 MJProgram
+INFO  17:03:53,549 - #14 int
+INFO  17:03:53,549 - #14 x
+INFO  17:03:53,549 - #5 ;
+INFO  17:03:53,550 - Deklasirana promenljiva x na liniji 2
+INFO  17:03:53,550 - #14 int
+INFO  17:03:53,550 - #14 y
+INFO  17:03:53,550 - #5 ;
+INFO  17:03:53,550 - Deklasirana promenljiva y na liniji 2
+INFO  17:03:53,550 - #3 {
+INFO  17:03:53,550 - #14 int
+INFO  17:03:53,550 - #14 k
+INFO  17:03:53,550 - #6 (
+INFO  17:03:53,550 - Obradjuje se metoda k na liniji 4
+INFO  17:03:53,550 - #7 )
+INFO  17:03:53,551 - #14 int
+INFO  17:03:53,551 - #14 c
+INFO  17:03:53,551 - #3 {
+INFO  17:03:53,551 - Print calls = 0

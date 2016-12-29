@@ -1,0 +1,34 @@
+program MJProgram
+    const int x , y;
+    int haos, niz[];
+{
+    int k() int c; {
+        c = 0;
+        return c - 5;
+    }
+    
+    class A {
+    
+    }
+
+    char f() {
+        
+       return 'a';
+    }
+
+    int main() int i; {
+        print(1);
+        x = 3;
+        //k();
+        print(2);
+        
+        x--;
+
+        for ( i = 0 ; i > 0 && i < 10 ; i++ ) {
+            print(i);
+            print(niz[i]);
+        }
+
+        return 0;
+    }
+}

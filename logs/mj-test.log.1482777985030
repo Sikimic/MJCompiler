@@ -1,0 +1,86 @@
+INFO  19:46:01,642 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:46:01,642 - #2 program
+INFO  19:46:01,642 - #39 MJProgram
+INFO  19:46:01,642 - #39 int
+INFO  19:46:01,642 - #39 x
+INFO  19:46:01,642 - #8 ,
+INFO  19:46:01,642 - Deklasirana globalna promenljiva x na liniji 2
+INFO  19:46:01,642 - #39 y
+INFO  19:46:01,642 - #5 ;
+INFO  19:46:01,642 - Deklasirana globalna promenljiva y na liniji 2
+INFO  19:46:01,642 - #3 {
+INFO  19:46:01,642 - #39 int
+INFO  19:46:01,642 - #39 k
+INFO  19:46:01,658 - #6 (
+INFO  19:46:01,658 - Obradjuje se metoda k na liniji 4
+INFO  19:46:01,658 - #7 )
+INFO  19:46:01,658 - #39 int
+INFO  19:46:01,658 - #39 c
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - Deklasirana lokalna promenljiva c na liniji 4
+INFO  19:46:01,658 - #3 {
+INFO  19:46:01,658 - #39 c
+INFO  19:46:01,658 - #11 =
+INFO  19:46:01,658 - Detektovano koriscenje lokalne promenljive c na liniji 5
+INFO  19:46:01,658 - #37 0
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #10 return
+INFO  19:46:01,658 - #39 c
+INFO  19:46:01,658 - #13 -
+INFO  19:46:01,658 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  19:46:01,658 - #37 5
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #4 }
+INFO  19:46:01,658 - #39 int
+INFO  19:46:01,658 - #39 main
+INFO  19:46:01,658 - #6 (
+INFO  19:46:01,658 - Obradjuje se metoda main na liniji 9
+INFO  19:46:01,658 - #7 )
+INFO  19:46:01,658 - #42 const
+INFO  19:46:01,658 - #39 int
+INFO  19:46:01,658 - #39 i
+INFO  19:46:01,658 - #11 =
+INFO  19:46:01,658 - #37 0
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #3 {
+INFO  19:46:01,658 - #9 print
+INFO  19:46:01,658 - #6 (
+INFO  19:46:01,658 - #37 1
+INFO  19:46:01,658 - #7 )
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #39 x
+INFO  19:46:01,658 - #11 =
+INFO  19:46:01,658 - #37 3
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #9 print
+INFO  19:46:01,658 - #6 (
+INFO  19:46:01,658 - #37 2
+INFO  19:46:01,658 - #7 )
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #45 for
+INFO  19:46:01,658 - #6 (
+INFO  19:46:01,658 - #39 i
+INFO  19:46:01,658 - #11 =
+INFO  19:46:01,658 - #37 0
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #39 i
+INFO  19:46:01,658 - #22 <
+INFO  19:46:01,658 - #37 10
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #39 i
+INFO  19:46:01,658 - #31 ++
+INFO  19:46:01,658 - #7 )
+INFO  19:46:01,658 - #3 {
+INFO  19:46:01,658 - #9 print
+INFO  19:46:01,658 - #6 (
+INFO  19:46:01,658 - #39 i
+INFO  19:46:01,658 - #7 )
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #4 }
+INFO  19:46:01,658 - #10 return
+INFO  19:46:01,658 - #37 0
+INFO  19:46:01,658 - #5 ;
+INFO  19:46:01,658 - #4 }
+INFO  19:46:01,658 - #4 }
+INFO  19:46:01,658 - Print calls = 0
+INFO  19:46:01,658 - Parsiranje uspesno zavrseno!

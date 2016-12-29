@@ -1,0 +1,62 @@
+INFO  19:07:36,837 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:07:36,853 - #2 program
+INFO  19:07:36,853 - #14 MJProgram
+INFO  19:07:36,853 - #14 int
+INFO  19:07:36,853 - #14 x
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - Deklasirana promenljiva x na liniji 2
+INFO  19:07:36,853 - #14 int
+INFO  19:07:36,853 - #14 y
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - Deklasirana promenljiva y na liniji 2
+INFO  19:07:36,853 - #3 {
+INFO  19:07:36,853 - #14 int
+INFO  19:07:36,853 - #14 k
+INFO  19:07:36,853 - #6 (
+INFO  19:07:36,853 - Obradjuje se metoda k na liniji 4
+INFO  19:07:36,853 - #7 )
+INFO  19:07:36,853 - #14 int
+INFO  19:07:36,853 - #14 c
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - Deklasirana promenljiva c na liniji 4
+INFO  19:07:36,853 - #3 {
+INFO  19:07:36,853 - #14 c
+INFO  19:07:36,853 - #11 =
+INFO  19:07:36,853 - #13 0
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - #10 return
+INFO  19:07:36,853 - #14 c
+INFO  19:07:36,853 - #12 +
+INFO  19:07:36,853 - #13 6
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - #4 }
+INFO  19:07:36,853 - #14 int
+INFO  19:07:36,853 - #14 main
+INFO  19:07:36,853 - #6 (
+INFO  19:07:36,853 - Obradjuje se metoda main na liniji 9
+INFO  19:07:36,853 - #7 )
+INFO  19:07:36,853 - #3 {
+INFO  19:07:36,853 - #9 print
+INFO  19:07:36,853 - #6 (
+INFO  19:07:36,853 - #13 1
+INFO  19:07:36,853 - #7 )
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - #14 x
+INFO  19:07:36,853 - #11 =
+INFO  19:07:36,853 - #14 y
+INFO  19:07:36,853 - #12 +
+INFO  19:07:36,853 - #13 6
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - #14 k
+INFO  19:07:36,853 - #6 (
+INFO  19:07:36,853 - #7 )
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - #9 print
+INFO  19:07:36,853 - Pronadjen poziv funkcije k na liniji 12
+INFO  19:07:36,853 - #6 (
+INFO  19:07:36,853 - #13 2
+INFO  19:07:36,853 - #7 )
+INFO  19:07:36,853 - #5 ;
+INFO  19:07:36,853 - #4 }
+INFO  19:07:36,853 - #4 }
+INFO  19:07:36,853 - Print calls = 2

@@ -1,0 +1,91 @@
+INFO  19:45:34,775 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:45:34,775 - #2 program
+INFO  19:45:34,775 - #39 MJProgram
+INFO  19:45:34,790 - #39 int
+INFO  19:45:34,790 - #39 x
+INFO  19:45:34,790 - #8 ,
+INFO  19:45:34,790 - Deklasirana globalna promenljiva x na liniji 2
+INFO  19:45:34,790 - #39 y
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - Deklasirana globalna promenljiva y na liniji 2
+INFO  19:45:34,790 - #3 {
+INFO  19:45:34,790 - #39 int
+INFO  19:45:34,790 - #39 k
+INFO  19:45:34,790 - #6 (
+INFO  19:45:34,790 - Obradjuje se metoda k na liniji 4
+INFO  19:45:34,790 - #7 )
+INFO  19:45:34,790 - #39 int
+INFO  19:45:34,790 - #39 c
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - Deklasirana lokalna promenljiva c na liniji 4
+INFO  19:45:34,790 - #3 {
+INFO  19:45:34,790 - #39 c
+INFO  19:45:34,790 - #11 =
+INFO  19:45:34,790 - Detektovano koriscenje lokalne promenljive c na liniji 5
+INFO  19:45:34,790 - #37 0
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #10 return
+INFO  19:45:34,790 - #39 c
+INFO  19:45:34,790 - #13 -
+INFO  19:45:34,790 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  19:45:34,790 - #37 5
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #4 }
+INFO  19:45:34,790 - #39 int
+INFO  19:45:34,790 - #39 main
+INFO  19:45:34,790 - #6 (
+INFO  19:45:34,790 - Obradjuje se metoda main na liniji 9
+INFO  19:45:34,790 - #7 )
+INFO  19:45:34,790 - #39 int
+INFO  19:45:34,790 - #39 i
+INFO  19:45:34,790 - #11 =
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #3 {
+INFO  19:45:34,790 - #9 print
+INFO  19:45:34,790 - #6 (
+ERROR 19:45:34,790 - Uspesan oporavak od greske pri deklarisanju lokalne promenljive
+INFO  19:45:34,790 - #37 1
+INFO  19:45:34,790 - #7 )
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #39 x
+INFO  19:45:34,790 - #11 =
+INFO  19:45:34,790 - Detektovano koriscenje globalne promenljive x na liniji 11
+INFO  19:45:34,790 - #37 3
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #9 print
+INFO  19:45:34,790 - #6 (
+INFO  19:45:34,790 - #37 2
+INFO  19:45:34,790 - #7 )
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #45 for
+INFO  19:45:34,790 - #6 (
+INFO  19:45:34,790 - #39 i
+INFO  19:45:34,790 - #11 =
+ERROR 19:45:34,790 - Greska: i nije deklarisano. na liniji 15
+INFO  19:45:34,790 - #37 0
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #39 i
+INFO  19:45:34,790 - #22 <
+ERROR 19:45:34,790 - Greska: i nije deklarisano. na liniji 15
+INFO  19:45:34,790 - #37 10
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #39 i
+INFO  19:45:34,790 - #31 ++
+ERROR 19:45:34,790 - Greska: i nije deklarisano. na liniji 15
+INFO  19:45:34,790 - #7 )
+INFO  19:45:34,790 - #3 {
+INFO  19:45:34,790 - #9 print
+INFO  19:45:34,790 - #6 (
+INFO  19:45:34,790 - #39 i
+INFO  19:45:34,790 - #7 )
+ERROR 19:45:34,790 - Greska: i nije deklarisano. na liniji 16
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #4 }
+ERROR 19:45:34,790 - Greska: operand instrukcije PRINT mora biti char ili int, na liniji 16
+INFO  19:45:34,790 - #10 return
+INFO  19:45:34,790 - #37 0
+INFO  19:45:34,790 - #5 ;
+INFO  19:45:34,790 - #4 }
+INFO  19:45:34,790 - #4 }
+INFO  19:45:34,790 - Print calls = 3
+ERROR 19:45:34,790 - Greske pri parsiranju!

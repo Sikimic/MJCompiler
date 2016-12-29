@@ -1,0 +1,121 @@
+INFO  21:01:43,995 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  21:01:44,011 - #2 program
+INFO  21:01:44,011 - #39 MJProgram
+INFO  21:01:44,011 - #42 const
+INFO  21:01:44,011 - #39 int
+INFO  21:01:44,011 - #39 x
+INFO  21:01:44,011 - #8 ,
+INFO  21:01:44,011 - Deklasirana globalna konstanta x na liniji 2
+INFO  21:01:44,011 - #39 y
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - Deklasirana globalna konstanta y na liniji 2
+INFO  21:01:44,011 - #39 int
+INFO  21:01:44,011 - #39 haos
+INFO  21:01:44,011 - #8 ,
+INFO  21:01:44,011 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  21:01:44,011 - #39 niz
+INFO  21:01:44,011 - #34 [
+INFO  21:01:44,011 - #35 ]
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - Deklasiran globalni niz niz na liniji 3
+INFO  21:01:44,011 - #3 {
+INFO  21:01:44,011 - #39 int
+INFO  21:01:44,011 - #39 k
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - Obradjuje se metoda k na liniji 5
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #39 int
+INFO  21:01:44,011 - #39 c
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - Deklasirana lokalna promenljiva c na liniji 5
+INFO  21:01:44,011 - #3 {
+INFO  21:01:44,011 - #39 c
+INFO  21:01:44,011 - #11 =
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  21:01:44,011 - #37 0
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #10 return
+INFO  21:01:44,011 - #39 c
+INFO  21:01:44,011 - #13 -
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive c na liniji 7
+INFO  21:01:44,011 - #37 5
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #4 }
+INFO  21:01:44,011 - #39 char
+INFO  21:01:44,011 - #39 f
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - Obradjuje se metoda f na liniji 10
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #3 {
+INFO  21:01:44,011 - #10 return
+INFO  21:01:44,011 - #38 a
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #4 }
+INFO  21:01:44,011 - #39 int
+INFO  21:01:44,011 - #39 main
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - Obradjuje se metoda main na liniji 15
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #39 int
+INFO  21:01:44,011 - #39 i
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - Deklasirana lokalna promenljiva i na liniji 15
+INFO  21:01:44,011 - #3 {
+INFO  21:01:44,011 - #9 print
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - #37 1
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #39 x
+INFO  21:01:44,011 - #11 =
+INFO  21:01:44,011 - Detektovano koriscenje konstante x na liniji 17
+INFO  21:01:44,011 - #37 3
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #9 print
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - #37 2
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #39 x
+INFO  21:01:44,011 - #32 --
+INFO  21:01:44,011 - Detektovano koriscenje konstante x na liniji 21
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #45 for
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - #39 i
+INFO  21:01:44,011 - #11 =
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive i na liniji 23
+INFO  21:01:44,011 - #37 0
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #39 i
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive i na liniji 23
+INFO  21:01:44,011 - #39 i
+INFO  21:01:44,011 - #31 ++
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive i na liniji 23
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #3 {
+INFO  21:01:44,011 - #9 print
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - #39 i
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive i na liniji 24
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #9 print
+INFO  21:01:44,011 - #6 (
+INFO  21:01:44,011 - #39 niz
+INFO  21:01:44,011 - #34 [
+INFO  21:01:44,011 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  21:01:44,011 - #39 i
+INFO  21:01:44,011 - #35 ]
+INFO  21:01:44,011 - Detektovano koriscenje lokalne promenljive i na liniji 25
+INFO  21:01:44,011 - #7 )
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #4 }
+INFO  21:01:44,011 - #10 return
+INFO  21:01:44,011 - #37 0
+INFO  21:01:44,011 - #5 ;
+INFO  21:01:44,011 - #4 }
+INFO  21:01:44,011 - #4 }
+INFO  21:01:44,011 - Print calls = 4
+INFO  21:01:44,027 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,72 @@
+INFO  16:05:22,180 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  16:05:22,218 - #2 program
+INFO  16:05:22,218 - #14 MJProgram
+INFO  16:05:22,218 - #14 int
+INFO  16:05:22,218 - #14 x
+INFO  16:05:22,218 - #5 ;
+INFO  16:05:22,218 - Deklasirana promenljiva x na liniji 2
+INFO  16:05:22,218 - #14 int
+INFO  16:05:22,218 - #14 y
+INFO  16:05:22,218 - #5 ;
+INFO  16:05:22,218 - Deklasirana promenljiva y na liniji 2
+INFO  16:05:22,218 - #3 {
+INFO  16:05:22,218 - #14 int
+INFO  16:05:22,218 - #14 main
+INFO  16:05:22,218 - #6 (
+INFO  16:05:22,218 - Obradjuje se metoda main na liniji 4
+INFO  16:05:22,218 - #7 )
+INFO  16:05:22,218 - #3 {
+INFO  16:05:22,218 - #9 print
+INFO  16:05:22,218 - #6 (
+INFO  16:05:22,218 - #13 1
+INFO  16:05:22,218 - #7 )
+INFO  16:05:22,218 - #5 ;
+INFO  16:05:22,218 - #14 x
+INFO  16:05:22,218 - #11 =
+INFO  16:05:22,218 - #14 y
+INFO  16:05:22,218 - #12 +
+INFO  16:05:22,218 - #13 6
+INFO  16:05:22,218 - #5 ;
+INFO  16:05:22,218 - #9 print
+INFO  16:05:22,218 - #6 (
+INFO  16:05:22,218 - #13 2
+INFO  16:05:22,218 - #7 )
+INFO  16:05:22,218 - #5 ;
+INFO  16:05:22,218 - #4 }
+INFO  16:05:22,218 - #4 }
+INFO  16:09:44,259 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  16:09:44,274 - #2 program
+INFO  16:09:44,274 - #14 MJProgram
+INFO  16:09:44,274 - #14 int
+INFO  16:09:44,274 - #14 x
+INFO  16:09:44,274 - #5 ;
+INFO  16:09:44,274 - Deklasirana promenljiva x na liniji 2
+INFO  16:09:44,274 - #14 int
+INFO  16:09:44,274 - #14 y
+INFO  16:09:44,274 - #5 ;
+INFO  16:09:44,274 - Deklasirana promenljiva y na liniji 2
+INFO  16:09:44,274 - #3 {
+INFO  16:09:44,274 - #14 int
+INFO  16:09:44,274 - #14 main
+INFO  16:09:44,274 - #6 (
+INFO  16:09:44,274 - Obradjuje se metoda main na liniji 4
+INFO  16:09:44,274 - #7 )
+INFO  16:09:44,274 - #3 {
+INFO  16:09:44,274 - #9 print
+INFO  16:09:44,274 - #6 (
+INFO  16:09:44,274 - #13 1
+INFO  16:09:44,274 - #7 )
+INFO  16:09:44,274 - #5 ;
+INFO  16:09:44,274 - #14 x
+INFO  16:09:44,274 - #11 =
+INFO  16:09:44,274 - #14 y
+INFO  16:09:44,274 - #12 +
+INFO  16:09:44,274 - #13 6
+INFO  16:09:44,274 - #5 ;
+INFO  16:09:44,274 - #9 print
+INFO  16:09:44,274 - #6 (
+INFO  16:09:44,274 - #13 2
+INFO  16:09:44,274 - #7 )
+INFO  16:09:44,274 - #5 ;
+INFO  16:09:44,274 - #4 }
+INFO  16:09:44,274 - #4 }

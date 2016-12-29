@@ -1,0 +1,66 @@
+INFO  19:49:32,296 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:49:32,307 - #2 program
+INFO  19:49:32,307 - #15 MJProgram
+INFO  19:49:32,307 - #15 int
+INFO  19:49:32,307 - #15 x
+INFO  19:49:32,307 - #5 ;
+INFO  19:49:32,308 - Deklasirana promenljiva x na liniji 2
+INFO  19:49:32,308 - #15 int
+INFO  19:49:32,308 - #15 y
+INFO  19:49:32,308 - #5 ;
+INFO  19:49:32,308 - Deklasirana promenljiva y na liniji 2
+INFO  19:49:32,308 - #15 int
+INFO  19:49:32,308 - #15 x
+INFO  19:49:32,308 - #5 ;
+ERROR 19:49:32,308 - Greska: promenjljiva xje vec deklarisana. Greska na liniji 2
+INFO  19:49:32,308 - #3 {
+INFO  19:49:32,308 - #15 int
+INFO  19:49:32,308 - #15 k
+INFO  19:49:32,308 - #6 (
+INFO  19:49:32,309 - Obradjuje se metoda k na liniji 4
+INFO  19:49:32,309 - #7 )
+INFO  19:49:32,309 - #15 int
+INFO  19:49:32,309 - #15 c
+INFO  19:49:32,309 - #5 ;
+INFO  19:49:32,309 - Deklasirana promenljiva c na liniji 4
+INFO  19:49:32,309 - #3 {
+INFO  19:49:32,309 - #15 c
+INFO  19:49:32,309 - #11 =
+INFO  19:49:32,309 - #14 0
+INFO  19:49:32,309 - #5 ;
+INFO  19:49:32,309 - #10 return
+INFO  19:49:32,310 - #15 c
+INFO  19:49:32,310 - #12 +
+INFO  19:49:32,310 - #14 6
+INFO  19:49:32,310 - #5 ;
+INFO  19:49:32,310 - #4 }
+INFO  19:49:32,310 - #15 int
+INFO  19:49:32,310 - #15 main
+INFO  19:49:32,310 - #6 (
+INFO  19:49:32,310 - Obradjuje se metoda main na liniji 9
+INFO  19:49:32,310 - #7 )
+INFO  19:49:32,310 - #3 {
+INFO  19:49:32,310 - #9 print
+INFO  19:49:32,310 - #6 (
+INFO  19:49:32,310 - #14 1
+INFO  19:49:32,310 - #7 )
+INFO  19:49:32,310 - #5 ;
+INFO  19:49:32,311 - #15 x
+INFO  19:49:32,311 - #11 =
+INFO  19:49:32,311 - #15 y
+INFO  19:49:32,311 - #12 +
+INFO  19:49:32,311 - #14 6
+INFO  19:49:32,311 - #5 ;
+INFO  19:49:32,311 - #15 k
+INFO  19:49:32,311 - #6 (
+INFO  19:49:32,311 - #7 )
+INFO  19:49:32,311 - #5 ;
+INFO  19:49:32,311 - #9 print
+INFO  19:49:32,311 - Pronadjen poziv funkcije k na liniji 12
+INFO  19:49:32,311 - #6 (
+INFO  19:49:32,311 - #14 2
+INFO  19:49:32,311 - #7 )
+INFO  19:49:32,311 - #5 ;
+INFO  19:49:32,311 - #4 }
+INFO  19:49:32,311 - #4 }
+INFO  19:49:32,312 - Print calls = 2

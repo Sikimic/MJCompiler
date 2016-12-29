@@ -1,0 +1,15 @@
+INFO  20:24:20,230 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:24:20,236 - #2 program
+INFO  20:24:20,236 - #15 MJProgram
+INFO  20:24:20,236 - #15 int
+INFO  20:24:20,236 - #15 x
+INFO  20:24:20,236 - #5 ;
+INFO  20:24:20,236 - #15 int
+INFO  20:24:20,236 - #15 y
+INFO  20:24:20,236 - #5 ;
+INFO  20:24:20,237 - #3 {
+INFO  20:24:20,237 - #13 void
+ERROR 20:24:20,237 - 
+Sintaksna greska na liniji 4
+ERROR 20:24:20,237 - Fatalna greska, parsiranje se ne moze nastaviti na liniji 4
+INFO  20:24:20,237 - Print calls = 0

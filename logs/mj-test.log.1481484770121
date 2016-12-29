@@ -1,0 +1,20 @@
+INFO  20:32:38,284 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:32:38,290 - #2 program
+INFO  20:32:38,290 - #15 MJProgram
+INFO  20:32:38,291 - #15 int
+INFO  20:32:38,291 - #15 x
+INFO  20:32:38,291 - #5 ;
+INFO  20:32:38,291 - #15 int
+INFO  20:32:38,291 - #15 y
+INFO  20:32:38,291 - #5 ;
+INFO  20:32:38,291 - #3 {
+INFO  20:32:38,291 - #15 int
+INFO  20:32:38,291 - #15 main
+INFO  20:32:38,291 - #6 (
+INFO  20:32:38,291 - #7 )
+INFO  20:32:38,292 - #3 {
+INFO  20:32:38,292 - #9 print
+INFO  20:32:38,292 - #6 (
+INFO  20:32:38,292 - #14 1
+INFO  20:32:38,292 - #7 )
+INFO  20:32:38,292 - #5 ;

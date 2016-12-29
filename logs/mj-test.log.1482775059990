@@ -1,0 +1,78 @@
+INFO  18:56:41,032 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:56:41,047 - #2 program
+INFO  18:56:41,047 - #39 MJProgram
+INFO  18:56:41,047 - #42 const
+INFO  18:56:41,047 - #39 int
+INFO  18:56:41,047 - #39 x
+INFO  18:56:41,047 - #11 =
+INFO  18:56:41,047 - #37 3
+INFO  18:56:41,047 - #8 ,
+INFO  18:56:41,047 - #39 y
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #3 {
+INFO  18:56:41,047 - #39 int
+INFO  18:56:41,047 - #39 k
+ERROR 18:56:41,047 - Uspesan oporavak od greske pri deklarisanju globalne promenljive
+INFO  18:56:41,047 - #6 (
+INFO  18:56:41,047 - Obradjuje se metoda k na liniji 4
+INFO  18:56:41,047 - #7 )
+INFO  18:56:41,047 - #39 int
+INFO  18:56:41,047 - #39 c
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - Deklasirana promenljiva c na liniji 4
+INFO  18:56:41,047 - #3 {
+INFO  18:56:41,047 - #39 c
+INFO  18:56:41,047 - #11 =
+INFO  18:56:41,047 - Detektovano koriscenje lokalne promenljive c na liniji 5
+INFO  18:56:41,047 - #37 0
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #10 return
+INFO  18:56:41,047 - #37 0
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #4 }
+INFO  18:56:41,047 - #39 int
+INFO  18:56:41,047 - #39 main
+INFO  18:56:41,047 - #6 (
+INFO  18:56:41,047 - Obradjuje se metoda main na liniji 9
+INFO  18:56:41,047 - #7 )
+INFO  18:56:41,047 - #3 {
+INFO  18:56:41,047 - #9 print
+INFO  18:56:41,047 - #6 (
+INFO  18:56:41,047 - #37 1
+INFO  18:56:41,047 - #7 )
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #39 x
+INFO  18:56:41,047 - #11 =
+ERROR 18:56:41,047 - Greska: Ime: x nije deklarisano. na liniji 11
+INFO  18:56:41,047 - #37 3
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #9 print
+INFO  18:56:41,047 - #6 (
+INFO  18:56:41,047 - #37 2
+INFO  18:56:41,047 - #7 )
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #45 for
+INFO  18:56:41,047 - #6 (
+INFO  18:56:41,047 - #39 i
+INFO  18:56:41,047 - #11 =
+ERROR 18:56:41,047 - Greska: Ime: i nije deklarisano. na liniji 15
+INFO  18:56:41,047 - #37 0
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #39 i
+INFO  18:56:41,047 - #22 <
+ERROR 18:56:41,047 - Greska: Ime: i nije deklarisano. na liniji 15
+INFO  18:56:41,047 - #37 10
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #39 i
+INFO  18:56:41,047 - #31 ++
+ERROR 18:56:41,047 - Greska: Ime: i nije deklarisano. na liniji 15
+INFO  18:56:41,047 - #7 )
+INFO  18:56:41,047 - #3 {
+INFO  18:56:41,047 - #4 }
+INFO  18:56:41,047 - #10 return
+INFO  18:56:41,047 - #37 0
+INFO  18:56:41,047 - #5 ;
+INFO  18:56:41,047 - #4 }
+INFO  18:56:41,047 - #4 }
+INFO  18:56:41,047 - Print calls = 2
+ERROR 18:56:41,047 - Greske pri parsiranju!

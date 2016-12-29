@@ -1,0 +1,13 @@
+INFO  19:12:43,296 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:12:43,311 - #2 program
+INFO  19:12:43,311 - #39 MJProgram
+INFO  19:12:43,311 - #42 const
+INFO  19:12:43,311 - #39 int
+INFO  19:12:43,311 - #39 x
+INFO  19:12:43,311 - #11 =
+INFO  19:12:43,311 - #37 3
+INFO  19:12:43,311 - #8 ,
+INFO  19:12:43,311 - #39 y
+INFO  19:12:43,311 - #5 ;
+INFO  19:12:43,311 - Print calls = 0
+INFO  19:12:43,311 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,80 @@
+INFO  19:03:37,710 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:03:37,710 - #2 program
+INFO  19:03:37,710 - #39 MJProgram
+INFO  19:03:37,710 - #42 const
+INFO  19:03:37,710 - #39 int
+INFO  19:03:37,710 - #39 x
+INFO  19:03:37,710 - #8 ,
+INFO  19:03:37,726 - #39 y
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #3 {
+INFO  19:03:37,726 - #39 int
+INFO  19:03:37,726 - #39 k
+ERROR 19:03:37,726 - Uspesan oporavak od greske pri deklarisanju globalne promenljive
+INFO  19:03:37,726 - #6 (
+INFO  19:03:37,726 - Obradjuje se metoda k na liniji 4
+INFO  19:03:37,726 - #7 )
+INFO  19:03:37,726 - #39 int
+INFO  19:03:37,726 - #39 c
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - Deklasirana promenljiva c na liniji 4
+INFO  19:03:37,726 - #3 {
+INFO  19:03:37,726 - #39 c
+INFO  19:03:37,726 - #11 =
+INFO  19:03:37,726 - Detektovano koriscenje lokalne promenljive c na liniji 5
+INFO  19:03:37,726 - #37 0
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #10 return
+INFO  19:03:37,726 - #37 0
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #4 }
+INFO  19:03:37,726 - #39 int
+INFO  19:03:37,726 - #39 main
+INFO  19:03:37,726 - #6 (
+INFO  19:03:37,726 - Obradjuje se metoda main na liniji 9
+INFO  19:03:37,726 - #7 )
+INFO  19:03:37,726 - #39 int
+INFO  19:03:37,726 - #39 i
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - Deklasirana promenljiva i na liniji 9
+INFO  19:03:37,726 - #3 {
+INFO  19:03:37,726 - #9 print
+INFO  19:03:37,726 - #6 (
+INFO  19:03:37,726 - #37 1
+INFO  19:03:37,726 - #7 )
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #39 x
+INFO  19:03:37,726 - #11 =
+ERROR 19:03:37,726 - Greska: x nije deklarisano. na liniji 11
+INFO  19:03:37,726 - #37 3
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #9 print
+INFO  19:03:37,726 - #6 (
+INFO  19:03:37,726 - #37 2
+INFO  19:03:37,726 - #7 )
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #45 for
+INFO  19:03:37,726 - #6 (
+INFO  19:03:37,726 - #39 i
+INFO  19:03:37,726 - #11 =
+INFO  19:03:37,726 - Detektovano koriscenje lokalne promenljive i na liniji 15
+INFO  19:03:37,726 - #37 0
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #39 i
+INFO  19:03:37,726 - #22 <
+INFO  19:03:37,726 - Detektovano koriscenje lokalne promenljive i na liniji 15
+INFO  19:03:37,726 - #37 10
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #39 i
+INFO  19:03:37,726 - #31 ++
+INFO  19:03:37,726 - Detektovano koriscenje lokalne promenljive i na liniji 15
+INFO  19:03:37,726 - #7 )
+INFO  19:03:37,726 - #3 {
+INFO  19:03:37,726 - #4 }
+INFO  19:03:37,726 - #10 return
+INFO  19:03:37,726 - #37 0
+INFO  19:03:37,726 - #5 ;
+INFO  19:03:37,726 - #4 }
+INFO  19:03:37,726 - #4 }
+INFO  19:03:37,726 - Print calls = 2
+ERROR 19:03:37,726 - Greske pri parsiranju!

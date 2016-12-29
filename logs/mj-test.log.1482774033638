@@ -1,0 +1,75 @@
+INFO  18:34:41,607 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:34:41,607 - #2 program
+INFO  18:34:41,607 - #39 MJProgram
+INFO  18:34:41,607 - #39 int
+INFO  18:34:41,607 - #39 x
+INFO  18:34:41,607 - #5 ;
+INFO  18:34:41,607 - Deklasirana promenljiva x na liniji 2
+INFO  18:34:41,607 - #39 int
+INFO  18:34:41,607 - #39 y
+INFO  18:34:41,607 - #5 ;
+INFO  18:34:41,607 - Deklasirana promenljiva y na liniji 2
+INFO  18:34:41,607 - #3 {
+INFO  18:34:41,607 - #39 int
+INFO  18:34:41,607 - #39 k
+INFO  18:34:41,607 - #6 (
+INFO  18:34:41,607 - Obradjuje se metoda k na liniji 4
+INFO  18:34:41,607 - #7 )
+INFO  18:34:41,607 - #39 int
+INFO  18:34:41,607 - #39 c
+INFO  18:34:41,607 - #5 ;
+INFO  18:34:41,607 - Deklasirana promenljiva c na liniji 4
+INFO  18:34:41,607 - #3 {
+INFO  18:34:41,623 - #39 c
+INFO  18:34:41,623 - #11 =
+INFO  18:34:41,623 - #37 0
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #10 return
+INFO  18:34:41,623 - #37 0
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #4 }
+INFO  18:34:41,623 - #39 int
+INFO  18:34:41,623 - #39 main
+INFO  18:34:41,623 - #6 (
+INFO  18:34:41,623 - Obradjuje se metoda main na liniji 9
+INFO  18:34:41,623 - #7 )
+INFO  18:34:41,623 - #3 {
+INFO  18:34:41,623 - #9 print
+INFO  18:34:41,623 - #6 (
+INFO  18:34:41,623 - #37 1
+INFO  18:34:41,623 - #7 )
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #39 x
+INFO  18:34:41,623 - #11 =
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #9 print
+INFO  18:34:41,623 - #6 (
+INFO  18:34:41,623 - #37 2
+ERROR 18:34:41,623 - Uspesan oporavak od greske pri dodeli vrednosti promenljivoj
+INFO  18:34:41,623 - #7 )
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #45 for
+INFO  18:34:41,623 - #6 (
+INFO  18:34:41,623 - #39 i
+INFO  18:34:41,623 - #11 =
+ERROR 18:34:41,623 - Greska: Nije pronadjena funkcija: i na liniji 15
+INFO  18:34:41,623 - #37 0
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #39 i
+INFO  18:34:41,623 - #22 <
+ERROR 18:34:41,623 - Greska: Nije pronadjena funkcija: i na liniji 15
+INFO  18:34:41,623 - #37 10
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #39 i
+INFO  18:34:41,623 - #31 ++
+ERROR 18:34:41,623 - Greska: Nije pronadjena funkcija: i na liniji 15
+INFO  18:34:41,623 - #7 )
+INFO  18:34:41,623 - #3 {
+INFO  18:34:41,623 - #4 }
+INFO  18:34:41,623 - #10 return
+INFO  18:34:41,623 - #37 0
+INFO  18:34:41,623 - #5 ;
+INFO  18:34:41,623 - #4 }
+INFO  18:34:41,623 - #4 }
+INFO  18:34:41,623 - Print calls = 2
+ERROR 18:34:41,623 - Greske pri parsiranju!

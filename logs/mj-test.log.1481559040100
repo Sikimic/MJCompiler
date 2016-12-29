@@ -1,0 +1,66 @@
+INFO  17:07:48,624 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:07:48,624 - #2 program
+INFO  17:07:48,639 - #14 MJProgram
+INFO  17:07:48,639 - #14 int
+INFO  17:07:48,639 - #14 x
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - Deklasirana promenljiva x na liniji 2
+INFO  17:07:48,639 - #14 int
+INFO  17:07:48,639 - #14 y
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - Deklasirana promenljiva y na liniji 2
+INFO  17:07:48,639 - #3 {
+INFO  17:07:48,639 - #14 int
+INFO  17:07:48,639 - #14 k
+INFO  17:07:48,639 - #6 (
+INFO  17:07:48,639 - Obradjuje se metoda k na liniji 4
+INFO  17:07:48,639 - #7 )
+INFO  17:07:48,639 - #14 int
+INFO  17:07:48,639 - #14 c
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - Deklasirana promenljiva c na liniji 4
+INFO  17:07:48,639 - #3 {
+INFO  17:07:48,639 - #14 c
+INFO  17:07:48,639 - #11 =
+ERROR 17:07:48,639 - Greska: Nije pronadjen tip: c na liniji 5
+INFO  17:07:48,639 - #13 0
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - #10 return
+INFO  17:07:48,639 - #14 c
+INFO  17:07:48,639 - #12 +
+ERROR 17:07:48,639 - Greska: Nije pronadjen tip: c na liniji 6
+INFO  17:07:48,639 - #13 6
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - #4 }
+INFO  17:07:48,639 - #14 int
+INFO  17:07:48,639 - #14 main
+INFO  17:07:48,639 - #6 (
+INFO  17:07:48,639 - Obradjuje se metoda main na liniji 9
+INFO  17:07:48,639 - #7 )
+INFO  17:07:48,639 - #3 {
+INFO  17:07:48,639 - #9 print
+INFO  17:07:48,639 - #6 (
+INFO  17:07:48,639 - #13 1
+INFO  17:07:48,639 - #7 )
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - #14 x
+INFO  17:07:48,639 - #11 =
+ERROR 17:07:48,639 - Greska: Nije pronadjen tip: x na liniji 11
+INFO  17:07:48,639 - #14 y
+INFO  17:07:48,639 - #12 +
+ERROR 17:07:48,639 - Greska: Nije pronadjen tip: y na liniji 11
+INFO  17:07:48,639 - #13 6
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - #14 k
+INFO  17:07:48,639 - #6 (
+ERROR 17:07:48,639 - Greska: Nije pronadjen tip: k na liniji 12
+INFO  17:07:48,639 - #7 )
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - #9 print
+INFO  17:07:48,639 - #6 (
+INFO  17:07:48,639 - #13 2
+INFO  17:07:48,639 - #7 )
+INFO  17:07:48,639 - #5 ;
+INFO  17:07:48,639 - #4 }
+INFO  17:07:48,639 - #4 }
+INFO  17:07:48,639 - Print calls = 2

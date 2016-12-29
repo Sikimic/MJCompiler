@@ -1,0 +1,61 @@
+INFO  13:22:17,780 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  13:22:17,795 - #2 program
+INFO  13:22:17,795 - #18 MJProgram
+INFO  13:22:17,795 - #18 int
+INFO  13:22:17,795 - #18 x
+INFO  13:22:17,795 - #5 ;
+INFO  13:22:17,795 - Deklasirana promenljiva x na liniji 2
+INFO  13:22:17,795 - #18 int
+INFO  13:22:17,795 - #18 y
+INFO  13:22:17,795 - #5 ;
+INFO  13:22:17,795 - Deklasirana promenljiva y na liniji 2
+INFO  13:22:17,795 - #3 {
+INFO  13:22:17,795 - #18 int
+INFO  13:22:17,795 - #18 k
+INFO  13:22:17,795 - #6 (
+INFO  13:22:17,795 - #7 )
+INFO  13:22:17,795 - #18 int
+INFO  13:22:17,795 - #18 c
+INFO  13:22:17,795 - #5 ;
+INFO  13:22:17,795 - Deklasirana promenljiva c na liniji 4
+INFO  13:22:17,795 - #3 {
+INFO  13:22:17,795 - #18 c
+INFO  13:22:17,795 - Obradjuje se metoda k na liniji 4
+INFO  13:22:17,795 - #11 =
+INFO  13:22:17,795 - #17 0
+INFO  13:22:17,795 - #5 ;
+INFO  13:22:17,795 - #10 return
+INFO  13:22:17,795 - #18 c
+INFO  13:22:17,795 - #12 +
+INFO  13:22:17,811 - #17 6
+INFO  13:22:17,811 - #5 ;
+INFO  13:22:17,811 - #4 }
+INFO  13:22:17,811 - #18 int
+INFO  13:22:17,811 - #18 main
+INFO  13:22:17,811 - #6 (
+INFO  13:22:17,811 - #7 )
+INFO  13:22:17,811 - #3 {
+INFO  13:22:17,811 - #9 print
+INFO  13:22:17,811 - Obradjuje se metoda main na liniji 9
+INFO  13:22:17,811 - #6 (
+INFO  13:22:17,811 - #17 1
+INFO  13:22:17,811 - #7 )
+INFO  13:22:17,811 - #5 ;
+INFO  13:22:17,811 - #18 x
+INFO  13:22:17,811 - #11 =
+INFO  13:22:17,811 - #18 y
+INFO  13:22:17,811 - #13 -
+INFO  13:22:17,811 - #17 6
+INFO  13:22:17,811 - #5 ;
+INFO  13:22:17,811 - #9 print
+INFO  13:22:17,811 - #6 (
+INFO  13:22:17,811 - #17 2
+INFO  13:22:17,811 - #7 )
+INFO  13:22:17,811 - #5 ;
+INFO  13:22:17,811 - #10 return
+INFO  13:22:17,811 - #17 0
+INFO  13:22:17,811 - #5 ;
+INFO  13:22:17,811 - #4 }
+INFO  13:22:17,811 - #4 }
+INFO  13:22:17,811 - Print calls = 2
+INFO  13:22:17,811 - Parsiranje uspesno zavrseno!

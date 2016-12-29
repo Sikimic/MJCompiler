@@ -1,0 +1,122 @@
+INFO  21:03:44,005 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  21:03:44,021 - #2 program
+INFO  21:03:44,021 - #39 MJProgram
+INFO  21:03:44,021 - #42 const
+INFO  21:03:44,021 - #39 int
+INFO  21:03:44,021 - #39 x
+INFO  21:03:44,021 - #8 ,
+INFO  21:03:44,021 - Deklasirana globalna konstanta x na liniji 2
+INFO  21:03:44,021 - #39 y
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - Deklasirana globalna konstanta y na liniji 2
+INFO  21:03:44,021 - #39 int
+INFO  21:03:44,021 - #39 haos
+INFO  21:03:44,021 - #8 ,
+INFO  21:03:44,021 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  21:03:44,021 - #39 niz
+INFO  21:03:44,021 - #34 [
+INFO  21:03:44,021 - #35 ]
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - Deklasiran globalni niz niz na liniji 3
+INFO  21:03:44,021 - #3 {
+INFO  21:03:44,021 - #39 int
+INFO  21:03:44,021 - #39 k
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - Obradjuje se metoda k na liniji 5
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #39 int
+INFO  21:03:44,021 - #39 c
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - Deklasirana lokalna promenljiva c na liniji 5
+INFO  21:03:44,021 - #3 {
+INFO  21:03:44,021 - #39 c
+INFO  21:03:44,021 - #11 =
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  21:03:44,021 - #37 0
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #10 return
+INFO  21:03:44,021 - #39 c
+INFO  21:03:44,021 - #13 -
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive c na liniji 7
+INFO  21:03:44,021 - #37 5
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #4 }
+INFO  21:03:44,021 - #41 class
+INFO  21:03:44,021 - #39 char
+INFO  21:03:44,021 - #39 f
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #3 {
+INFO  21:03:44,021 - #10 return
+INFO  21:03:44,021 - #38 a
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #4 }
+INFO  21:03:44,021 - #39 int
+INFO  21:03:44,021 - #39 main
+ERROR 21:03:44,021 - Uspesan oporavak od greske pri dodeli vrednosti promenljivoj
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - Obradjuje se metoda main na liniji 19
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #39 int
+INFO  21:03:44,021 - #39 i
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - Deklasirana lokalna promenljiva i na liniji 19
+INFO  21:03:44,021 - #3 {
+INFO  21:03:44,021 - #9 print
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - #37 1
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #39 x
+INFO  21:03:44,021 - #11 =
+INFO  21:03:44,021 - Detektovano koriscenje konstante x na liniji 21
+INFO  21:03:44,021 - #37 3
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #9 print
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - #37 2
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #39 x
+INFO  21:03:44,021 - #32 --
+INFO  21:03:44,021 - Detektovano koriscenje konstante x na liniji 25
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #45 for
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - #39 i
+INFO  21:03:44,021 - #11 =
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive i na liniji 27
+INFO  21:03:44,021 - #37 0
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #39 i
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive i na liniji 27
+INFO  21:03:44,021 - #39 i
+INFO  21:03:44,021 - #31 ++
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive i na liniji 27
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #3 {
+INFO  21:03:44,021 - #9 print
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - #39 i
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive i na liniji 28
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #9 print
+INFO  21:03:44,021 - #6 (
+INFO  21:03:44,021 - #39 niz
+INFO  21:03:44,021 - #34 [
+INFO  21:03:44,021 - Detektovano koriscenje globalne promenljive niz na liniji 29
+INFO  21:03:44,021 - #39 i
+INFO  21:03:44,021 - #35 ]
+INFO  21:03:44,021 - Detektovano koriscenje lokalne promenljive i na liniji 29
+INFO  21:03:44,021 - #7 )
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #4 }
+INFO  21:03:44,021 - #10 return
+INFO  21:03:44,021 - #37 0
+INFO  21:03:44,021 - #5 ;
+INFO  21:03:44,021 - #4 }
+INFO  21:03:44,021 - #4 }
+INFO  21:03:44,021 - Print calls = 4
+ERROR 21:03:44,021 - Greske pri parsiranju!

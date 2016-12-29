@@ -1,0 +1,63 @@
+INFO  17:51:38,965 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:51:38,981 - #2 program
+INFO  17:51:38,981 - #39 MJProgram
+INFO  17:51:38,981 - #39 int
+INFO  17:51:38,981 - #39 x
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - Deklasirana promenljiva x na liniji 2
+INFO  17:51:38,981 - #39 int
+INFO  17:51:38,981 - #39 y
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - Deklasirana promenljiva y na liniji 2
+INFO  17:51:38,981 - #3 {
+INFO  17:51:38,981 - #39 int
+INFO  17:51:38,981 - #39 k
+INFO  17:51:38,981 - #6 (
+INFO  17:51:38,981 - Obradjuje se metoda k na liniji 4
+INFO  17:51:38,981 - #7 )
+INFO  17:51:38,981 - #39 int
+INFO  17:51:38,981 - #39 c
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - Deklasirana promenljiva c na liniji 4
+INFO  17:51:38,981 - #3 {
+INFO  17:51:38,981 - #39 c
+INFO  17:51:38,981 - #11 =
+INFO  17:51:38,981 - #38 0
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - #10 return
+INFO  17:51:38,981 - #39 c
+INFO  17:51:38,981 - #13 -
+INFO  17:51:38,981 - #38 6
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - #4 }
+INFO  17:51:38,981 - #39 int
+ERROR 17:51:38,981 - Greska: funkcija k nema return iskaz
+INFO  17:51:38,981 - #39 main
+INFO  17:51:38,981 - #6 (
+INFO  17:51:38,981 - Obradjuje se metoda main na liniji 9
+INFO  17:51:38,981 - #7 )
+INFO  17:51:38,981 - #3 {
+INFO  17:51:38,981 - #9 print
+INFO  17:51:38,981 - #6 (
+INFO  17:51:38,981 - #38 1
+INFO  17:51:38,981 - #7 )
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - #39 x
+INFO  17:51:38,981 - #11 =
+INFO  17:51:38,981 - #39 y
+INFO  17:51:38,981 - #12 +
+INFO  17:51:38,981 - #38 6
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - #9 print
+INFO  17:51:38,981 - #6 (
+INFO  17:51:38,981 - #38 2
+INFO  17:51:38,981 - #7 )
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - #10 return
+INFO  17:51:38,981 - #38 0
+INFO  17:51:38,981 - #5 ;
+INFO  17:51:38,981 - #4 }
+INFO  17:51:38,981 - #4 }
+ERROR 17:51:38,981 - Greska: funkcija main nema return iskaz
+INFO  17:51:38,981 - Print calls = 2
+ERROR 17:51:38,981 - Greske pri parsiranju!

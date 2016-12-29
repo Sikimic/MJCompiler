@@ -1,0 +1,114 @@
+INFO  20:49:24,493 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:49:24,493 - #2 program
+INFO  20:49:24,493 - #39 MJProgram
+INFO  20:49:24,493 - #42 const
+INFO  20:49:24,493 - #39 int
+INFO  20:49:24,493 - #39 x
+INFO  20:49:24,493 - #8 ,
+INFO  20:49:24,493 - Deklasirana globalna konstanta x na liniji 2
+INFO  20:49:24,493 - #39 y
+INFO  20:49:24,493 - #5 ;
+INFO  20:49:24,493 - Deklasirana globalna konstanta y na liniji 2
+INFO  20:49:24,493 - #39 int
+INFO  20:49:24,493 - #39 haos
+INFO  20:49:24,493 - #8 ,
+INFO  20:49:24,493 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  20:49:24,493 - #39 niz
+INFO  20:49:24,493 - #34 [
+INFO  20:49:24,493 - #35 ]
+INFO  20:49:24,493 - #5 ;
+INFO  20:49:24,493 - Deklasiran globalni niz niz na liniji 3
+INFO  20:49:24,493 - #3 {
+INFO  20:49:24,493 - #39 int
+INFO  20:49:24,493 - #39 k
+INFO  20:49:24,493 - #6 (
+INFO  20:49:24,493 - Obradjuje se metoda k na liniji 5
+INFO  20:49:24,493 - #7 )
+INFO  20:49:24,493 - #39 int
+INFO  20:49:24,493 - #39 c
+INFO  20:49:24,493 - #5 ;
+INFO  20:49:24,493 - Deklasirana lokalna promenljiva c na liniji 5
+INFO  20:49:24,493 - #3 {
+INFO  20:49:24,493 - #39 c
+INFO  20:49:24,493 - #11 =
+INFO  20:49:24,493 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  20:49:24,493 - #37 0
+INFO  20:49:24,493 - #5 ;
+INFO  20:49:24,493 - #10 return
+INFO  20:49:24,493 - #39 c
+INFO  20:49:24,493 - #13 -
+INFO  20:49:24,493 - Detektovano koriscenje lokalne promenljive c na liniji 7
+INFO  20:49:24,493 - #37 5
+INFO  20:49:24,493 - #5 ;
+INFO  20:49:24,493 - #4 }
+INFO  20:49:24,493 - #39 A
+INFO  20:49:24,493 - #3 {
+ERROR 20:49:24,493 - Greska: Nije pronadjen tip: A na liniji 10
+INFO  20:49:24,493 - #4 }
+INFO  20:49:24,508 - #39 char
+INFO  20:49:24,508 - #39 f
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #3 {
+INFO  20:49:24,508 - #10 return
+INFO  20:49:24,508 - #38 a
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #4 }
+INFO  20:49:24,508 - #39 int
+INFO  20:49:24,508 - #39 main
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #39 int
+INFO  20:49:24,508 - #39 i
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #3 {
+INFO  20:49:24,508 - #9 print
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #37 1
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #39 x
+INFO  20:49:24,508 - #11 =
+INFO  20:49:24,508 - #37 3
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #9 print
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #37 2
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #39 x
+INFO  20:49:24,508 - #32 --
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #45 for
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #39 i
+INFO  20:49:24,508 - #11 =
+INFO  20:49:24,508 - #37 0
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #39 i
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #39 i
+INFO  20:49:24,508 - #31 ++
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #3 {
+INFO  20:49:24,508 - #9 print
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #39 i
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #9 print
+INFO  20:49:24,508 - #6 (
+INFO  20:49:24,508 - #39 niz
+INFO  20:49:24,508 - #34 [
+INFO  20:49:24,508 - #39 i
+INFO  20:49:24,508 - #35 ]
+INFO  20:49:24,508 - #7 )
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #4 }
+INFO  20:49:24,508 - #10 return
+INFO  20:49:24,508 - #37 0
+INFO  20:49:24,508 - #5 ;
+INFO  20:49:24,508 - #4 }
+INFO  20:49:24,508 - #4 }
+INFO  20:49:24,508 - Print calls = 0
+ERROR 20:49:24,508 - Greske pri parsiranju!

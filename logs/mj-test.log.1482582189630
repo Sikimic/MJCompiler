@@ -1,0 +1,59 @@
+INFO  13:22:53,986 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  13:22:54,002 - #2 program
+INFO  13:22:54,002 - #18 MJProgram
+INFO  13:22:54,002 - #18 int
+INFO  13:22:54,002 - #18 x
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - Deklasirana promenljiva x na liniji 2
+INFO  13:22:54,002 - #18 int
+INFO  13:22:54,002 - #18 y
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - Deklasirana promenljiva y na liniji 2
+INFO  13:22:54,002 - #3 {
+INFO  13:22:54,002 - #18 int
+INFO  13:22:54,002 - #18 k
+INFO  13:22:54,002 - #6 (
+INFO  13:22:54,002 - #7 )
+INFO  13:22:54,002 - #18 int
+INFO  13:22:54,002 - #18 c
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - Deklasirana promenljiva c na liniji 4
+INFO  13:22:54,002 - #3 {
+INFO  13:22:54,002 - #18 c
+INFO  13:22:54,002 - Obradjuje se metoda k na liniji 4
+INFO  13:22:54,002 - #11 =
+INFO  13:22:54,002 - #17 0
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - #10 return
+INFO  13:22:54,002 - #18 c
+INFO  13:22:54,002 - #12 +
+INFO  13:22:54,002 - #17 6
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - #4 }
+INFO  13:22:54,002 - #18 int
+INFO  13:22:54,002 - #18 main
+INFO  13:22:54,002 - #6 (
+INFO  13:22:54,002 - #7 )
+INFO  13:22:54,002 - #3 {
+INFO  13:22:54,002 - #9 print
+INFO  13:22:54,002 - Obradjuje se metoda main na liniji 9
+INFO  13:22:54,002 - #6 (
+INFO  13:22:54,002 - #17 1
+INFO  13:22:54,002 - #7 )
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - #18 x
+INFO  13:22:54,002 - #11 =
+INFO  13:22:54,002 - #18 y
+INFO  13:22:54,002 - #9 print
+INFO  13:22:54,002 - #6 (
+INFO  13:22:54,002 - #17 2
+INFO  13:22:54,002 - #7 )
+INFO  13:22:54,002 - #5 ;
+INFO  13:22:54,002 - #10 return
+INFO  13:22:54,002 - #17 0
+INFO  13:22:54,002 - #5 ;
+ERROR 13:22:54,002 - Uspesan oporavak od greske
+INFO  13:22:54,002 - #4 }
+INFO  13:22:54,002 - #4 }
+INFO  13:22:54,002 - Print calls = 1
+ERROR 13:22:54,002 - Greske pri parsiranju!

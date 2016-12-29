@@ -1,0 +1,19 @@
+INFO  14:32:17,351 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  14:32:17,383 - #2 program
+INFO  14:32:17,383 - #41 MJProgram
+INFO  14:32:17,383 - #41 int
+INFO  14:32:17,383 - #41 x
+INFO  14:32:17,383 - #5 ;
+INFO  14:32:17,383 - Deklasirana promenljiva x na liniji 2
+INFO  14:32:17,383 - #41 int
+INFO  14:32:17,383 - #41 y
+INFO  14:32:17,383 - #5 ;
+INFO  14:32:17,383 - Deklasirana promenljiva y na liniji 2
+INFO  14:32:17,383 - #3 {
+INFO  14:32:17,383 - #41 int
+INFO  14:32:17,383 - #41 k
+INFO  14:32:17,383 - #6 (
+INFO  14:32:17,383 - #7 )
+INFO  14:32:17,383 - #41 int
+INFO  14:32:17,383 - Print calls = 0
+INFO  14:32:17,383 - Parsiranje uspesno zavrseno!

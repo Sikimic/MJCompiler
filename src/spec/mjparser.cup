@@ -1,0 +1,168 @@
+package rs.ac.bg.etf.pp1;
+
+import java.io.*;
+import java_cup.runtime.*;
+import org.apache.log4j.*;
+import rs.etf.pp1.mj.runtime.Code;
+import rs.etf.pp1.symboltable.Tab;
+import util.ImplementationClassHelper;
+import rs.etf.pp1.symboltable.concepts.Obj;
+import rs.etf.pp1.symboltable.concepts.Struct;
+
+parser code {:
+	
+    int printCallCount = 0;
+
+    Logger log = Logger.getLogger(getClass());
+   
+    // slede redefinisani metodi za prijavu gresaka radi izmene teksta poruke
+     
+    public void report_fatal_error(String message, Object info) throws java.lang.Exception {
+      done_parsing();
+      report_error(message, info);
+    }
+  
+    public void syntax_error(Symbol cur_token) {
+        report_error("\nSintaksna greska", cur_token);
+    }
+  
+    public void unrecovered_syntax_error(Symbol cur_token) throws java.lang.Exception {
+        report_fatal_error("Fatalna greska, parsiranje se ne moze nastaviti", cur_token);
+    }
+
+:}
+
+action code {:
+	ImplementationClassHelper parserHelper = new ImplementationClassHelper();
+:}
+
+init with {:
+  Tab.init(); 
+:}
+
+scan with {:
+	Symbol s = this.getScanner().next_token();
+	if (s != null && s.value != null) 
+		log.info(s.toString() + " " + s.value.toString());
+	return s;
+:}
+
+terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, EQUAL, PLUS, MINUS, MUL, DIV, VOID, MOD, GREATER;
+terminal IS_EQUAL, GREATER_EQUAL, IS_NOT_EQUAL, LOWER, LOWER_EQUAL, AND, OR, PLUS_EQUAL, MINUS_EQUAL, MUL_EQUAL, DIV_EQUAL;
+terminal MOD_EQUAL, INC, DEC, DOT, LBRACKET, RBRACKET, BOOL;
+terminal Integer NUMBER;
+terminal Character CHAR;
+terminal String IDENT;
+terminal BREAK, CLASS, CONST, NEW, READ, FOR, EXTENDS, CONTINUE, STATIC, IF, ELSE;
+
+non terminal Program, Addop, VarList, VarPars, VarDecl, MethodDecl, ConstList, ConstPars, ConstDecl, ClassDecl;
+non terminal FormParamList, FormParams, ActualParams, ProgDeclLists, ProgLists, Extends, Assignop, Relop, ConstType;
+non terminal StatementList, Statement, LocalVarPars, LocalVarList, LocalVarDecl, LocalVarDeclList;
+non terminal MethodRetType, MethodDeclList, DesignatorStat, MethodFormParams, ClassMethods, AddopLeft, AddopRight, Mulop, MulopLeft, MulopRight;
+non terminal Condition, CondFact, CondTerm, ForDesiStatement, ForCondition, AddopTermList, MulopFactorList, FactorActParams, DesignatorTerm, DesignatorStatTerm;
+non terminal Obj ProgName, Designator;
+non terminal Struct Type, Term, Expr, Factor;
+
+precedence left ELSE;
+
+Program ::=         PROG ProgName:prog ProgDeclLists LBRACE MethodDeclList RBRACE {: parserHelper.finalizeProgram(prog); :};
+ProgName ::=        IDENT:pName {: RESULT = parserHelper.startProgram(pName); :};
+
+
+ProgDeclLists ::=   ProgDeclLists ProgLists | /* empty */;
+ProgLists ::=       ConstDecl | VarDecl | ClassDecl;
+
+ConstDecl ::=       CONST Type:vType {: parserHelper.currentType = vType; :} ConstList SEMI;
+ConstList ::=       ConstPars COMMA ConstList | ConstPars;
+ConstType ::=       NUMBER | BOOL | CHAR;
+ConstPars ::=       IDENT:cName EQUAL ConstType {: parserHelper.insertConstVar(cName,cNameleft); :} | 
+                    IDENT:cName {: parserHelper.insertConstVar(cName,cNameleft); :} ;
+
+VarDecl ::=         Type:vType {: parserHelper.currentType = vType; :} VarList SEMI |
+                    error SEMI {: parserHelper.report_error("Uspesan oporavak od greske pri deklarisanju globalne promenljive"); :};
+VarList ::=         VarPars COMMA VarList | VarPars;
+VarPars ::=         IDENT:vName {: parserHelper.insertGlobalVar(vName,vNameleft); :} |
+                    IDENT:vName LBRACKET RBRACKET {: parserHelper.insertGlobalArray(vName,vNameleft); :};
+
+
+ClassDecl ::=       CLASS IDENT Extends LBRACE LocalVarDeclList ClassMethods RBRACE;
+Extends ::=         EXTENDS Type | /* empty */;
+ClassMethods ::=    LBRACE MethodDeclList RBRACE | /* empty */;
+
+
+LocalVarDecl ::=    Type:vType {: parserHelper.currentType = vType; :} LocalVarList SEMI |
+                    error SEMI {: parserHelper.report_error("Uspesan oporavak od greske pri deklarisanju lokalne promenljive"); :};
+LocalVarList ::=    LocalVarPars COMMA LocalVarList | LocalVarPars;
+LocalVarPars::=     IDENT:vName {: parserHelper.insertLocalVar(vName,vNameleft); :} |
+                    IDENT:vName LBRACKET RBRACKET {: parserHelper.insertLocalArray(vName,vNameleft); :}; 
+LocalVarDeclList::= LocalVarDeclList LocalVarDecl | /* empty */;
+
+
+MethodDecl ::=      MethodRetType LPAREN MethodFormParams RPAREN LocalVarDeclList {: parserHelper.startMethod(); :} LBRACE StatementList RBRACE {: parserHelper.finalizeMethod(); :};
+MethodRetType ::=   Type:mType IDENT:mName         {: parserHelper.insertMethod(mType,mName,mNameleft); parserHelper.globalFuncCount++; :} | 
+                    STATIC Type:mType IDENT:mName  {: parserHelper.insertMethod(mType,mName,mNameleft); parserHelper.staticFuncCount++; :} | 
+                    VOID IDENT:mName               {: parserHelper.insertMethod(null,mName,mNameleft);  parserHelper.globalFuncCount++; :} | 
+                    STATIC VOID IDENT:mName        {: parserHelper.insertMethod(null,mName,mNameleft);  parserHelper.staticFuncCount++; :};
+MethodDeclList ::=  MethodDeclList MethodDecl | /* empty */;
+MethodFormParams::= FormParamList | /* empty */;
+
+FormParamList ::=   FormParams COMMA FormParamList | FormParams;
+FormParams ::=      Type:fType IDENT:vName | Type:fType IDENT:vName LBRACKET RBRACKET;
+
+StatementList ::=   StatementList Statement | /* empty */;
+Statement ::=       DesignatorStat SEMI |
+                    error SEMI {: parserHelper.report_error("Uspesan oporavak od greske pri dodeli vrednosti promenljivoj"); :} |
+                    IF LPAREN Condition RPAREN Statement |
+                    IF LPAREN Condition RPAREN Statement ELSE Statement |
+                    FOR LPAREN ForDesiStatement SEMI ForCondition SEMI ForDesiStatement RPAREN Statement |
+                    BREAK SEMI | 
+                    CONTINUE SEMI |
+                    RETURN Expr:eType SEMI {: parserHelper.returnMatched(eType,eTypeleft); :} |
+                    RETURN:rType SEMI      {: parserHelper.returnMatched(null,rTypeleft); :} |
+                    READ LPAREN Designator RPAREN SEMI |
+                    PRINT LPAREN Expr:eName COMMA NUMBER:length RPAREN SEMI {: parser.printCallCount++; parserHelper.print(eName,eNameleft); :} |
+                    PRINT LPAREN Expr:eName RPAREN SEMI {: parser.printCallCount++; parserHelper.print(eName,eNameleft); :} |
+                    LBRACE StatementList RBRACE;
+
+
+ForDesiStatement ::= DesignatorStat | /* empty */;
+ForCondition ::=    Condition |  /* empty */;
+
+ActualParams ::=    Expr COMMA ActualParams | Expr;
+
+Expr ::=            MINUS Term:tType AddopTermList | Term:tType AddopTermList {: RESULT = tType; :};
+AddopTermList ::=   AddopTermList Addop Term | /* empty */;
+Term ::=            Factor:fType MulopFactorList {: RESULT = fType; :};
+MulopFactorList ::= MulopFactorList Mulop Factor | /* empty */;    
+
+Factor ::=          Designator:dName FactorActParams {: RESULT = dName.getType(); :} | 
+                    NUMBER:nName {: RESULT = parserHelper.insertNumber(nName,nNameleft); :} |
+                    CHAR:cName {: RESULT = parserHelper.insertChar(cName,cNameleft); :} |
+                    BOOL |
+                    NEW Type | 
+                    NEW Type LBRACKET  Expr RBRACKET
+                    LPAREN Expr RPAREN;
+FactorActParams ::= LPAREN ActualParams RPAREN | LPAREN RPAREN | /* empty */;
+
+
+
+Type ::=            IDENT:tName {: RESULT = parserHelper.findType(tName,tNameleft); :};
+Designator ::=      IDENT:dName {: RESULT = parserHelper.resolveIdent(dName,dNameleft); :} DesignatorTerm;
+DesignatorTerm ::=  DOT IDENT DesignatorTerm | LBRACKET Expr RBRACKET DesignatorTerm | /* empty */;
+DesignatorStat ::=  Designator DesignatorStatTerm;
+DesignatorStatTerm ::= Assignop Expr | LPAREN RPAREN | LPAREN ActualParams RPAREN | INC | DEC;
+
+Condition ::=       CondTerm OR Condition | CondTerm;
+CondTerm ::=        CondFact AND CondTerm | CondFact;
+CondFact ::=        Expr Relop Expr | Expr;
+
+Mulop ::=           MulopLeft | MulopRight;
+MulopLeft ::=       MUL {: RESULT = new Integer(Code.mul); :} | DIV {: RESULT = new Integer(Code.div); :} | MOD {: RESULT = new Integer(Code.rem); :};
+MulopRight ::=      MUL_EQUAL | DIV_EQUAL | MOD_EQUAL;
+
+Addop ::=           AddopLeft | AddopRight;
+AddopLeft ::=       PLUS {: RESULT = new Integer(Code.add); :} | MINUS {: RESULT = new Integer(Code.sub); :};
+AddopRight ::=      PLUS_EQUAL | MINUS_EQUAL;
+
+Assignop ::=        EQUAL | AddopRight | MulopRight;
+Relop ::=           IS_EQUAL {: RESULT = new Integer(Code.eq); :} | IS_NOT_EQUAL {: RESULT = new Integer(Code.ne); :} | GREATER {: RESULT = new Integer(Code.gt); :} | GREATER_EQUAL {: RESULT = new Integer(Code.ge); :} | LOWER {: RESULT = new Integer(Code.lt); :} | LOWER_EQUAL {: RESULT = new Integer(Code.le); :};
