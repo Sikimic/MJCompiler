@@ -1,0 +1,64 @@
+INFO  19:02:24,576 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:02:24,591 - #2 program
+INFO  19:02:24,591 - #39 MJProgram
+INFO  19:02:24,591 - #3 {
+INFO  19:02:24,591 - #16 void
+INFO  19:02:24,591 - #39 main
+INFO  19:02:24,591 - #6 (
+INFO  19:02:24,591 - Obradjuje se metoda main na liniji 5
+INFO  19:02:24,591 - #7 )
+INFO  19:02:24,591 - #39 int
+INFO  19:02:24,591 - #39 x
+INFO  19:02:24,591 - #8 ,
+INFO  19:02:24,591 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  19:02:24,591 - #39 y
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - Deklasirana lokalna promenljiva y na liniji 5
+INFO  19:02:24,591 - #3 {
+INFO  19:02:24,591 - #39 y
+INFO  19:02:24,591 - #11 =
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive y na liniji 7
+INFO  19:02:24,591 - #36 4
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #39 x
+INFO  19:02:24,591 - #11 =
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  19:02:24,591 - #36 100
+INFO  19:02:24,591 - #12 +
+INFO  19:02:24,591 - #39 y
+INFO  19:02:24,591 - #14 *
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive y na liniji 9
+INFO  19:02:24,591 - #36 3
+INFO  19:02:24,591 - #12 +
+INFO  19:02:24,591 - #36 10
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #39 x
+INFO  19:02:24,591 - #31 ++
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive x na liniji 10
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #39 y
+INFO  19:02:24,591 - #11 =
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive y na liniji 12
+INFO  19:02:24,591 - #36 10
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #9 print
+INFO  19:02:24,591 - #6 (
+INFO  19:02:24,591 - #39 x
+INFO  19:02:24,591 - #7 )
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive x na liniji 14
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #39 y
+INFO  19:02:24,591 - #26 +=
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive y na liniji 16
+INFO  19:02:24,591 - #36 10
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #9 print
+INFO  19:02:24,591 - #6 (
+INFO  19:02:24,591 - #39 y
+INFO  19:02:24,591 - #7 )
+INFO  19:02:24,591 - Detektovano koriscenje lokalne promenljive y na liniji 18
+INFO  19:02:24,591 - #5 ;
+INFO  19:02:24,591 - #4 }
+INFO  19:02:24,591 - #4 }
+INFO  19:02:24,591 - Print calls = 2
+INFO  19:02:24,591 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,42 @@
+INFO  18:18:10,280 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:18:10,296 - #2 program
+INFO  18:18:10,296 - #39 MJProgram
+INFO  18:18:10,296 - #3 {
+INFO  18:18:10,296 - #16 void
+INFO  18:18:10,296 - #39 main
+INFO  18:18:10,296 - #6 (
+INFO  18:18:10,296 - Obradjuje se metoda main na liniji 5
+INFO  18:18:10,296 - #7 )
+INFO  18:18:10,296 - #39 int
+INFO  18:18:10,296 - #39 x
+INFO  18:18:10,296 - #8 ,
+INFO  18:18:10,296 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  18:18:10,296 - #39 y
+INFO  18:18:10,296 - #5 ;
+INFO  18:18:10,296 - Deklasirana lokalna promenljiva y na liniji 5
+INFO  18:18:10,296 - #3 {
+INFO  18:18:10,296 - #39 y
+INFO  18:18:10,296 - #11 =
+INFO  18:18:10,296 - Detektovano koriscenje lokalne promenljive y na liniji 7
+INFO  18:18:10,296 - #36 1
+INFO  18:18:10,296 - #5 ;
+INFO  18:18:10,296 - #39 x
+INFO  18:18:10,296 - #11 =
+INFO  18:18:10,296 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  18:18:10,296 - #36 5
+INFO  18:18:10,296 - #12 +
+INFO  18:18:10,296 - #39 y
+INFO  18:18:10,296 - #12 +
+INFO  18:18:10,296 - Detektovano koriscenje lokalne promenljive y na liniji 9
+INFO  18:18:10,296 - #36 4
+INFO  18:18:10,296 - #5 ;
+INFO  18:18:10,296 - #9 print
+INFO  18:18:10,296 - #6 (
+INFO  18:18:10,296 - #39 x
+INFO  18:18:10,296 - #7 )
+INFO  18:18:10,296 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:18:10,296 - #5 ;
+INFO  18:18:10,296 - #4 }
+INFO  18:18:10,296 - #4 }
+INFO  18:18:10,296 - Print calls = 1
+INFO  18:18:10,312 - Parsiranje uspesno zavrseno!

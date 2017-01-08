@@ -1,0 +1,55 @@
+INFO  18:58:23,374 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:58:23,374 - #2 program
+INFO  18:58:23,374 - #39 MJProgram
+INFO  18:58:23,374 - #3 {
+INFO  18:58:23,374 - #16 void
+INFO  18:58:23,374 - #39 main
+INFO  18:58:23,374 - #6 (
+INFO  18:58:23,374 - Obradjuje se metoda main na liniji 5
+INFO  18:58:23,374 - #7 )
+INFO  18:58:23,374 - #39 int
+INFO  18:58:23,374 - #39 x
+INFO  18:58:23,374 - #8 ,
+INFO  18:58:23,374 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  18:58:23,374 - #39 y
+INFO  18:58:23,374 - #5 ;
+INFO  18:58:23,374 - Deklasirana lokalna promenljiva y na liniji 5
+INFO  18:58:23,374 - #3 {
+INFO  18:58:23,389 - #39 y
+INFO  18:58:23,389 - #11 =
+INFO  18:58:23,389 - Detektovano koriscenje lokalne promenljive y na liniji 7
+INFO  18:58:23,389 - #36 4
+INFO  18:58:23,389 - #5 ;
+INFO  18:58:23,389 - #39 x
+INFO  18:58:23,389 - #11 =
+INFO  18:58:23,389 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  18:58:23,389 - #36 100
+INFO  18:58:23,389 - #14 *
+INFO  18:58:23,389 - #39 y
+INFO  18:58:23,389 - #14 *
+INFO  18:58:23,389 - Detektovano koriscenje lokalne promenljive y na liniji 9
+INFO  18:58:23,389 - #36 3
+INFO  18:58:23,389 - #12 +
+INFO  18:58:23,389 - #36 10
+INFO  18:58:23,389 - #5 ;
+INFO  18:58:23,389 - #9 print
+INFO  18:58:23,389 - #6 (
+INFO  18:58:23,389 - #39 x
+INFO  18:58:23,389 - #7 )
+INFO  18:58:23,389 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:58:23,389 - #5 ;
+INFO  18:58:23,389 - #39 y
+INFO  18:58:23,389 - #26 +=
+INFO  18:58:23,389 - Detektovano koriscenje lokalne promenljive y na liniji 13
+INFO  18:58:23,389 - #36 10
+INFO  18:58:23,389 - #5 ;
+INFO  18:58:23,389 - #9 print
+INFO  18:58:23,389 - #6 (
+INFO  18:58:23,389 - #39 y
+INFO  18:58:23,389 - #7 )
+INFO  18:58:23,389 - Detektovano koriscenje lokalne promenljive y na liniji 15
+INFO  18:58:23,389 - #5 ;
+INFO  18:58:23,389 - #4 }
+INFO  18:58:23,389 - #4 }
+INFO  18:58:23,389 - Print calls = 2
+INFO  18:58:23,389 - Parsiranje uspesno zavrseno!

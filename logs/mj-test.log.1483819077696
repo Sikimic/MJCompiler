@@ -1,0 +1,36 @@
+INFO  20:57:07,045 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:57:07,045 - #2 program
+INFO  20:57:07,045 - #39 MJProgram
+INFO  20:57:07,045 - #42 const
+INFO  20:57:07,060 - #39 int
+INFO  20:57:07,060 - #39 c
+INFO  20:57:07,060 - #11 =
+INFO  20:57:07,060 - #36 8
+INFO  20:57:07,060 - #5 ;
+INFO  20:57:07,060 - Deklasirana globalna konstanta c na liniji 2
+INFO  20:57:07,060 - #39 int
+INFO  20:57:07,060 - #39 a
+INFO  20:57:07,060 - #5 ;
+INFO  20:57:07,060 - Deklasirana globalna promenljiva a na liniji 3
+INFO  20:57:07,060 - #39 int
+INFO  20:57:07,060 - #39 niz
+INFO  20:57:07,060 - #34 [
+INFO  20:57:07,060 - #35 ]
+INFO  20:57:07,060 - #5 ;
+INFO  20:57:07,060 - Deklasiran globalni niz niz na liniji 4
+INFO  20:57:07,060 - #3 {
+INFO  20:57:07,060 - #16 void
+INFO  20:57:07,060 - #39 main
+INFO  20:57:07,060 - #6 (
+INFO  20:57:07,060 - Obradjuje se metoda main na liniji 7
+INFO  20:57:07,060 - #7 )
+INFO  20:57:07,060 - #39 int
+INFO  20:57:07,060 - #39 x
+INFO  20:57:07,060 - #8 ,
+INFO  20:57:07,060 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  20:57:07,060 - #39 y
+INFO  20:57:07,060 - #5 ;
+INFO  20:57:07,060 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  20:57:07,060 - #3 {
+INFO  20:57:07,060 - #39 niz
+INFO  20:57:07,060 - #11 =

@@ -1,0 +1,146 @@
+INFO  15:52:17,722 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:52:17,738 - #2 program
+INFO  15:52:17,738 - #39 test301
+INFO  15:52:17,738 - #42 const
+INFO  15:52:17,738 - #39 int
+INFO  15:52:17,738 - #39 jedan
+INFO  15:52:17,738 - #11 =
+INFO  15:52:17,738 - #36 1
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Deklasirana globalna konstanta jedan na liniji 4
+INFO  15:52:17,738 - #42 const
+INFO  15:52:17,738 - #39 int
+INFO  15:52:17,738 - #39 pet
+INFO  15:52:17,738 - #11 =
+INFO  15:52:17,738 - #36 5
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Deklasirana globalna konstanta pet na liniji 5
+INFO  15:52:17,738 - #39 int
+INFO  15:52:17,738 - #39 niz
+INFO  15:52:17,738 - #34 [
+INFO  15:52:17,738 - #35 ]
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Deklasiran globalni niz niz na liniji 7
+INFO  15:52:17,738 - #39 char
+INFO  15:52:17,738 - #39 nizch
+INFO  15:52:17,738 - #34 [
+INFO  15:52:17,738 - #35 ]
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Deklasiran globalni niz nizch na liniji 9
+INFO  15:52:17,738 - #3 {
+INFO  15:52:17,738 - #16 void
+INFO  15:52:17,738 - #39 main
+INFO  15:52:17,738 - #6 (
+INFO  15:52:17,738 - Obradjuje se metoda main na liniji 12
+INFO  15:52:17,738 - #7 )
+INFO  15:52:17,738 - #39 int
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Deklasirana lokalna promenljiva bodovi na liniji 12
+INFO  15:52:17,738 - #3 {
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #11 =
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 15
+INFO  15:52:17,738 - #36 0
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #31 ++
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 16
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #11 =
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 17
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #12 +
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 17
+INFO  15:52:17,738 - #39 jedan
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Detektovano koriscenje konstante jedan na liniji 17
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #26 +=
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 18
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #28 *=
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 18
+INFO  15:52:17,738 - #39 pet
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - Detektovano koriscenje konstante pet na liniji 18
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #32 --
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 19
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - #9 print
+INFO  15:52:17,738 - #6 (
+INFO  15:52:17,738 - #39 bodovi
+INFO  15:52:17,738 - #7 )
+INFO  15:52:17,738 - Detektovano koriscenje lokalne promenljive bodovi na liniji 20
+INFO  15:52:17,738 - #5 ;
+INFO  15:52:17,738 - #39 niz
+INFO  15:52:17,738 - #11 =
+INFO  15:52:17,738 - Detektovano koriscenje globalne promenljive niz na liniji 23
+INFO  15:52:17,738 - #43 new
+INFO  15:52:17,738 - #39 int
+INFO  15:52:17,738 - #34 [
+INFO  15:52:17,738 - #36 2
+INFO  15:52:17,738 - #35 ]
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - #39 niz
+INFO  15:52:17,753 - #34 [
+INFO  15:52:17,753 - #36 0
+INFO  15:52:17,753 - #35 ]
+INFO  15:52:17,753 - #11 =
+INFO  15:52:17,753 - Detektovano koriscenje globalne promenljive niz na liniji 24
+INFO  15:52:17,753 - #39 pet
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - Detektovano koriscenje konstante pet na liniji 24
+INFO  15:52:17,753 - #9 print
+INFO  15:52:17,753 - #6 (
+INFO  15:52:17,753 - #39 niz
+INFO  15:52:17,753 - #34 [
+INFO  15:52:17,753 - #36 0
+INFO  15:52:17,753 - #35 ]
+INFO  15:52:17,753 - #7 )
+INFO  15:52:17,753 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - #39 niz
+INFO  15:52:17,753 - #34 [
+INFO  15:52:17,753 - #36 1
+INFO  15:52:17,753 - #35 ]
+INFO  15:52:17,753 - #11 =
+INFO  15:52:17,753 - Detektovano koriscenje globalne promenljive niz na liniji 26
+INFO  15:52:17,753 - #36 10
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - #39 niz
+INFO  15:52:17,753 - #34 [
+INFO  15:52:17,753 - #36 0
+INFO  15:52:17,753 - #35 ]
+INFO  15:52:17,753 - #11 =
+INFO  15:52:17,753 - Detektovano koriscenje globalne promenljive niz na liniji 27
+INFO  15:52:17,753 - #39 niz
+INFO  15:52:17,753 - #34 [
+INFO  15:52:17,753 - #36 1
+INFO  15:52:17,753 - #35 ]
+INFO  15:52:17,753 - #26 +=
+INFO  15:52:17,753 - Detektovano koriscenje globalne promenljive niz na liniji 27
+INFO  15:52:17,753 - #39 pet
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - Detektovano koriscenje konstante pet na liniji 27
+INFO  15:52:17,753 - #9 print
+INFO  15:52:17,753 - #6 (
+INFO  15:52:17,753 - #39 bodovi
+INFO  15:52:17,753 - #7 )
+INFO  15:52:17,753 - Detektovano koriscenje lokalne promenljive bodovi na liniji 28
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - #9 print
+INFO  15:52:17,753 - #6 (
+INFO  15:52:17,753 - #39 niz
+INFO  15:52:17,753 - #34 [
+INFO  15:52:17,753 - #36 1
+INFO  15:52:17,753 - #35 ]
+INFO  15:52:17,753 - #7 )
+INFO  15:52:17,753 - Detektovano koriscenje globalne promenljive niz na liniji 29
+INFO  15:52:17,753 - #5 ;
+INFO  15:52:17,753 - #4 }
+INFO  15:52:17,753 - #4 }
+INFO  15:52:17,753 - Print calls = 4
+INFO  15:52:17,753 - Parsiranje uspesno zavrseno!

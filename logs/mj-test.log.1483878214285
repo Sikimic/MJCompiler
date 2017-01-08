@@ -1,0 +1,56 @@
+INFO  13:23:03,702 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  13:23:03,717 - #2 program
+INFO  13:23:03,717 - #39 MJProgram
+INFO  13:23:03,717 - #42 const
+INFO  13:23:03,717 - #39 int
+INFO  13:23:03,717 - #39 c
+INFO  13:23:03,717 - #11 =
+INFO  13:23:03,717 - #36 4
+INFO  13:23:03,717 - #5 ;
+INFO  13:23:03,717 - Deklasirana globalna konstanta c na liniji 2
+INFO  13:23:03,717 - #39 int
+INFO  13:23:03,717 - #39 a
+INFO  13:23:03,717 - #5 ;
+INFO  13:23:03,717 - Deklasirana globalna promenljiva a na liniji 3
+INFO  13:23:03,717 - #39 int
+INFO  13:23:03,717 - #39 niz
+INFO  13:23:03,717 - #34 [
+INFO  13:23:03,717 - #35 ]
+INFO  13:23:03,717 - #5 ;
+INFO  13:23:03,717 - Deklasiran globalni niz niz na liniji 4
+INFO  13:23:03,717 - #3 {
+INFO  13:23:03,717 - #16 void
+INFO  13:23:03,717 - #39 main
+INFO  13:23:03,717 - #6 (
+INFO  13:23:03,717 - Obradjuje se metoda main na liniji 7
+INFO  13:23:03,717 - #7 )
+INFO  13:23:03,717 - #39 int
+INFO  13:23:03,717 - #39 x
+INFO  13:23:03,717 - #8 ,
+INFO  13:23:03,717 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  13:23:03,717 - #39 y
+INFO  13:23:03,717 - #5 ;
+INFO  13:23:03,717 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  13:23:03,717 - #3 {
+INFO  13:23:03,717 - #39 niz
+INFO  13:23:03,717 - #11 =
+INFO  13:23:03,717 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  13:23:03,717 - #43 new
+INFO  13:23:03,717 - #39 int
+INFO  13:23:03,717 - #34 [
+INFO  13:23:03,717 - #36 3
+INFO  13:23:03,717 - #35 ]
+INFO  13:23:03,717 - #5 ;
+INFO  13:23:03,717 - #39 niz
+INFO  13:23:03,717 - #34 [
+INFO  13:23:03,717 - #39 c
+INFO  13:23:03,717 - #35 ]
+INFO  13:23:03,717 - Detektovano koriscenje konstante c na liniji 10
+INFO  13:23:03,717 - #11 =
+INFO  13:23:03,717 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  13:23:03,717 - #36 1
+INFO  13:23:03,717 - #5 ;
+INFO  13:23:03,717 - #4 }
+INFO  13:23:03,717 - #4 }
+INFO  13:23:03,717 - Print calls = 0
+INFO  13:23:03,733 - Parsiranje uspesno zavrseno!

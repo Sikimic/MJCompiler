@@ -1,0 +1,145 @@
+INFO  20:03:10,512 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:03:10,527 - #2 program
+INFO  20:03:10,527 - #39 MJProgram
+INFO  20:03:10,527 - #42 const
+INFO  20:03:10,527 - #39 int
+INFO  20:03:10,527 - #39 x
+INFO  20:03:10,527 - #8 ,
+INFO  20:03:10,527 - Deklasirana globalna konstanta x na liniji 2
+INFO  20:03:10,527 - #39 y
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - Deklasirana globalna konstanta y na liniji 2
+INFO  20:03:10,527 - #39 int
+INFO  20:03:10,527 - #39 haos
+INFO  20:03:10,527 - #8 ,
+INFO  20:03:10,527 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  20:03:10,527 - #39 niz
+INFO  20:03:10,527 - #34 [
+INFO  20:03:10,527 - #35 ]
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - Deklasiran globalni niz niz na liniji 3
+INFO  20:03:10,527 - #3 {
+INFO  20:03:10,527 - #39 int
+INFO  20:03:10,527 - #39 k
+INFO  20:03:10,527 - #6 (
+INFO  20:03:10,527 - Obradjuje se metoda k na liniji 5
+INFO  20:03:10,527 - #7 )
+INFO  20:03:10,527 - #39 int
+INFO  20:03:10,527 - #39 c
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - Deklasirana lokalna promenljiva c na liniji 5
+INFO  20:03:10,527 - #3 {
+INFO  20:03:10,527 - #39 c
+INFO  20:03:10,527 - #11 =
+INFO  20:03:10,527 - Detektovano koriscenje lokalne promenljive c na liniji 6
+INFO  20:03:10,527 - #37 0
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #10 return
+INFO  20:03:10,527 - #39 c
+INFO  20:03:10,527 - #13 -
+INFO  20:03:10,527 - Detektovano koriscenje lokalne promenljive c na liniji 7
+INFO  20:03:10,527 - #37 5
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #4 }
+INFO  20:03:10,527 - #41 class
+INFO  20:03:10,527 - #39 A
+INFO  20:03:10,527 - #3 {
+INFO  20:03:10,527 - #4 }
+INFO  20:03:10,527 - #39 char
+INFO  20:03:10,527 - #39 f
+INFO  20:03:10,527 - #6 (
+INFO  20:03:10,527 - #7 )
+INFO  20:03:10,527 - #3 {
+INFO  20:03:10,527 - #10 return
+INFO  20:03:10,527 - #38 a
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #4 }
+INFO  20:03:10,527 - #39 int
+INFO  20:03:10,527 - #39 main
+ERROR 20:03:10,527 - Uspesan oporavak od greske pri dodeli vrednosti promenljivoj
+INFO  20:03:10,527 - #6 (
+INFO  20:03:10,527 - Obradjuje se metoda main na liniji 21
+INFO  20:03:10,527 - #7 )
+INFO  20:03:10,527 - #39 int
+INFO  20:03:10,527 - #39 i
+INFO  20:03:10,527 - #8 ,
+INFO  20:03:10,527 - Deklasirana lokalna promenljiva i na liniji 21
+INFO  20:03:10,527 - #39 x1
+INFO  20:03:10,527 - #34 [
+INFO  20:03:10,527 - #35 ]
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - Deklasiran lokalni niz x1 na liniji 21
+INFO  20:03:10,527 - #3 {
+INFO  20:03:10,527 - #9 print
+INFO  20:03:10,527 - #6 (
+INFO  20:03:10,527 - #37 1
+INFO  20:03:10,527 - #7 )
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #39 x
+INFO  20:03:10,527 - #11 =
+INFO  20:03:10,527 - Detektovano koriscenje konstante x na liniji 23
+INFO  20:03:10,527 - #37 3
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #9 print
+INFO  20:03:10,527 - #6 (
+INFO  20:03:10,527 - #37 2
+INFO  20:03:10,527 - #7 )
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #39 x
+INFO  20:03:10,527 - #32 --
+INFO  20:03:10,527 - Detektovano koriscenje konstante x na liniji 27
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #39 x1
+INFO  20:03:10,527 - #34 [
+INFO  20:03:10,527 - Detektovano koriscenje lokalne promenljive x1 na liniji 28
+INFO  20:03:10,527 - #37 2
+INFO  20:03:10,527 - #35 ]
+INFO  20:03:10,527 - #11 =
+INFO  20:03:10,527 - #37 1
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #45 for
+INFO  20:03:10,527 - #6 (
+INFO  20:03:10,527 - #39 i
+INFO  20:03:10,527 - #11 =
+INFO  20:03:10,527 - Detektovano koriscenje lokalne promenljive i na liniji 30
+INFO  20:03:10,527 - #37 0
+INFO  20:03:10,527 - #5 ;
+INFO  20:03:10,527 - #39 i
+INFO  20:03:10,527 - #18 >
+INFO  20:03:10,527 - Detektovano koriscenje lokalne promenljive i na liniji 30
+INFO  20:03:10,527 - #37 0
+INFO  20:03:10,527 - #24 &&
+INFO  20:03:10,527 - #39 i
+INFO  20:03:10,527 - #22 <
+INFO  20:03:10,527 - Detektovano koriscenje lokalne promenljive i na liniji 30
+INFO  20:03:10,543 - #37 10
+INFO  20:03:10,543 - #5 ;
+INFO  20:03:10,544 - #39 i
+INFO  20:03:10,544 - #31 ++
+INFO  20:03:10,544 - Detektovano koriscenje lokalne promenljive i na liniji 30
+INFO  20:03:10,544 - #7 )
+INFO  20:03:10,544 - #3 {
+INFO  20:03:10,544 - #9 print
+INFO  20:03:10,544 - #6 (
+INFO  20:03:10,544 - #39 i
+INFO  20:03:10,544 - #7 )
+INFO  20:03:10,544 - Detektovano koriscenje lokalne promenljive i na liniji 31
+INFO  20:03:10,544 - #5 ;
+INFO  20:03:10,544 - #9 print
+INFO  20:03:10,544 - #6 (
+INFO  20:03:10,544 - #39 niz
+INFO  20:03:10,544 - #34 [
+INFO  20:03:10,544 - Detektovano koriscenje globalne promenljive niz na liniji 32
+INFO  20:03:10,544 - #39 i
+INFO  20:03:10,544 - #35 ]
+INFO  20:03:10,544 - Detektovano koriscenje lokalne promenljive i na liniji 32
+INFO  20:03:10,544 - #7 )
+INFO  20:03:10,544 - #5 ;
+INFO  20:03:10,544 - #4 }
+INFO  20:03:10,544 - #10 return
+INFO  20:03:10,544 - #37 0
+INFO  20:03:10,544 - #5 ;
+INFO  20:03:10,544 - #4 }
+INFO  20:03:10,544 - #4 }
+INFO  20:03:10,544 - Print calls = 4
+ERROR 20:03:10,548 - Greske pri parsiranju!

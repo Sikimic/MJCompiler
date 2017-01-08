@@ -1,0 +1,134 @@
+INFO  18:25:31,230 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:25:31,246 - #2 program
+INFO  18:25:31,246 - #39 Program
+INFO  18:25:31,246 - #41 class
+INFO  18:25:31,246 - #39 A
+INFO  18:25:31,246 - #3 {
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 x
+INFO  18:25:31,246 - #34 [
+INFO  18:25:31,246 - #35 ]
+INFO  18:25:31,246 - #8 ,
+INFO  18:25:31,246 - Deklasiran lokalni niz x na liniji 3
+INFO  18:25:31,246 - #39 y
+INFO  18:25:31,246 - #34 [
+INFO  18:25:31,246 - #35 ]
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasiran lokalni niz y na liniji 3
+INFO  18:25:31,246 - #4 }
+INFO  18:25:31,246 - #42 const
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 pi
+INFO  18:25:31,246 - #11 =
+INFO  18:25:31,246 - #36 3
+INFO  18:25:31,246 - #8 ,
+INFO  18:25:31,246 - Deklasirana globalna konstanta pi na liniji 5
+INFO  18:25:31,246 - #39 e
+INFO  18:25:31,246 - #11 =
+INFO  18:25:31,246 - #36 2
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana globalna konstanta e na liniji 5
+INFO  18:25:31,246 - #41 class
+INFO  18:25:31,246 - #39 B
+INFO  18:25:31,246 - #46 extends
+INFO  18:25:31,246 - #39 A
+INFO  18:25:31,246 - #3 {
+ERROR 18:25:31,246 - Greska: Nije pronadjen tip: A na liniji 6
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 i
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva i na liniji 8
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 x
+INFO  18:25:31,246 - #34 [
+INFO  18:25:31,246 - #35 ]
+INFO  18:25:31,246 - #5 ;
+ERROR 18:25:31,246 - Greska: promenjljiva x je vec deklarisana. Greska na liniji 8
+INFO  18:25:31,246 - #3 {
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 getValue
+INFO  18:25:31,246 - #6 (
+INFO  18:25:31,246 - Obradjuje se metoda getValue na liniji 10
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 a
+INFO  18:25:31,246 - #7 )
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 b
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva b na liniji 10
+INFO  18:25:31,246 - #39 bool
+INFO  18:25:31,246 - #39 c
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  18:25:31,246 - #3 {
+INFO  18:25:31,246 - #10 return
+INFO  18:25:31,246 - #39 this
+INFO  18:25:31,246 - #33 .
+ERROR 18:25:31,246 - Greska: this nije deklarisano. na liniji 11
+INFO  18:25:31,246 - #39 i
+INFO  18:25:31,246 - #12 +
+INFO  18:25:31,246 - #39 this
+INFO  18:25:31,246 - #33 .
+ERROR 18:25:31,246 - Greska: this nije deklarisano. na liniji 11
+INFO  18:25:31,246 - #39 x
+INFO  18:25:31,246 - #34 [
+INFO  18:25:31,246 - #36 0
+INFO  18:25:31,246 - #35 ]
+INFO  18:25:31,246 - #12 +
+INFO  18:25:31,246 - #39 a
+INFO  18:25:31,246 - #5 ;
+ERROR 18:25:31,246 - Greska: a nije deklarisano. na liniji 11
+INFO  18:25:31,246 - #4 }
+ERROR 18:25:31,246 - Greska: nekompatibilni return izrazi, na liniji 11
+INFO  18:25:31,246 - #4 }
+INFO  18:25:31,246 - #4 }
+INFO  18:25:31,246 - #41 class
+INFO  18:25:31,246 - #39 C
+INFO  18:25:31,246 - #46 extends
+INFO  18:25:31,246 - #39 B
+INFO  18:25:31,246 - #3 {
+ERROR 18:25:31,246 - Greska: Nije pronadjen tip: B na liniji 14
+INFO  18:25:31,246 - #39 A
+INFO  18:25:31,246 - #39 theA
+ERROR 18:25:31,246 - Greska: Nije pronadjen tip: A na liniji 15
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva theA na liniji 15
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 a
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva a na liniji 16
+INFO  18:25:31,246 - #4 }
+INFO  18:25:31,246 - #3 {
+INFO  18:25:31,246 - #16 void
+INFO  18:25:31,246 - #39 main
+INFO  18:25:31,246 - #6 (
+INFO  18:25:31,246 - Obradjuje se metoda main na liniji 19
+INFO  18:25:31,246 - #7 )
+INFO  18:25:31,246 - #39 A
+INFO  18:25:31,246 - #39 a
+ERROR 18:25:31,246 - Greska: Nije pronadjen tip: A na liniji 19
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva a na liniji 19
+INFO  18:25:31,246 - #39 C
+INFO  18:25:31,246 - #39 c
+ERROR 18:25:31,246 - Greska: Nije pronadjen tip: C na liniji 19
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva c na liniji 19
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 i
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasirana lokalna promenljiva i na liniji 19
+INFO  18:25:31,246 - #39 int
+INFO  18:25:31,246 - #39 x
+INFO  18:25:31,246 - #34 [
+INFO  18:25:31,246 - #35 ]
+INFO  18:25:31,246 - #5 ;
+INFO  18:25:31,246 - Deklasiran lokalni niz x na liniji 19
+INFO  18:25:31,246 - #3 {
+INFO  18:25:31,246 - #39 a
+INFO  18:25:31,246 - #11 =
+INFO  18:25:31,246 - Detektovano koriscenje lokalne promenljive a na liniji 21
+INFO  18:25:31,246 - #43 new
+INFO  18:25:31,246 - #39 A
+INFO  18:25:31,246 - #5 ;
+ERROR 18:25:31,246 - Greska: Nije pronadjen tip: A na liniji 21

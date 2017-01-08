@@ -1,0 +1,14 @@
+INFO  14:35:22,307 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  14:35:22,323 - #2 program
+INFO  14:35:22,323 - #39 MJProgram
+INFO  14:35:22,323 - #3 {
+INFO  14:35:22,323 - #16 void
+INFO  14:35:22,323 - #39 main
+INFO  14:35:22,323 - #6 (
+INFO  14:35:22,323 - Obradjuje se metoda main na liniji 3
+INFO  14:35:22,323 - #7 )
+INFO  14:35:22,323 - #3 {
+INFO  14:35:22,323 - #4 }
+INFO  14:35:22,323 - #4 }
+INFO  14:35:22,323 - Print calls = 0
+INFO  14:35:22,338 - Parsiranje uspesno zavrseno!

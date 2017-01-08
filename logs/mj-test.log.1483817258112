@@ -1,0 +1,58 @@
+INFO  20:27:13,823 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:27:13,838 - #2 program
+INFO  20:27:13,838 - #39 MJProgram
+INFO  20:27:13,838 - #42 const
+INFO  20:27:13,838 - #39 int
+INFO  20:27:13,838 - #39 c
+INFO  20:27:13,838 - #11 =
+INFO  20:27:13,838 - #36 8
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - Deklasirana globalna konstanta c na liniji 2
+INFO  20:27:13,838 - #39 int
+INFO  20:27:13,838 - #39 a
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - Deklasirana globalna promenljiva a na liniji 3
+INFO  20:27:13,838 - #39 int
+INFO  20:27:13,838 - #39 niz
+INFO  20:27:13,838 - #34 [
+INFO  20:27:13,838 - #35 ]
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - Deklasiran globalni niz niz na liniji 4
+INFO  20:27:13,838 - #3 {
+INFO  20:27:13,838 - #16 void
+INFO  20:27:13,838 - #39 main
+INFO  20:27:13,838 - #6 (
+INFO  20:27:13,838 - Obradjuje se metoda main na liniji 7
+INFO  20:27:13,838 - #7 )
+INFO  20:27:13,838 - #39 int
+INFO  20:27:13,838 - #39 x
+INFO  20:27:13,838 - #8 ,
+INFO  20:27:13,838 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  20:27:13,838 - #39 y
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  20:27:13,838 - #3 {
+INFO  20:27:13,838 - #39 x
+INFO  20:27:13,838 - #11 =
+INFO  20:27:13,838 - Detektovano koriscenje lokalne promenljive x na liniji 10
+INFO  20:27:13,838 - #36 2
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - #39 a
+INFO  20:27:13,838 - #11 =
+INFO  20:27:13,838 - Detektovano koriscenje globalne promenljive a na liniji 12
+INFO  20:27:13,838 - #39 x
+INFO  20:27:13,838 - #26 +=
+INFO  20:27:13,838 - Detektovano koriscenje lokalne promenljive x na liniji 12
+INFO  20:27:13,838 - #39 c
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - Detektovano koriscenje konstante c na liniji 12
+INFO  20:27:13,838 - #9 print
+INFO  20:27:13,838 - #6 (
+INFO  20:27:13,838 - #39 a
+INFO  20:27:13,838 - #7 )
+INFO  20:27:13,838 - Detektovano koriscenje globalne promenljive a na liniji 14
+INFO  20:27:13,838 - #5 ;
+INFO  20:27:13,838 - #4 }
+INFO  20:27:13,838 - #4 }
+INFO  20:27:13,838 - Print calls = 1
+INFO  20:27:13,838 - Parsiranje uspesno zavrseno!

@@ -49,19 +49,21 @@ scan with {:
 
 terminal PROG, LBRACE, RBRACE, SEMI, LPAREN, RPAREN, COMMA, PRINT, RETURN, EQUAL, PLUS, MINUS, MUL, DIV, VOID, MOD, GREATER;
 terminal IS_EQUAL, GREATER_EQUAL, IS_NOT_EQUAL, LOWER, LOWER_EQUAL, AND, OR, PLUS_EQUAL, MINUS_EQUAL, MUL_EQUAL, DIV_EQUAL;
-terminal MOD_EQUAL, INC, DEC, DOT, LBRACKET, RBRACKET, BOOL;
+terminal MOD_EQUAL, INC, DEC, DOT, LBRACKET, RBRACKET;
 terminal Integer NUMBER;
 terminal Character CHAR;
+terminal Boolean BOOL;
 terminal String IDENT;
 terminal BREAK, CLASS, CONST, NEW, READ, FOR, EXTENDS, CONTINUE, STATIC, IF, ELSE;
 
-non terminal Program, Addop, VarList, VarPars, VarDecl, MethodDecl, ConstList, ConstPars, ConstDecl, ClassDecl;
-non terminal FormParamList, FormParams, ActualParams, ProgDeclLists, ProgLists, Extends, Assignop, Relop, ConstType;
+non terminal Program, VarList, VarPars, VarDecl, MethodDecl, ConstList, ConstPars, ConstDecl, ClassDecl;
+non terminal FormParamList, FormParams, ActualParams, ProgDeclLists, ProgLists, Extends, ConstType;
 non terminal StatementList, Statement, LocalVarPars, LocalVarList, LocalVarDecl, LocalVarDeclList;
-non terminal MethodRetType, MethodDeclList, DesignatorStat, MethodFormParams, ClassMethods, AddopLeft, AddopRight, Mulop, MulopLeft, MulopRight;
-non terminal Condition, CondFact, CondTerm, ForDesiStatement, ForCondition, AddopTermList, MulopFactorList, FactorActParams, DesignatorTerm, DesignatorStatTerm;
-non terminal Obj ProgName, Designator;
-non terminal Struct Type, Term, Expr, Factor;
+non terminal MethodRetType, MethodDeclList, DesignatorStat, MethodFormParams, ClassMethods;
+non terminal ForDesiStatement, ForCondition, DesignatorStatTerm;
+non terminal Obj ProgName, Designator, DesignatorTerm;
+non terminal Struct Type, Term, Expr, TermList, Factor, Condition, CondFact, CondTerm;
+non terminal Integer Relop, Mulop, Assignop, Addop, AddopLeft, AddopRight, MulopLeft, MulopRight;
 
 precedence left ELSE;
 
@@ -74,8 +76,10 @@ ProgLists ::=       ConstDecl | VarDecl | ClassDecl;
 
 ConstDecl ::=       CONST Type:vType {: parserHelper.currentType = vType; :} ConstList SEMI;
 ConstList ::=       ConstPars COMMA ConstList | ConstPars;
-ConstType ::=       NUMBER | BOOL | CHAR;
-ConstPars ::=       IDENT:cName EQUAL ConstType {: parserHelper.insertConstVar(cName,cNameleft); :} | 
+ConstType ::=       NUMBER:nName {: RESULT = nName; :} | 
+                    BOOL:bName   {: RESULT = bName; :} | 
+                    CHAR:cName   {: RESULT = cName; :} ;
+ConstPars ::=       IDENT:cName EQUAL ConstType:cType {: parserHelper.insertConstVar(cName,cType,cNameleft); :} | 
                     IDENT:cName {: parserHelper.insertConstVar(cName,cNameleft); :} ;
 
 VarDecl ::=         Type:vType {: parserHelper.currentType = vType; :} VarList SEMI |
@@ -112,15 +116,15 @@ FormParams ::=      Type:fType IDENT:vName | Type:fType IDENT:vName LBRACKET RBR
 StatementList ::=   StatementList Statement | /* empty */;
 Statement ::=       DesignatorStat SEMI |
                     error SEMI {: parserHelper.report_error("Uspesan oporavak od greske pri dodeli vrednosti promenljivoj"); :} |
-                    IF LPAREN Condition RPAREN Statement |
-                    IF LPAREN Condition RPAREN Statement ELSE Statement |
+                    IF LPAREN Condition:cName RPAREN Statement {: parserHelper.isBoolType(cName,cNameleft); :} |
+                    IF LPAREN Condition:cName RPAREN Statement ELSE Statement {: parserHelper.isBoolType(cName,cNameleft); :} |
                     FOR LPAREN ForDesiStatement SEMI ForCondition SEMI ForDesiStatement RPAREN Statement |
                     BREAK SEMI | 
                     CONTINUE SEMI |
                     RETURN Expr:eType SEMI {: parserHelper.returnMatched(eType,eTypeleft); :} |
                     RETURN:rType SEMI      {: parserHelper.returnMatched(null,rTypeleft); :} |
-                    READ LPAREN Designator RPAREN SEMI |
-                    PRINT LPAREN Expr:eName COMMA NUMBER:length RPAREN SEMI {: parser.printCallCount++; parserHelper.print(eName,eNameleft); :} |
+                    READ LPAREN Designator:dName RPAREN SEMI {: parserHelper.read(dName,dNameleft); :} |
+                    PRINT LPAREN Expr:eName COMMA NUMBER:len RPAREN SEMI {: parser.printCallCount++; parserHelper.print(eName,len,eNameleft); :} |
                     PRINT LPAREN Expr:eName RPAREN SEMI {: parser.printCallCount++; parserHelper.print(eName,eNameleft); :} |
                     LBRACE StatementList RBRACE;
 
@@ -130,39 +134,53 @@ ForCondition ::=    Condition |  /* empty */;
 
 ActualParams ::=    Expr COMMA ActualParams | Expr;
 
-Expr ::=            MINUS Term:tType AddopTermList | Term:tType AddopTermList {: RESULT = tType; :};
-AddopTermList ::=   AddopTermList Addop Term | /* empty */;
-Term ::=            Factor:fType MulopFactorList {: RESULT = fType; :};
-MulopFactorList ::= MulopFactorList Mulop Factor | /* empty */;    
-
-Factor ::=          Designator:dName FactorActParams {: RESULT = dName.getType(); :} | 
+Expr ::=            TermList:tName       {: RESULT = parserHelper.resolveType(tName,1); :} |
+                    MINUS TermList:tName {: RESULT = parserHelper.resolveType(tName,0); :} ;
+TermList ::=        Term:tName    {: RESULT = parserHelper.loadAgain(tName,0); :} |
+                    Term:tName   Addop:add {: parserHelper.loadAgain(tName,add); :} TermList:tList {:  RESULT = parserHelper.executeAddop(tName,add,tList, tNameleft); :} ;
+Term ::=            Factor:fName  {: RESULT = fName; :} |
+                    Factor:fName Mulop:mul {: parserHelper.loadAgain(fName,mul); :} Term:tName {: parserHelper.loadAgain(tName,0); RESULT = parserHelper.executeMulop(fName,mul,tName, fNameleft); :} ;
+ 
+Factor ::=          Designator:dName {: RESULT = parserHelper.pushDesignatorToStack(dName); :} | 
+                    Designator:dName LPAREN RPAREN |
+                    Designator:dName LPAREN ActualParams RPAREN |
                     NUMBER:nName {: RESULT = parserHelper.insertNumber(nName,nNameleft); :} |
                     CHAR:cName {: RESULT = parserHelper.insertChar(cName,cNameleft); :} |
-                    BOOL |
+                    BOOL:bName {: RESULT = parserHelper.insertBool(bName,bNameleft); :} |
                     NEW Type | 
-                    NEW Type LBRACKET  Expr RBRACKET
-                    LPAREN Expr RPAREN;
-FactorActParams ::= LPAREN ActualParams RPAREN | LPAREN RPAREN | /* empty */;
-
+                    NEW Type:tType LBRACKET Expr:eType {: RESULT = parserHelper.insertArray(tType, eType, eTypeleft); :} RBRACKET | 
+                    LPAREN Expr:exp {: RESULT = parserHelper.insertExpr(exp,expleft); :} RPAREN;
 
 
 Type ::=            IDENT:tName {: RESULT = parserHelper.findType(tName,tNameleft); :};
-Designator ::=      IDENT:dName {: RESULT = parserHelper.resolveIdent(dName,dNameleft); :} DesignatorTerm;
-DesignatorTerm ::=  DOT IDENT DesignatorTerm | LBRACKET Expr RBRACKET DesignatorTerm | /* empty */;
-DesignatorStat ::=  Designator DesignatorStatTerm;
-DesignatorStatTerm ::= Assignop Expr | LPAREN RPAREN | LPAREN ActualParams RPAREN | INC | DEC;
+Designator ::=      IDENT:iName {: parserHelper.resolveIdent(iName,iNameleft); :} DesignatorTerm:dName {: RESULT = parserHelper.resolveIdent(iName,dName,dNameleft); :};
 
-Condition ::=       CondTerm OR Condition | CondTerm;
-CondTerm ::=        CondFact AND CondTerm | CondFact;
-CondFact ::=        Expr Relop Expr | Expr;
+DesignatorTerm ::=  DOT IDENT DesignatorTerm | 
+                    LBRACKET:lb {: RESULT = parserHelper.resolveDesignatorArray(lbleft); :} Expr:eName {: parserHelper.isIntType(eName, eNameleft); :} RBRACKET DesignatorTerm | /* empty */;
 
-Mulop ::=           MulopLeft | MulopRight;
+DesignatorStat ::=  Designator:dName {: parserHelper.setFirstDesignator(dName); :} DesignatorStatTerm ;
+
+DesignatorStatTerm ::=  Assignop:aName {: parserHelper.resolveDesignator(aName); parserHelper.inAssign = true; :} Expr:eName {: parserHelper.executeAssignop(eName,aName,eNameleft); :} | 
+                        LPAREN:r RPAREN {: parserHelper.callFunc(rleft); :} | 
+                        LPAREN ActualParams:pName RPAREN {: parserHelper.callFunc(pNameleft); :} | 
+                        INC:inc {: parserHelper.executeIncrement(incleft); :} | 
+                        DEC:dec {: parserHelper.executeDecrement(decleft); :} ;
+
+
+Condition ::=       CondTerm:cName {: RESULT = cName; :} OR  Condition | 
+                    CondTerm:cName {: RESULT = cName; :} ;
+CondTerm ::=        CondFact:cName {: RESULT = cName; :} AND  CondTerm | 
+                    CondFact:cName {: RESULT = cName; :};
+CondFact ::=        Expr:eName1 Relop:rName Expr:eName2 {: RESULT = parserHelper.executeBoolOperation(eName1,rName,eName2,rNameleft); :} | 
+                    Expr:eName {: RESULT = eName; :};
+
+Mulop ::=           MulopLeft:mulLeft {: RESULT = mulLeft; :} | MulopRight:mulRight {: RESULT = mulRight; :};
 MulopLeft ::=       MUL {: RESULT = new Integer(Code.mul); :} | DIV {: RESULT = new Integer(Code.div); :} | MOD {: RESULT = new Integer(Code.rem); :};
-MulopRight ::=      MUL_EQUAL | DIV_EQUAL | MOD_EQUAL;
+MulopRight ::=      MUL_EQUAL {: RESULT = new Integer(parserHelper.opoffset + Code.mul); :} | DIV_EQUAL {: RESULT = new Integer(parserHelper.opoffset + Code.div); :} | MOD_EQUAL {: RESULT = new Integer(parserHelper.opoffset + Code.rem); :};
 
-Addop ::=           AddopLeft | AddopRight;
+Addop ::=           AddopLeft:addLeft {: RESULT = addLeft; :} | AddopRight:addRight {: RESULT = addRight; :};
 AddopLeft ::=       PLUS {: RESULT = new Integer(Code.add); :} | MINUS {: RESULT = new Integer(Code.sub); :};
-AddopRight ::=      PLUS_EQUAL | MINUS_EQUAL;
+AddopRight ::=      PLUS_EQUAL {: RESULT = new Integer(parserHelper.opoffset + Code.add); :} | MINUS_EQUAL {: RESULT = new Integer(parserHelper.opoffset + Code.sub); :};
 
-Assignop ::=        EQUAL | AddopRight | MulopRight;
+Assignop ::=        EQUAL {: RESULT = parserHelper.opoffset; :} | Mulop:mul {: RESULT = mul; :} | Addop:add {: RESULT = add; :} ;
 Relop ::=           IS_EQUAL {: RESULT = new Integer(Code.eq); :} | IS_NOT_EQUAL {: RESULT = new Integer(Code.ne); :} | GREATER {: RESULT = new Integer(Code.gt); :} | GREATER_EQUAL {: RESULT = new Integer(Code.ge); :} | LOWER {: RESULT = new Integer(Code.lt); :} | LOWER_EQUAL {: RESULT = new Integer(Code.le); :};

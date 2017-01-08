@@ -1,0 +1,87 @@
+INFO  14:06:36,243 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  14:06:36,274 - #2 program
+INFO  14:06:36,274 - #39 MJProgram
+INFO  14:06:36,274 - #42 const
+INFO  14:06:36,274 - #39 int
+INFO  14:06:36,274 - #39 c
+INFO  14:06:36,274 - #11 =
+INFO  14:06:36,274 - #36 1
+INFO  14:06:36,274 - #5 ;
+INFO  14:06:36,274 - Deklasirana globalna konstanta c na liniji 2
+INFO  14:06:36,274 - #39 int
+INFO  14:06:36,274 - #39 a
+INFO  14:06:36,274 - #5 ;
+INFO  14:06:36,274 - Deklasirana globalna promenljiva a na liniji 3
+INFO  14:06:36,274 - #39 int
+INFO  14:06:36,274 - #39 niz
+INFO  14:06:36,274 - #34 [
+INFO  14:06:36,274 - #35 ]
+INFO  14:06:36,274 - #5 ;
+INFO  14:06:36,274 - Deklasiran globalni niz niz na liniji 4
+INFO  14:06:36,274 - #3 {
+INFO  14:06:36,274 - #16 void
+INFO  14:06:36,274 - #39 main
+INFO  14:06:36,274 - #6 (
+INFO  14:06:36,274 - Obradjuje se metoda main na liniji 7
+INFO  14:06:36,274 - #7 )
+INFO  14:06:36,274 - #39 int
+INFO  14:06:36,274 - #39 x
+INFO  14:06:36,274 - #8 ,
+INFO  14:06:36,274 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  14:06:36,274 - #39 y
+INFO  14:06:36,274 - #5 ;
+INFO  14:06:36,274 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  14:06:36,274 - #3 {
+INFO  14:06:36,274 - #39 niz
+INFO  14:06:36,274 - #11 =
+INFO  14:06:38,399 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  14:06:38,962 - #43 new
+INFO  14:06:38,962 - #39 int
+INFO  14:06:38,962 - #34 [
+INFO  14:06:38,962 - #36 3
+INFO  14:06:38,962 - #35 ]
+INFO  14:06:38,962 - #5 ;
+INFO  14:06:40,665 - #39 niz
+INFO  14:06:40,665 - #34 [
+INFO  14:06:41,196 - #36 0
+INFO  14:06:43,853 - #35 ]
+INFO  14:06:43,853 - #11 =
+INFO  14:06:43,853 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  14:06:44,415 - #36 2
+INFO  14:06:44,415 - #5 ;
+INFO  14:06:46,228 - #39 niz
+INFO  14:06:46,228 - #34 [
+INFO  14:06:46,759 - #36 1
+INFO  14:06:49,400 - #35 ]
+INFO  14:06:49,400 - #11 =
+INFO  14:06:49,400 - Detektovano koriscenje globalne promenljive niz na liniji 11
+INFO  14:06:50,556 - #36 3
+INFO  14:06:50,556 - #5 ;
+INFO  14:06:52,510 - #39 niz
+INFO  14:06:52,510 - #34 [
+INFO  14:06:53,135 - #36 1
+INFO  14:06:56,620 - #35 ]
+INFO  14:06:56,620 - #11 =
+INFO  14:06:56,620 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  14:06:57,323 - #39 niz
+INFO  14:06:57,323 - #34 [
+INFO  14:06:57,979 - #36 0
+INFO  14:07:01,073 - #35 ]
+INFO  14:07:01,073 - #26 +=
+INFO  14:07:01,073 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  14:07:01,667 - #39 c
+INFO  14:07:01,667 - #5 ;
+INFO  14:07:02,339 - Detektovano koriscenje konstante c na liniji 12
+INFO  14:07:06,777 - #9 print
+INFO  14:07:06,777 - #6 (
+INFO  14:07:06,777 - #39 niz
+INFO  14:07:06,777 - #34 [
+INFO  14:07:07,418 - #36 1
+INFO  14:07:10,512 - #35 ]
+INFO  14:07:10,512 - #7 )
+INFO  14:07:10,512 - Detektovano koriscenje globalne promenljive niz na liniji 14
+INFO  14:07:11,793 - #5 ;
+INFO  14:07:11,793 - #4 }
+INFO  14:07:11,793 - #4 }
+INFO  14:07:11,793 - Print calls = 1
+INFO  14:07:11,793 - Parsiranje uspesno zavrseno!

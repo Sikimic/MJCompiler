@@ -1,0 +1,57 @@
+INFO  18:41:41,867 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:41:41,882 - #2 program
+INFO  18:41:41,882 - #39 MJProgram
+INFO  18:41:41,882 - #3 {
+INFO  18:41:41,882 - #16 void
+INFO  18:41:41,882 - #39 main
+INFO  18:41:41,882 - #6 (
+INFO  18:41:41,882 - Obradjuje se metoda main na liniji 5
+INFO  18:41:41,882 - #7 )
+INFO  18:41:41,882 - #39 int
+INFO  18:41:41,882 - #39 x
+INFO  18:41:41,882 - #8 ,
+INFO  18:41:41,882 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  18:41:41,882 - #39 y
+INFO  18:41:41,882 - #5 ;
+INFO  18:41:41,882 - Deklasirana lokalna promenljiva y na liniji 5
+INFO  18:41:41,882 - #3 {
+INFO  18:41:41,882 - #39 y
+INFO  18:41:41,882 - #11 =
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive y na liniji 7
+INFO  18:41:41,882 - #36 1
+INFO  18:41:41,882 - #5 ;
+INFO  18:41:41,882 - #39 x
+INFO  18:41:41,882 - #11 =
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  18:41:41,882 - #36 5
+INFO  18:41:41,882 - #12 +
+INFO  18:41:41,882 - #39 y
+INFO  18:41:41,882 - #12 +
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive y na liniji 9
+INFO  18:41:41,882 - #36 4
+INFO  18:41:41,882 - #5 ;
+INFO  18:41:41,882 - #39 x
+INFO  18:41:41,882 - #11 =
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:41:41,882 - #36 20
+INFO  18:41:41,882 - #15 /
+INFO  18:41:41,882 - #39 x
+INFO  18:41:41,882 - #14 *
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:41:41,882 - #36 10
+INFO  18:41:41,882 - #5 ;
+INFO  18:41:41,882 - #39 y
+INFO  18:41:41,882 - #26 +=
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive y na liniji 13
+INFO  18:41:41,882 - #36 10
+INFO  18:41:41,882 - #5 ;
+INFO  18:41:41,882 - #9 print
+INFO  18:41:41,882 - #6 (
+INFO  18:41:41,882 - #39 x
+INFO  18:41:41,882 - #7 )
+INFO  18:41:41,882 - Detektovano koriscenje lokalne promenljive x na liniji 15
+INFO  18:41:41,882 - #5 ;
+INFO  18:41:41,882 - #4 }
+INFO  18:41:41,882 - #4 }
+INFO  18:41:41,882 - Print calls = 1
+INFO  18:41:41,898 - Parsiranje uspesno zavrseno!

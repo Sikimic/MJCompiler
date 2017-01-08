@@ -1,0 +1,36 @@
+INFO  11:41:12,956 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  11:41:12,968 - #2 program
+INFO  11:41:12,968 - #39 MJProgram
+INFO  11:41:12,968 - #42 const
+INFO  11:41:12,968 - #39 int
+INFO  11:41:12,968 - #39 c
+INFO  11:41:12,968 - #11 =
+INFO  11:41:12,968 - #36 10
+INFO  11:41:12,968 - #5 ;
+INFO  11:41:12,972 - Deklasirana globalna konstanta c na liniji 2
+INFO  11:41:12,972 - #3 {
+INFO  11:41:12,972 - #16 void
+INFO  11:41:12,972 - #39 main
+INFO  11:41:12,972 - #6 (
+INFO  11:41:12,972 - Obradjuje se metoda main na liniji 6
+INFO  11:41:12,972 - #7 )
+INFO  11:41:12,972 - #39 int
+INFO  11:41:12,972 - #39 x
+INFO  11:41:12,972 - #11 =
+INFO  11:41:12,972 - #36 2
+INFO  11:41:12,972 - #8 ,
+INFO  11:41:12,972 - #39 y
+INFO  11:41:12,972 - #5 ;
+INFO  11:41:12,972 - #3 {
+INFO  11:41:12,972 - #39 x
+INFO  11:41:12,972 - #26 +=
+ERROR 11:41:12,972 - Uspesan oporavak od greske pri deklarisanju lokalne promenljive
+ERROR 11:41:12,972 - Greska: x nije deklarisano. na liniji 8
+INFO  11:41:12,972 - #39 c
+INFO  11:41:12,972 - #5 ;
+INFO  11:41:12,972 - Detektovano koriscenje konstante c na liniji 8
+ERROR 11:41:12,972 - Greska: nekompatibilni tipovi, na liniji 8
+INFO  11:41:12,976 - #4 }
+INFO  11:41:12,976 - #4 }
+INFO  11:41:12,976 - Print calls = 0
+ERROR 11:41:12,976 - Greske pri parsiranju!

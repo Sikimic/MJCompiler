@@ -1,0 +1,46 @@
+INFO  11:53:34,209 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  11:53:34,225 - #2 program
+INFO  11:53:34,225 - #39 MJProgram
+INFO  11:53:34,225 - #42 const
+INFO  11:53:34,225 - #39 int
+INFO  11:53:34,225 - #39 c
+INFO  11:53:34,225 - #11 =
+INFO  11:53:34,225 - #36 10
+INFO  11:53:34,225 - #5 ;
+INFO  11:53:34,225 - Deklasirana globalna konstanta c na liniji 2
+INFO  11:53:34,225 - #3 {
+INFO  11:53:34,225 - #16 void
+INFO  11:53:34,225 - #39 main
+INFO  11:53:34,225 - #6 (
+INFO  11:53:34,225 - Obradjuje se metoda main na liniji 6
+INFO  11:53:34,225 - #7 )
+INFO  11:53:34,225 - #39 int
+INFO  11:53:34,225 - #39 x
+INFO  11:53:34,225 - #8 ,
+INFO  11:53:34,225 - Deklasirana lokalna promenljiva x na liniji 6
+INFO  11:53:34,225 - #39 y
+INFO  11:53:34,225 - #5 ;
+INFO  11:53:34,225 - Deklasirana lokalna promenljiva y na liniji 6
+INFO  11:53:34,225 - #3 {
+INFO  11:53:34,229 - #39 x
+INFO  11:53:34,229 - #11 =
+INFO  11:53:34,229 - Detektovano koriscenje lokalne promenljive x na liniji 7
+INFO  11:53:34,229 - #36 2
+INFO  11:53:34,229 - #5 ;
+INFO  11:53:34,229 - #39 x
+INFO  11:53:34,229 - #26 +=
+INFO  11:53:34,229 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  11:53:34,229 - #39 c
+INFO  11:53:34,229 - #5 ;
+INFO  11:53:34,229 - Detektovano koriscenje konstante c na liniji 8
+ERROR 11:53:34,229 - Greska: designator nije promenljiva, na linij 8
+INFO  11:53:34,229 - #9 print
+INFO  11:53:34,229 - #6 (
+INFO  11:53:34,229 - #39 x
+INFO  11:53:34,229 - #7 )
+INFO  11:53:34,229 - Detektovano koriscenje lokalne promenljive x na liniji 10
+INFO  11:53:34,229 - #5 ;
+INFO  11:53:34,229 - #4 }
+INFO  11:53:34,229 - #4 }
+INFO  11:53:34,229 - Print calls = 1
+ERROR 11:53:34,229 - Greske pri parsiranju!

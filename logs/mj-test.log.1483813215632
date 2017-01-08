@@ -1,0 +1,70 @@
+INFO  19:19:55,128 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  19:19:55,144 - #2 program
+INFO  19:19:55,144 - #39 MJProgram
+INFO  19:19:55,144 - #42 const
+INFO  19:19:55,144 - #39 int
+INFO  19:19:55,144 - #39 c
+INFO  19:19:55,144 - #11 =
+INFO  19:19:55,144 - #36 8
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - Deklasirana globalna konstanta c na liniji 2
+INFO  19:19:55,144 - #39 char
+INFO  19:19:55,144 - #39 a
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - Deklasirana globalna promenljiva a na liniji 3
+INFO  19:19:55,144 - #39 int
+INFO  19:19:55,144 - #39 niz
+INFO  19:19:55,144 - #34 [
+INFO  19:19:55,144 - #35 ]
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - Deklasiran globalni niz niz na liniji 4
+INFO  19:19:55,144 - #3 {
+INFO  19:19:55,144 - #16 void
+INFO  19:19:55,144 - #39 main
+INFO  19:19:55,144 - #6 (
+INFO  19:19:55,144 - Obradjuje se metoda main na liniji 7
+INFO  19:19:55,144 - #7 )
+INFO  19:19:55,144 - #39 int
+INFO  19:19:55,144 - #39 x
+INFO  19:19:55,144 - #8 ,
+INFO  19:19:55,144 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  19:19:55,144 - #39 y
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  19:19:55,144 - #3 {
+INFO  19:19:55,144 - #39 niz
+INFO  19:19:55,144 - #11 =
+INFO  19:19:55,144 - Detektovano koriscenje globalne promenljive niz na liniji 8
+INFO  19:19:55,144 - #43 new
+INFO  19:19:55,144 - #39 int
+INFO  19:19:55,144 - #34 [
+INFO  19:19:55,144 - #36 5
+INFO  19:19:55,144 - #35 ]
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - #39 niz
+INFO  19:19:55,144 - #34 [
+INFO  19:19:55,144 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  19:19:55,144 - #36 0
+INFO  19:19:55,144 - #35 ]
+INFO  19:19:55,144 - #11 =
+INFO  19:19:55,144 - #36 7
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - #39 x
+INFO  19:19:55,144 - #11 =
+INFO  19:19:55,144 - Detektovano koriscenje lokalne promenljive x na liniji 12
+INFO  19:19:55,144 - #36 2
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - #39 a
+INFO  19:19:55,144 - #11 =
+INFO  19:19:55,144 - Detektovano koriscenje globalne promenljive a na liniji 14
+INFO  19:19:55,144 - #39 x
+INFO  19:19:55,144 - #26 +=
+INFO  19:19:55,144 - Detektovano koriscenje lokalne promenljive x na liniji 14
+INFO  19:19:55,144 - #39 c
+INFO  19:19:55,144 - #5 ;
+INFO  19:19:55,144 - Detektovano koriscenje konstante c na liniji 14
+ERROR 19:19:55,144 - Greska: nekompatibilni tipovi, na liniji 14
+INFO  19:19:55,144 - #4 }
+INFO  19:19:55,144 - #4 }
+INFO  19:19:55,144 - Print calls = 0
+ERROR 19:19:55,144 - Greske pri parsiranju!

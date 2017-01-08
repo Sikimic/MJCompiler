@@ -1,0 +1,66 @@
+INFO  12:41:45,093 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  12:41:45,109 - #2 program
+INFO  12:41:45,109 - #39 MJProgram
+INFO  12:41:45,109 - #42 const
+INFO  12:41:45,109 - #39 int
+INFO  12:41:45,109 - #39 c
+INFO  12:41:45,109 - #11 =
+INFO  12:41:45,109 - #36 10
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - Deklasirana globalna konstanta c na liniji 2
+INFO  12:41:45,109 - #3 {
+INFO  12:41:45,109 - #16 void
+INFO  12:41:45,109 - #39 main
+INFO  12:41:45,109 - #6 (
+INFO  12:41:45,109 - Obradjuje se metoda main na liniji 6
+INFO  12:41:45,109 - #7 )
+INFO  12:41:45,109 - #39 int
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #8 ,
+INFO  12:41:45,109 - Deklasirana lokalna promenljiva x na liniji 6
+INFO  12:41:45,109 - #39 y
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - Deklasirana lokalna promenljiva y na liniji 6
+INFO  12:41:45,109 - #3 {
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #11 =
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 7
+INFO  12:41:45,109 - #36 2
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #26 +=
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  12:41:45,109 - #39 c
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - Detektovano koriscenje konstante c na liniji 8
+ERROR 12:41:45,109 - Greska: designator nije promenljiva, na linij 8
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #27 -=
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 10
+INFO  12:41:45,109 - #36 1
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #28 *=
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 12
+INFO  12:41:45,109 - #36 2
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #29 /=
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 14
+INFO  12:41:45,109 - #36 6
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #30 %=
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 16
+INFO  12:41:45,109 - #36 2
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - #9 print
+INFO  12:41:45,109 - #6 (
+INFO  12:41:45,109 - #39 x
+INFO  12:41:45,109 - #7 )
+INFO  12:41:45,109 - Detektovano koriscenje lokalne promenljive x na liniji 18
+INFO  12:41:45,109 - #5 ;
+INFO  12:41:45,109 - #4 }
+INFO  12:41:45,109 - #4 }
+INFO  12:41:45,109 - Print calls = 1
+ERROR 12:41:45,125 - Greske pri parsiranju!

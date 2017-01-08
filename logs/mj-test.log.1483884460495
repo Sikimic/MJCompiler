@@ -1,0 +1,64 @@
+INFO  15:07:31,678 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:07:31,694 - #2 program
+INFO  15:07:31,694 - #39 test301
+INFO  15:07:31,694 - #42 const
+INFO  15:07:31,694 - #39 int
+INFO  15:07:31,694 - #39 jedan
+INFO  15:07:31,694 - #11 =
+INFO  15:07:31,694 - #36 1
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - Deklasirana globalna konstanta jedan na liniji 4
+INFO  15:07:31,694 - #42 const
+INFO  15:07:31,694 - #39 int
+INFO  15:07:31,694 - #39 pet
+INFO  15:07:31,694 - #11 =
+INFO  15:07:31,694 - #36 5
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - Deklasirana globalna konstanta pet na liniji 5
+INFO  15:07:31,694 - #39 int
+INFO  15:07:31,694 - #39 niz
+INFO  15:07:31,694 - #34 [
+INFO  15:07:31,694 - #35 ]
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - Deklasiran globalni niz niz na liniji 7
+INFO  15:07:31,694 - #39 char
+INFO  15:07:31,694 - #39 nizch
+INFO  15:07:31,694 - #34 [
+INFO  15:07:31,694 - #35 ]
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - Deklasiran globalni niz nizch na liniji 9
+INFO  15:07:31,694 - #3 {
+INFO  15:07:31,694 - #16 void
+INFO  15:07:31,694 - #39 main
+INFO  15:07:31,694 - #6 (
+INFO  15:07:31,694 - Obradjuje se metoda main na liniji 12
+INFO  15:07:31,694 - #7 )
+INFO  15:07:31,694 - #39 int
+INFO  15:07:31,694 - #39 bodovi
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - Deklasirana lokalna promenljiva bodovi na liniji 12
+INFO  15:07:31,694 - #3 {
+INFO  15:07:31,694 - #39 bodovi
+INFO  15:07:31,694 - #11 =
+INFO  15:07:31,694 - Detektovano koriscenje lokalne promenljive bodovi na liniji 15
+INFO  15:07:31,694 - #36 0
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - #39 bodovi
+INFO  15:07:31,694 - #26 +=
+INFO  15:07:31,694 - Detektovano koriscenje lokalne promenljive bodovi na liniji 16
+INFO  15:07:31,694 - #39 bodovi
+INFO  15:07:31,694 - #28 *=
+INFO  15:07:31,694 - Detektovano koriscenje lokalne promenljive bodovi na liniji 16
+INFO  15:07:31,694 - #39 pet
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - Detektovano koriscenje konstante pet na liniji 16
+INFO  15:07:31,694 - #9 print
+INFO  15:07:31,694 - #6 (
+INFO  15:07:31,694 - #39 bodovi
+INFO  15:07:31,694 - #7 )
+INFO  15:07:31,694 - Detektovano koriscenje lokalne promenljive bodovi na liniji 18
+INFO  15:07:31,694 - #5 ;
+INFO  15:07:31,694 - #4 }
+INFO  15:07:31,694 - #4 }
+INFO  15:07:31,694 - Print calls = 1
+INFO  15:07:31,709 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,60 @@
+INFO  20:39:01,941 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:39:01,956 - #2 program
+INFO  20:39:01,956 - #39 MJProgram
+INFO  20:39:01,956 - #42 const
+INFO  20:39:01,956 - #39 int
+INFO  20:39:01,956 - #39 c
+INFO  20:39:01,956 - #11 =
+INFO  20:39:01,956 - #36 8
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - Deklasirana globalna konstanta c na liniji 2
+INFO  20:39:01,956 - #39 int
+INFO  20:39:01,956 - #39 a
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - Deklasirana globalna promenljiva a na liniji 3
+INFO  20:39:01,956 - #39 int
+INFO  20:39:01,956 - #39 niz
+INFO  20:39:01,956 - #34 [
+INFO  20:39:01,956 - #35 ]
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - Deklasiran globalni niz niz na liniji 4
+INFO  20:39:01,956 - #3 {
+INFO  20:39:01,956 - #16 void
+INFO  20:39:01,956 - #39 main
+INFO  20:39:01,956 - #6 (
+INFO  20:39:01,956 - Obradjuje se metoda main na liniji 7
+INFO  20:39:01,956 - #7 )
+INFO  20:39:01,956 - #39 int
+INFO  20:39:01,956 - #39 x
+INFO  20:39:01,956 - #8 ,
+INFO  20:39:01,956 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  20:39:01,956 - #39 y
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  20:39:01,956 - #3 {
+INFO  20:39:01,956 - #39 x
+INFO  20:39:01,956 - #11 =
+INFO  20:39:01,956 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  20:39:01,956 - #36 2
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - #39 x
+INFO  20:39:01,956 - #26 +=
+INFO  20:39:01,956 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  20:39:01,956 - #39 c
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - Detektovano koriscenje konstante c na liniji 11
+INFO  20:39:01,956 - #9 print
+INFO  20:39:01,956 - #6 (
+INFO  20:39:01,956 - #37 a
+INFO  20:39:01,956 - #7 )
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - #9 print
+INFO  20:39:01,956 - #6 (
+INFO  20:39:01,956 - #39 x
+INFO  20:39:01,956 - #7 )
+INFO  20:39:01,956 - Detektovano koriscenje lokalne promenljive x na liniji 15
+INFO  20:39:01,956 - #5 ;
+INFO  20:39:01,956 - #4 }
+INFO  20:39:01,956 - #4 }
+INFO  20:39:01,956 - Print calls = 2
+INFO  20:39:01,972 - Parsiranje uspesno zavrseno!

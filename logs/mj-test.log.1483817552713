@@ -1,0 +1,60 @@
+INFO  20:30:51,885 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  20:30:51,916 - #2 program
+INFO  20:30:51,916 - #39 MJProgram
+INFO  20:30:51,916 - #42 const
+INFO  20:30:51,916 - #39 int
+INFO  20:30:51,916 - #39 c
+INFO  20:30:51,916 - #11 =
+INFO  20:30:51,916 - #36 8
+INFO  20:30:51,916 - #5 ;
+INFO  20:30:51,916 - Deklasirana globalna konstanta c na liniji 2
+INFO  20:30:51,916 - #39 int
+INFO  20:30:51,916 - #39 a
+INFO  20:30:51,916 - #5 ;
+INFO  20:30:51,916 - Deklasirana globalna promenljiva a na liniji 3
+INFO  20:30:51,916 - #39 int
+INFO  20:30:51,916 - #39 niz
+INFO  20:30:51,916 - #34 [
+INFO  20:30:51,916 - #35 ]
+INFO  20:30:51,916 - #5 ;
+INFO  20:30:51,932 - Deklasiran globalni niz niz na liniji 4
+INFO  20:30:51,932 - #3 {
+INFO  20:30:51,932 - #16 void
+INFO  20:30:51,932 - #39 main
+INFO  20:30:51,932 - #6 (
+INFO  20:30:51,932 - Obradjuje se metoda main na liniji 7
+INFO  20:30:51,932 - #7 )
+INFO  20:30:51,932 - #39 int
+INFO  20:30:51,932 - #39 x
+INFO  20:30:51,932 - #8 ,
+INFO  20:30:51,932 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  20:30:51,932 - #39 y
+INFO  20:30:51,932 - #5 ;
+INFO  20:30:51,932 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  20:30:51,932 - #3 {
+INFO  20:30:51,932 - #39 x
+INFO  20:30:51,932 - #11 =
+INFO  20:30:51,932 - Detektovano koriscenje lokalne promenljive x na liniji 10
+INFO  20:31:02,917 - #36 2
+INFO  20:31:02,917 - #5 ;
+INFO  20:31:13,532 - #39 x
+INFO  20:31:13,532 - #26 +=
+INFO  20:31:13,532 - Detektovano koriscenje lokalne promenljive x na liniji 12
+INFO  20:31:23,761 - #39 c
+INFO  20:31:23,761 - #5 ;
+INFO  20:31:23,761 - Detektovano koriscenje konstante c na liniji 12
+INFO  20:31:54,026 - #9 print
+INFO  20:31:54,026 - #6 (
+INFO  20:31:54,026 - #37 a
+INFO  20:31:54,026 - #7 )
+INFO  20:31:54,026 - #5 ;
+INFO  20:31:54,026 - #9 print
+INFO  20:31:54,026 - #6 (
+INFO  20:31:54,026 - #39 a
+INFO  20:31:54,026 - #7 )
+INFO  20:31:54,026 - Detektovano koriscenje globalne promenljive a na liniji 16
+INFO  20:31:56,604 - #5 ;
+INFO  20:31:56,604 - #4 }
+INFO  20:31:56,604 - #4 }
+INFO  20:31:58,714 - Print calls = 2
+INFO  20:31:59,854 - Parsiranje uspesno zavrseno!

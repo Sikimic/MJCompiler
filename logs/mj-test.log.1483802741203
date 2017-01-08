@@ -1,0 +1,63 @@
+INFO  16:22:28,230 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  16:22:28,246 - #2 program
+INFO  16:22:28,246 - #39 MJProgram
+INFO  16:22:28,246 - #42 const
+INFO  16:22:28,246 - #39 int
+INFO  16:22:28,246 - #39 c
+INFO  16:22:28,246 - #11 =
+INFO  16:22:28,246 - #36 8
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - Deklasirana globalna konstanta c na liniji 2
+INFO  16:22:28,246 - #39 char
+INFO  16:22:28,246 - #39 a
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - Deklasirana globalna promenljiva a na liniji 3
+INFO  16:22:28,246 - #39 int
+INFO  16:22:28,246 - #39 niz
+INFO  16:22:28,246 - #34 [
+INFO  16:22:28,246 - #35 ]
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - Deklasiran globalni niz niz na liniji 4
+INFO  16:22:28,246 - #3 {
+INFO  16:22:28,246 - #16 void
+INFO  16:22:28,246 - #39 main
+INFO  16:22:28,246 - #6 (
+INFO  16:22:28,246 - Obradjuje se metoda main na liniji 7
+INFO  16:22:28,246 - #7 )
+INFO  16:22:28,246 - #39 int
+INFO  16:22:28,246 - #39 x
+INFO  16:22:28,246 - #8 ,
+INFO  16:22:28,246 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  16:22:28,246 - #39 y
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  16:22:28,246 - #3 {
+INFO  16:22:28,246 - #39 x
+INFO  16:22:28,246 - #11 =
+INFO  16:22:28,246 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  16:22:28,246 - #36 20
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - #39 x
+INFO  16:22:28,246 - #29 /=
+INFO  16:22:28,246 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  16:22:28,246 - #39 c
+INFO  16:22:28,246 - #12 +
+INFO  16:22:28,246 - Detektovano koriscenje konstante c na liniji 9
+INFO  16:22:28,246 - #36 2
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - #9 print
+INFO  16:22:28,246 - #6 (
+INFO  16:22:28,246 - #39 x
+INFO  16:22:28,246 - #7 )
+INFO  16:22:28,246 - Detektovano koriscenje lokalne promenljive x na liniji 13
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - #9 print
+INFO  16:22:28,246 - #6 (
+INFO  16:22:28,246 - #39 a
+INFO  16:22:28,246 - #7 )
+INFO  16:22:28,246 - Detektovano koriscenje globalne promenljive a na liniji 14
+INFO  16:22:28,246 - #5 ;
+INFO  16:22:28,246 - #4 }
+INFO  16:22:28,246 - #4 }
+INFO  16:22:28,246 - Print calls = 2
+INFO  16:22:28,246 - Parsiranje uspesno zavrseno!

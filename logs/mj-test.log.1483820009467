@@ -1,0 +1,74 @@
+INFO  21:12:29,226 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  21:12:29,242 - #2 program
+INFO  21:12:29,242 - #39 MJProgram
+INFO  21:12:29,242 - #42 const
+INFO  21:12:29,242 - #39 int
+INFO  21:12:29,242 - #39 c
+INFO  21:12:29,242 - #11 =
+INFO  21:12:29,242 - #36 8
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - Deklasirana globalna konstanta c na liniji 2
+INFO  21:12:29,242 - #39 int
+INFO  21:12:29,242 - #39 a
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - Deklasirana globalna promenljiva a na liniji 3
+INFO  21:12:29,242 - #39 int
+INFO  21:12:29,242 - #39 niz
+INFO  21:12:29,242 - #34 [
+INFO  21:12:29,242 - #35 ]
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - Deklasiran globalni niz niz na liniji 4
+INFO  21:12:29,242 - #3 {
+INFO  21:12:29,242 - #16 void
+INFO  21:12:29,242 - #39 main
+INFO  21:12:29,242 - #6 (
+INFO  21:12:29,242 - Obradjuje se metoda main na liniji 7
+INFO  21:12:29,242 - #7 )
+INFO  21:12:29,242 - #39 int
+INFO  21:12:29,242 - #39 x
+INFO  21:12:29,242 - #8 ,
+INFO  21:12:29,242 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  21:12:29,242 - #39 y
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  21:12:29,242 - #3 {
+INFO  21:12:29,242 - #39 niz
+INFO  21:12:29,242 - #11 =
+INFO  21:12:29,242 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  21:12:29,242 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  21:12:29,242 - #43 new
+INFO  21:12:29,242 - #39 int
+INFO  21:12:29,242 - #34 [
+INFO  21:12:29,242 - #36 3
+INFO  21:12:29,242 - #35 ]
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - #39 niz
+INFO  21:12:29,242 - #34 [
+INFO  21:12:29,242 - Detektovano koriscenje globalne promenljive niz na liniji 11
+INFO  21:12:29,242 - #36 0
+INFO  21:12:29,242 - #35 ]
+INFO  21:12:29,242 - #11 =
+INFO  21:12:29,242 - #36 1
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - #39 x
+INFO  21:12:29,242 - #11 =
+INFO  21:12:29,242 - Detektovano koriscenje lokalne promenljive x na liniji 13
+INFO  21:12:29,242 - Detektovano koriscenje lokalne promenljive x na liniji 13
+INFO  21:12:29,242 - #39 niz
+INFO  21:12:29,242 - #34 [
+INFO  21:12:29,242 - Detektovano koriscenje globalne promenljive niz na liniji 13
+INFO  21:12:29,242 - #36 0
+ERROR 21:12:29,242 - Greska: promenljiva nije niz, na liniji 13
+INFO  21:12:29,242 - #35 ]
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - #9 print
+INFO  21:12:29,242 - #6 (
+INFO  21:12:29,242 - #39 x
+INFO  21:12:29,242 - #7 )
+INFO  21:12:29,242 - Detektovano koriscenje lokalne promenljive x na liniji 15
+INFO  21:12:29,242 - Detektovano koriscenje lokalne promenljive x na liniji 15
+INFO  21:12:29,242 - #5 ;
+INFO  21:12:29,242 - #4 }
+INFO  21:12:29,242 - #4 }
+INFO  21:12:29,242 - Print calls = 1
+ERROR 21:12:29,242 - Greske pri parsiranju!

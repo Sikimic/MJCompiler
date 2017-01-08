@@ -1,0 +1,63 @@
+INFO  18:42:03,602 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:42:03,618 - #2 program
+INFO  18:42:03,618 - #39 MJProgram
+INFO  18:42:03,618 - #3 {
+INFO  18:42:03,618 - #16 void
+INFO  18:42:03,618 - #39 main
+INFO  18:42:03,618 - #6 (
+INFO  18:42:03,618 - Obradjuje se metoda main na liniji 5
+INFO  18:42:03,618 - #7 )
+INFO  18:42:03,618 - #39 int
+INFO  18:42:03,618 - #39 x
+INFO  18:42:03,618 - #8 ,
+INFO  18:42:03,618 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  18:42:03,618 - #39 y
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - Deklasirana lokalna promenljiva y na liniji 5
+INFO  18:42:03,618 - #3 {
+INFO  18:42:03,618 - #39 y
+INFO  18:42:03,618 - #11 =
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive y na liniji 7
+INFO  18:42:03,618 - #36 1
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - #39 x
+INFO  18:42:03,618 - #11 =
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  18:42:03,618 - #36 5
+INFO  18:42:03,618 - #12 +
+INFO  18:42:03,618 - #39 y
+INFO  18:42:03,618 - #12 +
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive y na liniji 9
+INFO  18:42:03,618 - #36 4
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - #39 x
+INFO  18:42:03,618 - #11 =
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:42:03,618 - #36 20
+INFO  18:42:03,618 - #15 /
+INFO  18:42:03,618 - #39 x
+INFO  18:42:03,618 - #14 *
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:42:03,618 - #36 10
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - #39 y
+INFO  18:42:03,618 - #26 +=
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive y na liniji 13
+INFO  18:42:03,618 - #36 10
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - #9 print
+INFO  18:42:03,618 - #6 (
+INFO  18:42:03,618 - #39 y
+INFO  18:42:03,618 - #7 )
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive y na liniji 15
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - #9 print
+INFO  18:42:03,618 - #6 (
+INFO  18:42:03,618 - #39 x
+INFO  18:42:03,618 - #7 )
+INFO  18:42:03,618 - Detektovano koriscenje lokalne promenljive x na liniji 17
+INFO  18:42:03,618 - #5 ;
+INFO  18:42:03,618 - #4 }
+INFO  18:42:03,618 - #4 }
+INFO  18:42:03,618 - Print calls = 2
+INFO  18:42:03,618 - Parsiranje uspesno zavrseno!

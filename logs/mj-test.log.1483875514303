@@ -1,0 +1,74 @@
+INFO  12:35:31,521 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  12:35:31,552 - #2 program
+INFO  12:35:31,552 - #39 MJProgram
+INFO  12:35:31,552 - #42 const
+INFO  12:35:31,552 - #39 int
+INFO  12:35:31,552 - #39 c
+INFO  12:35:31,552 - #11 =
+INFO  12:35:31,552 - #36 3
+INFO  12:35:31,552 - #5 ;
+INFO  12:35:31,552 - Deklasirana globalna konstanta c na liniji 2
+INFO  12:35:31,552 - #39 int
+INFO  12:35:31,552 - #39 a
+INFO  12:35:31,552 - #5 ;
+INFO  12:35:31,552 - Deklasirana globalna promenljiva a na liniji 3
+INFO  12:35:31,552 - #39 int
+INFO  12:35:31,552 - #39 niz
+INFO  12:35:31,552 - #34 [
+INFO  12:35:31,552 - #35 ]
+INFO  12:35:31,552 - #5 ;
+INFO  12:35:31,552 - Deklasiran globalni niz niz na liniji 4
+INFO  12:35:31,552 - #3 {
+INFO  12:35:31,552 - #16 void
+INFO  12:35:31,552 - #39 main
+INFO  12:35:31,552 - #6 (
+INFO  12:35:31,552 - Obradjuje se metoda main na liniji 7
+INFO  12:35:31,552 - #7 )
+INFO  12:35:31,552 - #39 int
+INFO  12:35:31,552 - #39 x
+INFO  12:35:31,552 - #8 ,
+INFO  12:35:31,552 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  12:35:31,552 - #39 y
+INFO  12:35:31,552 - #5 ;
+INFO  12:35:31,552 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  12:35:31,552 - #3 {
+INFO  12:35:31,552 - #39 niz
+INFO  12:35:31,552 - #11 =
+INFO  12:35:35,537 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  12:35:36,897 - #43 new
+INFO  12:35:36,897 - #39 int
+INFO  12:35:36,897 - #34 [
+INFO  12:35:36,897 - #36 3
+INFO  12:35:36,897 - #35 ]
+INFO  12:35:36,897 - #5 ;
+INFO  12:35:39,912 - #39 niz
+INFO  12:35:39,912 - #34 [
+INFO  12:35:41,850 - #36 0
+INFO  12:35:46,163 - #35 ]
+INFO  12:35:46,163 - #11 =
+INFO  12:35:46,163 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  12:35:48,273 - #36 1
+INFO  12:35:48,273 - #5 ;
+INFO  12:35:54,008 - #39 niz
+INFO  12:35:54,008 - #34 [
+INFO  12:35:57,149 - #36 1
+INFO  12:36:03,837 - #35 ]
+INFO  12:36:03,837 - #11 =
+INFO  12:36:03,837 - Detektovano koriscenje globalne promenljive niz na liniji 11
+INFO  12:36:06,572 - #36 2
+INFO  12:36:06,572 - #5 ;
+INFO  12:36:14,713 - #39 niz
+INFO  12:36:14,713 - #34 [
+INFO  12:36:20,682 - #36 0
+INFO  12:36:25,527 - #35 ]
+INFO  12:36:25,527 - #11 =
+INFO  12:36:25,527 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  12:36:28,121 - #39 niz
+INFO  12:36:28,121 - #34 [
+INFO  12:36:30,902 - #36 1
+INFO  12:36:37,372 - #35 ]
+INFO  12:36:37,372 - #26 +=
+INFO  12:36:37,372 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  12:37:08,336 - #39 c
+INFO  12:37:08,336 - #5 ;
+INFO  12:37:11,712 - Detektovano koriscenje konstante c na liniji 12

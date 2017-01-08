@@ -1,0 +1,53 @@
+INFO  18:58:05,161 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:58:05,177 - #2 program
+INFO  18:58:05,177 - #39 MJProgram
+INFO  18:58:05,177 - #3 {
+INFO  18:58:05,177 - #16 void
+INFO  18:58:05,177 - #39 main
+INFO  18:58:05,177 - #6 (
+INFO  18:58:05,177 - Obradjuje se metoda main na liniji 5
+INFO  18:58:05,177 - #7 )
+INFO  18:58:05,177 - #39 int
+INFO  18:58:05,177 - #39 x
+INFO  18:58:05,177 - #8 ,
+INFO  18:58:05,177 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  18:58:05,177 - #39 y
+INFO  18:58:05,177 - #5 ;
+INFO  18:58:05,177 - Deklasirana lokalna promenljiva y na liniji 5
+INFO  18:58:05,177 - #3 {
+INFO  18:58:05,177 - #39 y
+INFO  18:58:05,177 - #11 =
+INFO  18:58:05,177 - Detektovano koriscenje lokalne promenljive y na liniji 7
+INFO  18:58:05,177 - #36 4
+INFO  18:58:05,177 - #5 ;
+INFO  18:58:05,177 - #39 x
+INFO  18:58:05,177 - #11 =
+INFO  18:58:05,177 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  18:58:05,177 - #39 y
+INFO  18:58:05,177 - #14 *
+INFO  18:58:05,177 - Detektovano koriscenje lokalne promenljive y na liniji 9
+INFO  18:58:05,177 - #36 3
+INFO  18:58:05,177 - #12 +
+INFO  18:58:05,177 - #36 10
+INFO  18:58:05,177 - #5 ;
+INFO  18:58:05,177 - #9 print
+INFO  18:58:05,177 - #6 (
+INFO  18:58:05,177 - #39 x
+INFO  18:58:05,177 - #7 )
+INFO  18:58:05,177 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:58:05,177 - #5 ;
+INFO  18:58:05,177 - #39 y
+INFO  18:58:05,177 - #26 +=
+INFO  18:58:05,177 - Detektovano koriscenje lokalne promenljive y na liniji 13
+INFO  18:58:05,177 - #36 10
+INFO  18:58:05,177 - #5 ;
+INFO  18:58:05,177 - #9 print
+INFO  18:58:05,177 - #6 (
+INFO  18:58:05,177 - #39 y
+INFO  18:58:05,177 - #7 )
+INFO  18:58:05,177 - Detektovano koriscenje lokalne promenljive y na liniji 15
+INFO  18:58:05,177 - #5 ;
+INFO  18:58:05,177 - #4 }
+INFO  18:58:05,177 - #4 }
+INFO  18:58:05,177 - Print calls = 2
+INFO  18:58:05,192 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,73 @@
+INFO  16:52:52,876 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  16:52:52,876 - #2 program
+INFO  16:52:52,876 - #39 MJProgram
+INFO  16:52:52,876 - #42 const
+INFO  16:52:52,876 - #39 int
+INFO  16:52:52,876 - #39 c
+INFO  16:52:52,876 - #11 =
+INFO  16:52:52,876 - #36 8
+INFO  16:52:52,876 - #5 ;
+INFO  16:52:52,876 - Deklasirana globalna konstanta c na liniji 2
+INFO  16:52:52,876 - #39 char
+INFO  16:52:52,876 - #39 a
+INFO  16:52:52,876 - #5 ;
+INFO  16:52:52,876 - Deklasirana globalna promenljiva a na liniji 3
+INFO  16:52:52,876 - #39 int
+INFO  16:52:52,876 - #39 niz
+INFO  16:52:52,876 - #34 [
+INFO  16:52:52,876 - #35 ]
+INFO  16:52:52,876 - #5 ;
+INFO  16:52:52,876 - Deklasiran globalni niz niz na liniji 4
+INFO  16:52:52,876 - #3 {
+INFO  16:52:52,876 - #16 void
+INFO  16:52:52,876 - #39 main
+INFO  16:52:52,876 - #6 (
+INFO  16:52:52,876 - Obradjuje se metoda main na liniji 7
+INFO  16:52:52,876 - #7 )
+INFO  16:52:52,876 - #39 int
+INFO  16:52:52,876 - #39 x
+INFO  16:52:52,876 - #8 ,
+INFO  16:52:52,876 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  16:52:52,876 - #39 y
+INFO  16:52:52,876 - #5 ;
+INFO  16:52:52,876 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  16:52:52,892 - #3 {
+INFO  16:52:52,892 - #39 x
+INFO  16:52:52,892 - #11 =
+INFO  16:52:52,892 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  16:52:52,892 - #36 20
+INFO  16:52:52,892 - #5 ;
+INFO  16:52:52,892 - #39 x
+INFO  16:52:52,892 - #29 /=
+INFO  16:52:52,892 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  16:52:52,892 - #39 c
+INFO  16:52:52,892 - #12 +
+INFO  16:52:52,892 - Detektovano koriscenje konstante c na liniji 9
+INFO  16:52:52,892 - #36 2
+INFO  16:52:52,892 - #5 ;
+INFO  16:52:52,892 - #39 niz
+INFO  16:52:52,892 - #11 =
+INFO  16:52:52,892 - Detektovano koriscenje globalne promenljive niz na liniji 11
+INFO  16:52:52,892 - #43 new
+INFO  16:52:52,892 - #39 int
+INFO  16:52:52,892 - #34 [
+INFO  16:52:52,892 - #36 2
+INFO  16:52:52,892 - #35 ]
+INFO  16:52:52,892 - #5 ;
+ERROR 16:52:52,892 - Greska: nekompatibilni tipovi, na liniji 11
+INFO  16:52:52,892 - #9 print
+INFO  16:52:52,892 - #6 (
+INFO  16:52:52,892 - #39 x
+INFO  16:52:52,892 - #7 )
+INFO  16:52:52,892 - Detektovano koriscenje lokalne promenljive x na liniji 13
+INFO  16:52:52,892 - #5 ;
+INFO  16:52:52,892 - #9 print
+INFO  16:52:52,892 - #6 (
+INFO  16:52:52,892 - #39 a
+INFO  16:52:52,892 - #7 )
+INFO  16:52:52,892 - Detektovano koriscenje globalne promenljive a na liniji 14
+INFO  16:52:52,892 - #5 ;
+INFO  16:52:52,892 - #4 }
+INFO  16:52:52,892 - #4 }
+INFO  16:52:52,892 - Print calls = 2
+ERROR 16:52:52,892 - Greske pri parsiranju!

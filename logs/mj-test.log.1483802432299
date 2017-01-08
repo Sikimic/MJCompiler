@@ -1,0 +1,55 @@
+INFO  15:55:11,082 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:55:11,082 - #2 program
+INFO  15:55:11,082 - #39 MJProgram
+INFO  15:55:11,082 - #42 const
+INFO  15:55:11,082 - #39 int
+INFO  15:55:11,082 - #39 c
+INFO  15:55:11,082 - #11 =
+INFO  15:55:11,082 - #36 8
+INFO  15:55:11,082 - #5 ;
+INFO  15:55:11,082 - Deklasirana globalna konstanta c na liniji 2
+INFO  15:55:11,082 - #39 char
+INFO  15:55:11,082 - #39 a
+INFO  15:55:11,082 - #5 ;
+INFO  15:55:11,082 - Deklasirana globalna promenljiva a na liniji 3
+INFO  15:55:11,082 - #39 int
+INFO  15:55:11,082 - #39 niz
+INFO  15:55:11,082 - #34 [
+INFO  15:55:11,082 - #35 ]
+INFO  15:55:11,082 - #5 ;
+INFO  15:55:11,082 - Deklasiran globalni niz niz na liniji 4
+INFO  15:55:11,082 - #3 {
+INFO  15:55:11,082 - #16 void
+INFO  15:55:11,082 - #39 main
+INFO  15:55:11,082 - #6 (
+INFO  15:55:11,082 - Obradjuje se metoda main na liniji 7
+INFO  15:55:11,082 - #7 )
+INFO  15:55:11,082 - #39 int
+INFO  15:55:11,082 - #39 x
+INFO  15:55:11,082 - #8 ,
+INFO  15:55:11,082 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  15:55:11,082 - #39 y
+INFO  15:55:11,082 - #5 ;
+INFO  15:55:11,082 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  15:55:11,082 - #3 {
+INFO  15:55:11,098 - #39 x
+INFO  15:55:11,098 - #11 =
+INFO  15:55:11,098 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  15:55:11,098 - #36 20
+INFO  15:55:11,098 - #5 ;
+INFO  15:55:11,098 - #39 x
+INFO  15:55:11,098 - #29 /=
+INFO  15:55:11,098 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  15:55:11,098 - #39 c
+INFO  15:55:11,098 - #12 +
+INFO  15:55:11,098 - Detektovano koriscenje konstante c na liniji 9
+INFO  15:55:11,098 - #36 2
+INFO  15:55:11,098 - #5 ;
+INFO  15:55:11,098 - #39 niz
+INFO  15:55:11,098 - #11 =
+INFO  15:55:11,098 - #43 new
+INFO  15:55:11,098 - #39 int
+INFO  15:55:11,098 - #34 [
+INFO  15:55:11,098 - #36 2
+INFO  15:55:11,098 - #35 ]
+INFO  15:55:11,098 - #5 ;

@@ -1,0 +1,147 @@
+INFO  14:42:53,058 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  14:42:53,074 - #2 program
+INFO  14:42:53,074 - #39 MJProgram
+INFO  14:42:53,074 - #42 const
+INFO  14:42:53,074 - #39 int
+INFO  14:42:53,074 - #39 x
+INFO  14:42:53,074 - #8 ,
+INFO  14:42:53,074 - Deklasirana globalna konstanta x na liniji 2
+INFO  14:42:53,074 - #39 y
+INFO  14:42:53,074 - #5 ;
+INFO  14:42:53,074 - Deklasirana globalna konstanta y na liniji 2
+INFO  14:42:53,074 - #39 int
+INFO  14:42:53,074 - #39 haos
+INFO  14:42:53,074 - #8 ,
+INFO  14:42:53,074 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  14:42:53,074 - #39 niz
+INFO  14:42:53,074 - #34 [
+INFO  14:42:53,355 - #35 ]
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - Deklasiran globalni niz niz na liniji 3
+INFO  14:42:53,355 - #41 class
+INFO  14:42:53,355 - #39 A
+INFO  14:42:53,355 - #3 {
+INFO  14:42:53,355 - #4 }
+INFO  14:42:53,355 - #3 {
+INFO  14:42:53,355 - #39 int
+INFO  14:42:53,355 - #39 k
+INFO  14:42:53,355 - #6 (
+INFO  14:42:53,355 - Obradjuje se metoda k na liniji 10
+INFO  14:42:53,355 - #7 )
+INFO  14:42:53,355 - #39 int
+INFO  14:42:53,355 - #39 c
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  14:42:53,355 - #3 {
+INFO  14:42:53,355 - #39 c
+INFO  14:42:53,355 - #11 =
+INFO  14:42:53,355 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  14:42:53,355 - #37 0
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - #10 return
+INFO  14:42:53,355 - #39 c
+INFO  14:42:53,355 - #13 -
+INFO  14:42:53,355 - Detektovano koriscenje lokalne promenljive c na liniji 12
+INFO  14:42:53,355 - #37 5
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - #4 }
+INFO  14:42:53,355 - #16 void
+INFO  14:42:53,355 - #39 func
+INFO  14:42:53,355 - #6 (
+INFO  14:42:53,355 - Obradjuje se metoda func na liniji 15
+INFO  14:42:53,355 - #7 )
+INFO  14:42:53,355 - #3 {
+INFO  14:42:53,355 - #4 }
+INFO  14:42:53,355 - #39 char
+INFO  14:42:53,355 - #39 f
+INFO  14:42:53,355 - #6 (
+INFO  14:42:53,355 - Obradjuje se metoda f na liniji 19
+INFO  14:42:53,355 - #7 )
+INFO  14:42:53,355 - #3 {
+INFO  14:42:53,355 - #10 return
+INFO  14:42:53,355 - #38 a
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - #4 }
+INFO  14:42:53,355 - #16 void
+INFO  14:42:53,355 - #39 main
+INFO  14:42:53,355 - #6 (
+INFO  14:42:53,355 - Obradjuje se metoda main na liniji 24
+INFO  14:42:53,355 - #7 )
+INFO  14:42:53,355 - #39 int
+INFO  14:42:53,355 - #39 i
+INFO  14:42:53,355 - #8 ,
+INFO  14:42:53,355 - Deklasirana lokalna promenljiva i na liniji 24
+INFO  14:42:53,355 - #39 c
+INFO  14:42:53,355 - #8 ,
+INFO  14:42:53,355 - Deklasirana lokalna promenljiva c na liniji 24
+INFO  14:42:53,355 - #39 x1
+INFO  14:42:53,355 - #34 [
+INFO  14:42:53,355 - #35 ]
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - Deklasiran lokalni niz x1 na liniji 24
+INFO  14:42:53,355 - #3 {
+INFO  14:42:53,355 - #9 print
+INFO  14:42:53,355 - #6 (
+INFO  14:42:53,355 - #37 1
+INFO  14:42:53,355 - #7 )
+INFO  14:42:53,355 - #5 ;
+INFO  14:42:53,355 - #39 x
+INFO  14:42:53,355 - #11 =
+INFO  14:42:53,355 - Detektovano koriscenje konstante x na liniji 26
+INFO  14:42:53,371 - #37 3
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #39 c
+INFO  14:42:53,371 - #11 =
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive c na liniji 28
+INFO  14:42:53,371 - #37 3
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #9 print
+INFO  14:42:53,371 - #6 (
+INFO  14:42:53,371 - #37 2
+INFO  14:42:53,371 - #7 )
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #39 x
+INFO  14:42:53,371 - #32 --
+INFO  14:42:53,371 - Detektovano koriscenje konstante x na liniji 31
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #39 x1
+INFO  14:42:53,371 - #34 [
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive x1 na liniji 32
+INFO  14:42:53,371 - #37 2
+INFO  14:42:53,371 - #35 ]
+INFO  14:42:53,371 - #11 =
+INFO  14:42:53,371 - #37 1
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #45 for
+INFO  14:42:53,371 - #6 (
+INFO  14:42:53,371 - #39 i
+INFO  14:42:53,371 - #11 =
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive i na liniji 36
+INFO  14:42:53,371 - #37 0
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #39 i
+INFO  14:42:53,371 - #18 >
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive i na liniji 36
+INFO  14:42:53,371 - #37 0
+INFO  14:42:53,371 - #24 &&
+INFO  14:42:53,371 - #39 i
+INFO  14:42:53,371 - #22 <
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive i na liniji 36
+INFO  14:42:53,371 - #37 10
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #39 i
+INFO  14:42:53,371 - #31 ++
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive i na liniji 36
+INFO  14:42:53,371 - #7 )
+INFO  14:42:53,371 - #3 {
+INFO  14:42:53,371 - #9 print
+INFO  14:42:53,371 - #6 (
+INFO  14:42:53,371 - #39 i
+INFO  14:42:53,371 - #7 )
+INFO  14:42:53,371 - Detektovano koriscenje lokalne promenljive i na liniji 37
+INFO  14:42:53,371 - #5 ;
+INFO  14:42:53,371 - #4 }
+INFO  14:42:53,371 - #4 }
+INFO  14:42:53,371 - #4 }
+INFO  14:42:53,371 - Print calls = 3
+INFO  14:42:53,371 - Parsiranje uspesno zavrseno!

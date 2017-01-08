@@ -1,0 +1,10 @@
+INFO  14:40:07,324 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  14:40:07,343 - #2 program
+INFO  14:40:07,343 - #39 MJProgram
+INFO  14:40:07,343 - #3 {
+INFO  14:40:07,343 - #16 void
+INFO  14:40:07,343 - #39 main
+INFO  14:40:07,343 - #6 (
+INFO  14:40:07,343 - Obradjuje se metoda main na liniji 3
+INFO  14:40:07,343 - #7 )
+INFO  14:40:07,343 - #3 {

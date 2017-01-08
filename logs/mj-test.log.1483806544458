@@ -1,0 +1,65 @@
+INFO  17:28:19,251 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:28:19,267 - #2 program
+INFO  17:28:19,267 - #39 MJProgram
+INFO  17:28:19,267 - #42 const
+INFO  17:28:19,267 - #39 int
+INFO  17:28:19,267 - #39 c
+INFO  17:28:19,267 - #11 =
+INFO  17:28:19,267 - #36 8
+INFO  17:28:19,267 - #5 ;
+INFO  17:28:19,267 - Deklasirana globalna konstanta c na liniji 2
+INFO  17:28:19,267 - #39 char
+INFO  17:28:19,267 - #39 a
+INFO  17:28:19,267 - #5 ;
+INFO  17:28:19,267 - Deklasirana globalna promenljiva a na liniji 3
+INFO  17:28:19,267 - #39 int
+INFO  17:28:19,267 - #39 niz
+INFO  17:28:19,267 - #34 [
+INFO  17:28:19,267 - #35 ]
+INFO  17:28:19,283 - #5 ;
+INFO  17:28:19,283 - Deklasiran globalni niz niz na liniji 4
+INFO  17:28:19,283 - #3 {
+INFO  17:28:19,283 - #16 void
+INFO  17:28:19,283 - #39 main
+INFO  17:28:19,283 - #6 (
+INFO  17:28:19,283 - Obradjuje se metoda main na liniji 7
+INFO  17:28:19,283 - #7 )
+INFO  17:28:19,283 - #39 int
+INFO  17:28:19,283 - #39 x
+INFO  17:28:19,283 - #8 ,
+INFO  17:28:19,283 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  17:28:19,283 - #39 y
+INFO  17:28:19,283 - #5 ;
+INFO  17:28:19,283 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  17:28:19,283 - #3 {
+INFO  17:28:19,283 - #39 niz
+INFO  17:28:19,283 - #11 =
+INFO  17:28:19,283 - Detektovano koriscenje globalne promenljive niz na liniji 8
+INFO  17:28:19,298 - #43 new
+INFO  17:28:19,298 - #39 int
+INFO  17:28:19,298 - #34 [
+INFO  17:28:19,298 - #36 5
+INFO  17:28:19,298 - #35 ]
+INFO  17:28:19,298 - #5 ;
+INFO  17:28:19,298 - #39 niz
+INFO  17:28:19,298 - #34 [
+INFO  17:28:19,298 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  17:28:19,298 - #36 0
+INFO  17:28:19,298 - #35 ]
+INFO  17:28:19,298 - #11 =
+INFO  17:28:19,298 - #36 7
+INFO  17:28:19,298 - #5 ;
+INFO  17:28:19,298 - #9 print
+INFO  17:28:19,298 - #6 (
+INFO  17:28:19,298 - #39 niz
+INFO  17:28:19,298 - #34 [
+INFO  17:28:19,298 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  17:28:19,298 - #36 0
+INFO  17:28:19,298 - #35 ]
+INFO  17:28:19,298 - #7 )
+INFO  17:28:19,298 - #5 ;
+INFO  17:28:19,298 - #4 }
+ERROR 17:28:19,298 - Greska: operand instrukcije PRINT mora biti char, int ili bool. Na liniji 12
+INFO  17:28:19,298 - #4 }
+INFO  17:28:19,298 - Print calls = 1
+ERROR 17:28:19,298 - Greske pri parsiranju!

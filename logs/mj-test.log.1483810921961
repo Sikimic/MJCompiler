@@ -1,0 +1,58 @@
+INFO  18:39:40,819 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:39:40,866 - #2 program
+INFO  18:39:40,866 - #39 MJProgram
+INFO  18:39:40,866 - #42 const
+INFO  18:39:40,866 - #39 int
+INFO  18:39:40,866 - #39 c
+INFO  18:39:40,866 - #11 =
+INFO  18:39:40,866 - #36 8
+INFO  18:39:40,866 - #5 ;
+INFO  18:39:40,866 - Deklasirana globalna konstanta c na liniji 2
+INFO  18:39:40,866 - #39 char
+INFO  18:39:40,866 - #39 a
+INFO  18:39:40,866 - #5 ;
+INFO  18:39:40,866 - Deklasirana globalna promenljiva a na liniji 3
+INFO  18:39:40,866 - #39 int
+INFO  18:39:40,866 - #39 niz
+INFO  18:39:40,866 - #34 [
+INFO  18:39:40,866 - #35 ]
+INFO  18:39:40,866 - #5 ;
+INFO  18:39:40,866 - Deklasiran globalni niz niz na liniji 4
+INFO  18:39:40,866 - #3 {
+INFO  18:39:40,866 - #16 void
+INFO  18:39:40,866 - #39 main
+INFO  18:39:40,866 - #6 (
+INFO  18:39:40,866 - Obradjuje se metoda main na liniji 7
+INFO  18:39:40,866 - #7 )
+INFO  18:39:40,866 - #39 int
+INFO  18:39:40,866 - #39 x
+INFO  18:39:40,866 - #8 ,
+INFO  18:39:40,866 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  18:39:40,866 - #39 y
+INFO  18:39:40,866 - #5 ;
+INFO  18:39:40,866 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  18:39:40,866 - #3 {
+INFO  18:39:40,866 - #39 niz
+INFO  18:39:40,866 - #11 =
+INFO  18:39:40,866 - Detektovano koriscenje globalne promenljive niz na liniji 8
+INFO  18:39:46,763 - #43 new
+INFO  18:39:46,763 - #39 int
+INFO  18:39:46,763 - #34 [
+INFO  18:39:46,763 - #36 5
+INFO  18:39:46,763 - #35 ]
+INFO  18:39:46,763 - #5 ;
+INFO  18:39:59,666 - #39 niz
+INFO  18:39:59,666 - #34 [
+INFO  18:39:59,666 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  18:40:01,983 - #36 0
+INFO  18:40:10,323 - #35 ]
+INFO  18:40:10,323 - #11 =
+INFO  18:40:14,808 - #36 7
+INFO  18:40:14,808 - #5 ;
+INFO  18:41:20,751 - #39 x
+INFO  18:41:20,751 - #11 =
+INFO  18:41:20,751 - Detektovano koriscenje lokalne promenljive x na liniji 12
+INFO  18:41:28,658 - #39 niz
+INFO  18:41:28,658 - #34 [
+INFO  18:41:28,658 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  18:41:33,206 - #36 0

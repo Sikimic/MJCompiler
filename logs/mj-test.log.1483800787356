@@ -1,0 +1,72 @@
+INFO  15:44:03,469 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:44:03,485 - #2 program
+INFO  15:44:03,485 - #39 MJProgram
+INFO  15:44:03,485 - #42 const
+INFO  15:44:03,485 - #39 int
+INFO  15:44:03,485 - #39 c
+INFO  15:44:03,485 - #11 =
+INFO  15:44:03,485 - #36 8
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - Deklasirana globalna konstanta c na liniji 2
+INFO  15:44:03,485 - #39 char
+INFO  15:44:03,485 - #39 a
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - Deklasirana globalna promenljiva a na liniji 3
+INFO  15:44:03,485 - #39 int
+INFO  15:44:03,485 - #39 niz
+INFO  15:44:03,485 - #34 [
+INFO  15:44:03,485 - #35 ]
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - Deklasiran globalni niz niz na liniji 4
+INFO  15:44:03,485 - #3 {
+INFO  15:44:03,485 - #16 void
+INFO  15:44:03,485 - #39 main
+INFO  15:44:03,485 - #6 (
+INFO  15:44:03,485 - Obradjuje se metoda main na liniji 7
+INFO  15:44:03,485 - #7 )
+INFO  15:44:03,485 - #39 int
+INFO  15:44:03,485 - #39 x
+INFO  15:44:03,485 - #8 ,
+INFO  15:44:03,485 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  15:44:03,485 - #39 y
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  15:44:03,485 - #3 {
+INFO  15:44:03,485 - #39 x
+INFO  15:44:03,485 - #11 =
+INFO  15:44:03,485 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  15:44:03,485 - #36 20
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - #39 x
+INFO  15:44:03,485 - #29 /=
+INFO  15:44:03,485 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  15:44:03,485 - #39 c
+INFO  15:44:03,485 - #12 +
+INFO  15:44:03,485 - Detektovano koriscenje konstante c na liniji 9
+INFO  15:44:03,485 - #36 2
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - #39 niz
+INFO  15:44:03,485 - #11 =
+INFO  15:44:03,485 - #43 new
+INFO  15:44:03,485 - #39 int
+INFO  15:44:03,485 - #34 [
+INFO  15:44:03,485 - #36 2
+INFO  15:44:03,485 - #35 ]
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - #9 print
+INFO  15:44:03,485 - #6 (
+INFO  15:44:03,485 - #39 x
+ERROR 15:44:03,485 - Uspesan oporavak od greske pri dodeli vrednosti promenljivoj
+INFO  15:44:03,485 - #7 )
+INFO  15:44:03,485 - Detektovano koriscenje lokalne promenljive x na liniji 13
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - #9 print
+INFO  15:44:03,485 - #6 (
+INFO  15:44:03,485 - #39 a
+INFO  15:44:03,485 - #7 )
+INFO  15:44:03,485 - Detektovano koriscenje globalne promenljive a na liniji 14
+INFO  15:44:03,485 - #5 ;
+INFO  15:44:03,485 - #4 }
+INFO  15:44:03,485 - #4 }
+INFO  15:44:03,500 - Print calls = 2
+ERROR 15:44:03,500 - Greske pri parsiranju!

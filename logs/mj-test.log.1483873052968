@@ -1,0 +1,37 @@
+INFO  11:57:26,196 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  11:57:26,243 - #2 program
+INFO  11:57:26,243 - #39 MJProgram
+INFO  11:57:26,243 - #42 const
+INFO  11:57:26,243 - #39 int
+INFO  11:57:26,243 - #39 c
+INFO  11:57:26,243 - #11 =
+INFO  11:57:26,243 - #36 3
+INFO  11:57:26,243 - #5 ;
+INFO  11:57:26,243 - Deklasirana globalna konstanta c na liniji 2
+INFO  11:57:26,243 - #39 int
+INFO  11:57:26,243 - #39 a
+INFO  11:57:26,243 - #5 ;
+INFO  11:57:26,243 - Deklasirana globalna promenljiva a na liniji 3
+INFO  11:57:26,243 - #39 int
+INFO  11:57:26,243 - #39 niz
+INFO  11:57:26,243 - #34 [
+INFO  11:57:26,243 - #35 ]
+INFO  11:57:26,243 - #5 ;
+INFO  11:57:26,243 - Deklasiran globalni niz niz na liniji 4
+INFO  11:57:26,243 - #3 {
+INFO  11:57:26,243 - #16 void
+INFO  11:57:26,243 - #39 main
+INFO  11:57:26,243 - #6 (
+INFO  11:57:26,243 - Obradjuje se metoda main na liniji 7
+INFO  11:57:26,243 - #7 )
+INFO  11:57:26,243 - #39 int
+INFO  11:57:26,243 - #39 x
+INFO  11:57:26,259 - #8 ,
+INFO  11:57:26,259 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  11:57:26,259 - #39 y
+INFO  11:57:26,259 - #5 ;
+INFO  11:57:26,259 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  11:57:26,259 - #3 {
+INFO  11:57:26,259 - #39 niz
+INFO  11:57:26,259 - #11 =
+INFO  11:57:28,274 - Detektovano koriscenje globalne promenljive niz na liniji 9

@@ -1,0 +1,113 @@
+INFO  12:22:02,895 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  12:22:02,911 - #2 program
+INFO  12:22:02,911 - #39 MJProgram
+INFO  12:22:02,911 - #42 const
+INFO  12:22:02,911 - #39 int
+INFO  12:22:02,911 - #39 c
+INFO  12:22:02,911 - #11 =
+INFO  12:22:02,911 - #36 3
+INFO  12:22:02,911 - #5 ;
+INFO  12:22:02,911 - Deklasirana globalna konstanta c na liniji 2
+INFO  12:22:02,911 - #39 int
+INFO  12:22:02,911 - #39 a
+INFO  12:22:02,911 - #5 ;
+INFO  12:22:02,911 - Deklasirana globalna promenljiva a na liniji 3
+INFO  12:22:02,911 - #39 int
+INFO  12:22:02,911 - #39 niz
+INFO  12:22:02,911 - #34 [
+INFO  12:22:02,911 - #35 ]
+INFO  12:22:02,911 - #5 ;
+INFO  12:22:02,911 - Deklasiran globalni niz niz na liniji 4
+INFO  12:22:02,911 - #3 {
+INFO  12:22:02,911 - #16 void
+INFO  12:22:02,911 - #39 main
+INFO  12:22:02,911 - #6 (
+INFO  12:22:02,911 - Obradjuje se metoda main na liniji 7
+INFO  12:22:02,911 - #7 )
+INFO  12:22:02,911 - #39 int
+INFO  12:22:02,911 - #39 x
+INFO  12:22:02,911 - #8 ,
+INFO  12:22:02,911 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  12:22:02,911 - #39 y
+INFO  12:22:02,911 - #5 ;
+INFO  12:22:02,911 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  12:22:02,911 - #3 {
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #11 =
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  12:22:02,927 - #43 new
+INFO  12:22:02,927 - #39 int
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 3
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 0
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #11 =
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 10
+INFO  12:22:02,927 - #36 1
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 1
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #11 =
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 11
+INFO  12:22:02,927 - #36 2
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 0
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #11 =
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 1
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #26 +=
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 12
+INFO  12:22:02,927 - #39 c
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - Detektovano koriscenje konstante c na liniji 12
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 0
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #27 -=
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 14
+INFO  12:22:02,927 - #36 1
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - #39 x
+INFO  12:22:02,927 - #11 =
+INFO  12:22:02,927 - Detektovano koriscenje lokalne promenljive x na liniji 16
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 0
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 16
+INFO  12:22:02,927 - #9 print
+INFO  12:22:02,927 - #6 (
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 1
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #7 )
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 18
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - #9 print
+INFO  12:22:02,927 - #6 (
+INFO  12:22:02,927 - #39 niz
+INFO  12:22:02,927 - #34 [
+INFO  12:22:02,927 - #36 0
+INFO  12:22:02,927 - #35 ]
+INFO  12:22:02,927 - #7 )
+INFO  12:22:02,927 - Detektovano koriscenje globalne promenljive niz na liniji 19
+INFO  12:22:02,927 - #5 ;
+INFO  12:22:02,927 - #4 }
+INFO  12:22:02,927 - #4 }
+INFO  12:22:02,927 - Print calls = 2
+INFO  12:22:02,927 - Parsiranje uspesno zavrseno!

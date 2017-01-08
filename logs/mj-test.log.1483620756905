@@ -1,0 +1,66 @@
+INFO  13:52:02,980 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  13:52:02,996 - #2 program
+INFO  13:52:02,996 - #39 MJProgram
+INFO  13:52:02,996 - #42 const
+INFO  13:52:02,996 - #39 int
+INFO  13:52:02,996 - #39 x
+INFO  13:52:02,996 - #8 ,
+INFO  13:52:02,996 - Deklasirana globalna konstanta x na liniji 2
+INFO  13:52:02,996 - #39 y
+INFO  13:52:02,996 - #5 ;
+INFO  13:52:02,996 - Deklasirana globalna konstanta y na liniji 2
+INFO  13:52:02,996 - #39 int
+INFO  13:52:02,996 - #39 haos
+INFO  13:52:02,996 - #8 ,
+INFO  13:52:02,996 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  13:52:02,996 - #39 niz
+INFO  13:52:02,996 - #34 [
+INFO  13:52:02,996 - #35 ]
+INFO  13:52:02,996 - #5 ;
+INFO  13:52:02,996 - Deklasiran globalni niz niz na liniji 3
+INFO  13:52:02,996 - #41 class
+INFO  13:52:02,996 - #39 A
+INFO  13:52:02,996 - #3 {
+INFO  13:52:02,996 - #4 }
+INFO  13:52:02,996 - #3 {
+INFO  13:52:02,996 - #39 int
+INFO  13:52:02,996 - #39 k
+INFO  13:52:02,996 - #6 (
+INFO  13:52:02,996 - Obradjuje se metoda k na liniji 10
+INFO  13:52:02,996 - #7 )
+INFO  13:52:02,996 - #39 int
+INFO  13:52:02,996 - #39 c
+INFO  13:52:02,996 - #5 ;
+INFO  13:52:02,996 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  13:52:02,996 - #3 {
+INFO  13:52:02,996 - #39 c
+INFO  13:52:02,996 - #11 =
+INFO  13:52:02,996 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  13:52:02,996 - #37 0
+INFO  13:52:02,996 - #5 ;
+INFO  13:52:02,996 - #10 return
+INFO  13:52:02,996 - #39 c
+INFO  13:52:02,996 - #13 -
+INFO  13:52:02,996 - Detektovano koriscenje lokalne promenljive c na liniji 12
+INFO  13:52:02,996 - #37 5
+INFO  13:52:02,996 - #5 ;
+INFO  13:52:02,996 - #4 }
+INFO  13:52:02,996 - #16 void
+INFO  13:52:02,996 - #39 f
+INFO  13:52:02,996 - #6 (
+INFO  13:52:02,996 - Obradjuje se metoda f na liniji 15
+INFO  13:52:02,996 - #7 )
+INFO  13:52:02,996 - #3 {
+INFO  13:52:02,996 - #4 }
+INFO  13:52:02,996 - #39 char
+INFO  13:52:02,996 - #39 f
+INFO  13:52:02,996 - #6 (
+ERROR 13:52:02,996 - Metoda f je vec deklarisana na liniji 19
+INFO  13:52:02,996 - Obradjuje se metoda f na liniji 19
+INFO  13:52:02,996 - #7 )
+INFO  13:52:02,996 - #3 {
+INFO  13:52:02,996 - #10 return
+INFO  13:52:02,996 - #38 a
+INFO  13:52:02,996 - #5 ;
+INFO  13:52:02,996 - #4 }
+INFO  13:52:02,996 - #16 void

@@ -1,0 +1,58 @@
+INFO  15:06:59,504 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:06:59,519 - #2 program
+INFO  15:06:59,519 - #39 test301
+INFO  15:06:59,519 - #42 const
+INFO  15:06:59,519 - #39 int
+INFO  15:06:59,519 - #39 jedan
+INFO  15:06:59,519 - #11 =
+INFO  15:06:59,519 - #36 1
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - Deklasirana globalna konstanta jedan na liniji 4
+INFO  15:06:59,519 - #42 const
+INFO  15:06:59,519 - #39 int
+INFO  15:06:59,519 - #39 pet
+INFO  15:06:59,519 - #11 =
+INFO  15:06:59,519 - #36 5
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - Deklasirana globalna konstanta pet na liniji 5
+INFO  15:06:59,519 - #39 int
+INFO  15:06:59,519 - #39 niz
+INFO  15:06:59,519 - #34 [
+INFO  15:06:59,519 - #35 ]
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - Deklasiran globalni niz niz na liniji 7
+INFO  15:06:59,519 - #39 char
+INFO  15:06:59,519 - #39 nizch
+INFO  15:06:59,519 - #34 [
+INFO  15:06:59,519 - #35 ]
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - Deklasiran globalni niz nizch na liniji 9
+INFO  15:06:59,519 - #3 {
+INFO  15:06:59,519 - #16 void
+INFO  15:06:59,519 - #39 main
+INFO  15:06:59,519 - #6 (
+INFO  15:06:59,519 - Obradjuje se metoda main na liniji 12
+INFO  15:06:59,519 - #7 )
+INFO  15:06:59,519 - #39 int
+INFO  15:06:59,519 - #39 bodovi
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - Deklasirana lokalna promenljiva bodovi na liniji 12
+INFO  15:06:59,519 - #3 {
+INFO  15:06:59,519 - #39 bodovi
+INFO  15:06:59,519 - #11 =
+INFO  15:06:59,519 - Detektovano koriscenje lokalne promenljive bodovi na liniji 15
+INFO  15:06:59,519 - #36 0
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - #39 bodovi
+INFO  15:06:59,519 - #26 +=
+INFO  15:06:59,519 - Detektovano koriscenje lokalne promenljive bodovi na liniji 16
+INFO  15:06:59,519 - #39 bodovi
+INFO  15:06:59,519 - #28 *=
+INFO  15:06:59,519 - Detektovano koriscenje lokalne promenljive bodovi na liniji 16
+INFO  15:06:59,519 - #39 pet
+INFO  15:06:59,519 - #5 ;
+INFO  15:06:59,519 - Detektovano koriscenje konstante pet na liniji 16
+INFO  15:06:59,519 - #4 }
+INFO  15:06:59,519 - #4 }
+INFO  15:06:59,519 - Print calls = 0
+INFO  15:06:59,519 - Parsiranje uspesno zavrseno!

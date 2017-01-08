@@ -1,0 +1,36 @@
+INFO  17:42:46,609 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:42:46,609 - #2 program
+INFO  17:42:46,609 - #39 MJProgram
+INFO  17:42:46,609 - #39 int
+INFO  17:42:46,609 - #39 y
+INFO  17:42:46,624 - #5 ;
+INFO  17:42:46,624 - Deklasirana globalna promenljiva y na liniji 2
+INFO  17:42:46,624 - #39 int
+INFO  17:42:46,624 - #39 haos
+INFO  17:42:46,624 - #8 ,
+INFO  17:42:46,624 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  17:42:46,624 - #39 niz
+INFO  17:42:46,624 - #34 [
+INFO  17:42:46,624 - #35 ]
+INFO  17:42:46,624 - #5 ;
+INFO  17:42:46,624 - Deklasiran globalni niz niz na liniji 3
+INFO  17:42:46,624 - #41 class
+INFO  17:42:46,624 - #39 A
+INFO  17:42:46,624 - #3 {
+INFO  17:42:46,624 - #4 }
+INFO  17:42:46,624 - #3 {
+INFO  17:42:46,624 - #39 int
+INFO  17:42:46,624 - #39 k
+INFO  17:42:46,624 - #6 (
+INFO  17:42:46,624 - Obradjuje se metoda k na liniji 10
+INFO  17:42:46,624 - #7 )
+INFO  17:42:46,624 - #39 int
+INFO  17:42:46,624 - #39 c
+INFO  17:42:46,624 - #5 ;
+INFO  17:42:46,624 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  17:42:46,624 - #3 {
+INFO  17:42:46,624 - #39 c
+INFO  17:42:46,624 - #11 =
+INFO  17:42:46,624 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  17:42:46,624 - #36 43984
+INFO  17:42:46,624 - #5 ;

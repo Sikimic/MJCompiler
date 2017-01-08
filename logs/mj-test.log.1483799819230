@@ -1,0 +1,62 @@
+INFO  15:34:15,005 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:34:15,020 - #2 program
+INFO  15:34:15,020 - #39 MJProgram
+INFO  15:34:15,020 - #42 const
+INFO  15:34:15,020 - #39 int
+INFO  15:34:15,020 - #39 c
+INFO  15:34:15,020 - #11 =
+INFO  15:34:15,020 - #36 8
+INFO  15:34:15,020 - #5 ;
+INFO  15:34:15,020 - Deklasirana globalna konstanta c na liniji 2
+INFO  15:34:15,020 - #39 char
+INFO  15:34:15,020 - #39 a
+INFO  15:34:15,020 - #5 ;
+INFO  15:34:15,020 - Deklasirana globalna promenljiva a na liniji 3
+INFO  15:34:15,020 - #3 {
+INFO  15:34:15,020 - #16 void
+INFO  15:34:15,020 - #39 main
+INFO  15:34:15,020 - #6 (
+INFO  15:34:15,020 - Obradjuje se metoda main na liniji 6
+INFO  15:34:15,020 - #7 )
+INFO  15:34:15,020 - #39 int
+INFO  15:34:15,020 - #39 x
+INFO  15:34:15,036 - #8 ,
+INFO  15:34:15,036 - Deklasirana lokalna promenljiva x na liniji 6
+INFO  15:34:15,036 - #39 y
+INFO  15:34:15,036 - #5 ;
+INFO  15:34:15,036 - Deklasirana lokalna promenljiva y na liniji 6
+INFO  15:34:15,036 - #3 {
+INFO  15:34:15,036 - #39 x
+INFO  15:34:15,036 - #11 =
+INFO  15:34:15,036 - Detektovano koriscenje lokalne promenljive x na liniji 7
+INFO  15:34:15,036 - #36 20
+INFO  15:34:15,036 - #5 ;
+INFO  15:34:15,036 - #39 x
+INFO  15:34:15,036 - #29 /=
+INFO  15:34:15,036 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  15:34:15,036 - #39 c
+INFO  15:34:15,036 - #12 +
+INFO  15:34:15,036 - Detektovano koriscenje konstante c na liniji 8
+INFO  15:34:15,036 - #36 2
+INFO  15:34:15,036 - #5 ;
+INFO  15:34:15,036 - #39 a
+INFO  15:34:15,036 - #11 =
+INFO  15:34:15,036 - Detektovano koriscenje globalne promenljive a na liniji 10
+INFO  15:34:15,036 - #37 b
+INFO  15:34:15,036 - #5 ;
+INFO  15:34:15,036 - #9 print
+INFO  15:34:15,036 - #6 (
+INFO  15:34:15,036 - #39 x
+INFO  15:34:15,036 - #7 )
+INFO  15:34:15,036 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  15:34:15,036 - #5 ;
+INFO  15:34:15,036 - #9 print
+INFO  15:34:15,036 - #6 (
+INFO  15:34:15,036 - #39 a
+INFO  15:34:15,036 - #7 )
+INFO  15:34:15,036 - Detektovano koriscenje globalne promenljive a na liniji 12
+INFO  15:34:15,036 - #5 ;
+INFO  15:34:15,036 - #4 }
+INFO  15:34:15,036 - #4 }
+INFO  15:34:15,036 - Print calls = 2
+INFO  15:34:15,052 - Parsiranje uspesno zavrseno!

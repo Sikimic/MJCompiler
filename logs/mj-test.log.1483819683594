@@ -1,0 +1,59 @@
+INFO  21:03:37,831 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  21:03:37,846 - #2 program
+INFO  21:03:37,846 - #39 MJProgram
+INFO  21:03:37,846 - #42 const
+INFO  21:03:37,846 - #39 int
+INFO  21:03:37,846 - #39 c
+INFO  21:03:37,846 - #11 =
+INFO  21:03:37,846 - #36 8
+INFO  21:03:37,846 - #5 ;
+INFO  21:03:37,846 - Deklasirana globalna konstanta c na liniji 2
+INFO  21:03:37,846 - #39 int
+INFO  21:03:37,846 - #39 a
+INFO  21:03:37,846 - #5 ;
+INFO  21:03:37,846 - Deklasirana globalna promenljiva a na liniji 3
+INFO  21:03:37,846 - #39 int
+INFO  21:03:37,846 - #39 niz
+INFO  21:03:37,846 - #34 [
+INFO  21:03:37,846 - #35 ]
+INFO  21:03:37,846 - #5 ;
+INFO  21:03:37,846 - Deklasiran globalni niz niz na liniji 4
+INFO  21:03:37,846 - #3 {
+INFO  21:03:37,846 - #16 void
+INFO  21:03:37,846 - #39 main
+INFO  21:03:37,846 - #6 (
+INFO  21:03:37,862 - Obradjuje se metoda main na liniji 7
+INFO  21:03:37,862 - #7 )
+INFO  21:03:37,862 - #39 int
+INFO  21:03:37,862 - #39 x
+INFO  21:03:37,862 - #8 ,
+INFO  21:03:37,862 - Deklasirana lokalna promenljiva x na liniji 7
+INFO  21:03:37,862 - #39 y
+INFO  21:03:37,862 - #5 ;
+INFO  21:03:37,862 - Deklasirana lokalna promenljiva y na liniji 7
+INFO  21:03:37,862 - #3 {
+INFO  21:03:37,862 - #39 niz
+INFO  21:03:37,862 - #11 =
+INFO  21:03:37,862 - Detektovano koriscenje globalne promenljive niz na liniji 9
+INFO  21:03:41,190 - #43 new
+INFO  21:03:41,190 - #39 int
+INFO  21:03:41,190 - #34 [
+INFO  21:03:41,190 - #36 3
+INFO  21:03:41,190 - #35 ]
+INFO  21:03:41,190 - #5 ;
+INFO  21:03:46,103 - #39 niz
+INFO  21:03:46,103 - #34 [
+INFO  21:03:46,103 - #36 0
+INFO  21:03:51,277 - #35 ]
+INFO  21:03:51,277 - #11 =
+INFO  21:03:54,809 - #36 1
+INFO  21:03:54,809 - #5 ;
+INFO  21:04:14,327 - #39 x
+INFO  21:04:14,327 - #11 =
+INFO  21:04:14,327 - Detektovano koriscenje lokalne promenljive x na liniji 13
+INFO  21:04:22,546 - #39 niz
+INFO  21:04:22,546 - #34 [
+INFO  21:04:22,546 - #36 0
+ERROR 21:05:09,318 - Greska: promenljiva nije niz, na liniji 13
+INFO  21:05:16,428 - #35 ]
+INFO  21:05:16,428 - #5 ;

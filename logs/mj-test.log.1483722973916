@@ -1,0 +1,33 @@
+INFO  18:15:41,971 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  18:15:41,976 - #2 program
+INFO  18:15:41,976 - #39 MJProgram
+INFO  18:15:41,976 - #3 {
+INFO  18:15:41,976 - #16 void
+INFO  18:15:41,976 - #39 main
+INFO  18:15:41,976 - #6 (
+INFO  18:15:41,976 - Obradjuje se metoda main na liniji 5
+INFO  18:15:41,976 - #7 )
+INFO  18:15:41,976 - #39 int
+INFO  18:15:41,976 - #39 x
+INFO  18:15:41,976 - #5 ;
+INFO  18:15:41,976 - Deklasirana lokalna promenljiva x na liniji 5
+INFO  18:15:41,976 - #3 {
+INFO  18:15:41,976 - #39 x
+INFO  18:15:41,976 - #11 =
+INFO  18:15:41,976 - Detektovano koriscenje lokalne promenljive x na liniji 9
+INFO  18:15:41,976 - #36 5
+INFO  18:15:41,976 - #12 +
+INFO  18:15:41,976 - #36 6
+INFO  18:15:41,976 - #12 +
+INFO  18:15:41,976 - #36 4
+INFO  18:15:41,976 - #5 ;
+INFO  18:15:41,976 - #9 print
+INFO  18:15:41,976 - #6 (
+INFO  18:15:41,976 - #39 x
+INFO  18:15:41,976 - #7 )
+INFO  18:15:41,976 - Detektovano koriscenje lokalne promenljive x na liniji 11
+INFO  18:15:41,976 - #5 ;
+INFO  18:15:41,976 - #4 }
+INFO  18:15:41,976 - #4 }
+INFO  18:15:41,976 - Print calls = 1
+INFO  18:15:41,991 - Parsiranje uspesno zavrseno!

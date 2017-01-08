@@ -1,0 +1,45 @@
+INFO  12:43:13,932 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  12:43:13,948 - #2 program
+INFO  12:43:13,948 - #39 MJProgram
+INFO  12:43:13,948 - #42 const
+INFO  12:43:13,948 - #39 int
+INFO  12:43:13,948 - #39 c
+INFO  12:43:13,948 - #11 =
+INFO  12:43:13,948 - #36 10
+INFO  12:43:13,948 - #5 ;
+INFO  12:43:13,948 - Deklasirana globalna konstanta c na liniji 2
+INFO  12:43:13,948 - #3 {
+INFO  12:43:13,948 - #16 void
+INFO  12:43:13,948 - #39 main
+INFO  12:43:13,948 - #6 (
+INFO  12:43:13,948 - Obradjuje se metoda main na liniji 6
+INFO  12:43:13,948 - #7 )
+INFO  12:43:13,948 - #39 int
+INFO  12:43:13,948 - #39 x
+INFO  12:43:13,948 - #8 ,
+INFO  12:43:13,948 - Deklasirana lokalna promenljiva x na liniji 6
+INFO  12:43:13,948 - #39 y
+INFO  12:43:13,948 - #5 ;
+INFO  12:43:13,948 - Deklasirana lokalna promenljiva y na liniji 6
+INFO  12:43:13,948 - #3 {
+INFO  12:43:13,948 - #39 x
+INFO  12:43:13,948 - #11 =
+INFO  12:43:13,948 - Detektovano koriscenje lokalne promenljive x na liniji 7
+INFO  12:43:13,948 - #36 2
+INFO  12:43:13,948 - #5 ;
+INFO  12:43:13,948 - #39 x
+INFO  12:43:13,948 - #26 +=
+INFO  12:43:13,948 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  12:43:13,948 - #39 c
+INFO  12:43:13,948 - #5 ;
+INFO  12:43:13,948 - Detektovano koriscenje konstante c na liniji 8
+INFO  12:43:13,948 - #9 print
+INFO  12:43:13,948 - #6 (
+INFO  12:43:13,948 - #39 x
+INFO  12:43:13,948 - #7 )
+INFO  12:43:13,948 - Detektovano koriscenje lokalne promenljive x na liniji 10
+INFO  12:43:13,948 - #5 ;
+INFO  12:43:13,948 - #4 }
+INFO  12:43:13,948 - #4 }
+INFO  12:43:13,948 - Print calls = 1
+INFO  12:43:13,963 - Parsiranje uspesno zavrseno!

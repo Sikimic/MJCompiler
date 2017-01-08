@@ -1,0 +1,239 @@
+INFO  17:05:06,782 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:05:06,798 - #2 program
+INFO  17:05:06,798 - #39 test301
+INFO  17:05:06,798 - #42 const
+INFO  17:05:06,798 - #39 int
+INFO  17:05:06,798 - #39 jedan
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - #36 1
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Deklasirana globalna konstanta jedan na liniji 4
+INFO  17:05:06,798 - #42 const
+INFO  17:05:06,798 - #39 int
+INFO  17:05:06,798 - #39 pet
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - #36 5
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Deklasirana globalna konstanta pet na liniji 5
+INFO  17:05:06,798 - #39 int
+INFO  17:05:06,798 - #39 niz
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,798 - #35 ]
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Deklasiran globalni niz niz na liniji 7
+INFO  17:05:06,798 - #39 char
+INFO  17:05:06,798 - #39 nizch
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,798 - #35 ]
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Deklasiran globalni niz nizch na liniji 9
+INFO  17:05:06,798 - #3 {
+INFO  17:05:06,798 - #16 void
+INFO  17:05:06,798 - #39 main
+INFO  17:05:06,798 - #6 (
+INFO  17:05:06,798 - Obradjuje se metoda main na liniji 12
+INFO  17:05:06,798 - #7 )
+INFO  17:05:06,798 - #39 int
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Deklasirana lokalna promenljiva bodovi na liniji 12
+INFO  17:05:06,798 - #3 {
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 15
+INFO  17:05:06,798 - #36 0
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #31 ++
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 16
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 17
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #12 +
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 17
+INFO  17:05:06,798 - #39 jedan
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Detektovano koriscenje konstante jedan na liniji 17
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #26 +=
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 18
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #28 *=
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 18
+INFO  17:05:06,798 - #39 pet
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Detektovano koriscenje konstante pet na liniji 18
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #32 --
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 19
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - #9 print
+INFO  17:05:06,798 - #6 (
+INFO  17:05:06,798 - #39 bodovi
+INFO  17:05:06,798 - #7 )
+INFO  17:05:06,798 - Detektovano koriscenje lokalne promenljive bodovi na liniji 20
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - #39 niz
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - Detektovano koriscenje globalne promenljive niz na liniji 23
+INFO  17:05:06,798 - #43 new
+INFO  17:05:06,798 - #39 int
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,798 - #36 2
+INFO  17:05:06,798 - #35 ]
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - #39 niz
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,798 - #36 0
+INFO  17:05:06,798 - #35 ]
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - Detektovano koriscenje globalne promenljive niz na liniji 24
+INFO  17:05:06,798 - #39 pet
+INFO  17:05:06,798 - #5 ;
+INFO  17:05:06,798 - Detektovano koriscenje konstante pet na liniji 24
+INFO  17:05:06,798 - #39 niz
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,798 - #36 1
+INFO  17:05:06,798 - #35 ]
+INFO  17:05:06,798 - #11 =
+INFO  17:05:06,798 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  17:05:06,798 - #39 niz
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,798 - #36 0
+INFO  17:05:06,798 - #35 ]
+INFO  17:05:06,798 - #12 +
+INFO  17:05:06,798 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  17:05:06,798 - #39 niz
+INFO  17:05:06,798 - #34 [
+INFO  17:05:06,814 - #36 0
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #12 +
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  17:05:06,814 - #39 niz
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 0
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive niz na liniji 25
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #11 =
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 26
+INFO  17:05:06,814 - #39 niz
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 1
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #29 /=
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive niz na liniji 26
+INFO  17:05:06,814 - #39 niz
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 0
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive niz na liniji 26
+INFO  17:05:06,814 - #9 print
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 27
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #9 print
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 niz
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 1
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive niz na liniji 28
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #39 nizch
+INFO  17:05:06,814 - #11 =
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive nizch na liniji 31
+INFO  17:05:06,814 - #43 new
+INFO  17:05:06,814 - #39 char
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 3
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #39 nizch
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 0
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #11 =
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive nizch na liniji 32
+INFO  17:05:06,814 - #37 a
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #39 nizch
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #39 jedan
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - Detektovano koriscenje konstante jedan na liniji 33
+INFO  17:05:06,814 - #11 =
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive nizch na liniji 33
+INFO  17:05:06,814 - #37 b
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #39 nizch
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #39 pet
+INFO  17:05:06,814 - #13 -
+INFO  17:05:06,814 - Detektovano koriscenje konstante pet na liniji 34
+INFO  17:05:06,814 - #36 3
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #11 =
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive nizch na liniji 34
+INFO  17:05:06,814 - #37 c
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #9 print
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 nizch
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #36 2
+INFO  17:05:06,814 - #13 -
+INFO  17:05:06,814 - #36 1
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive nizch na liniji 35
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #9 print
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 nizch
+INFO  17:05:06,814 - #34 [
+INFO  17:05:06,814 - #39 jedan
+INFO  17:05:06,814 - #14 *
+INFO  17:05:06,814 - Detektovano koriscenje konstante jedan na liniji 36
+INFO  17:05:06,814 - #36 2
+INFO  17:05:06,814 - #35 ]
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje globalne promenljive nizch na liniji 36
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #9 print
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 40
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #44 read
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 43
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #11 =
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 44
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #12 +
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 44
+INFO  17:05:06,814 - #36 1
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #9 print
+INFO  17:05:06,814 - #6 (
+INFO  17:05:06,814 - #39 bodovi
+INFO  17:05:06,814 - #7 )
+INFO  17:05:06,814 - Detektovano koriscenje lokalne promenljive bodovi na liniji 45
+INFO  17:05:06,814 - #5 ;
+INFO  17:05:06,814 - #4 }
+INFO  17:05:06,814 - #4 }
+INFO  17:05:06,814 - Print calls = 7
+INFO  17:05:06,814 - Parsiranje uspesno zavrseno!

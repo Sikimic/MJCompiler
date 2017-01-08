@@ -1,0 +1,42 @@
+INFO  12:54:00,799 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  12:54:00,815 - #2 program
+INFO  12:54:00,815 - #39 MJProgram
+INFO  12:54:00,815 - #42 const
+INFO  12:54:00,815 - #39 int
+INFO  12:54:00,815 - #39 x
+INFO  12:54:00,815 - #11 =
+INFO  12:54:00,815 - #36 3
+INFO  12:54:00,815 - #8 ,
+INFO  12:54:00,815 - Deklasirana globalna konstanta x na liniji 2
+INFO  12:54:00,815 - #39 y
+INFO  12:54:00,815 - #5 ;
+INFO  12:54:00,815 - Deklasirana globalna konstanta y na liniji 2
+INFO  12:54:00,815 - #39 int
+INFO  12:54:00,815 - #39 haos
+INFO  12:54:00,815 - #8 ,
+INFO  12:54:00,815 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  12:54:00,815 - #39 niz
+INFO  12:54:00,815 - #34 [
+INFO  12:54:00,815 - #35 ]
+INFO  12:54:00,815 - #5 ;
+INFO  12:54:00,815 - Deklasiran globalni niz niz na liniji 3
+INFO  12:54:00,815 - #41 class
+INFO  12:54:00,815 - #39 A
+INFO  12:54:00,815 - #3 {
+INFO  12:54:00,815 - #4 }
+INFO  12:54:00,815 - #3 {
+INFO  12:54:00,815 - #39 int
+INFO  12:54:00,815 - #39 k
+INFO  12:54:00,815 - #6 (
+INFO  12:54:00,815 - Obradjuje se metoda k na liniji 10
+INFO  12:54:00,815 - #7 )
+INFO  12:54:00,815 - #39 int
+INFO  12:54:00,815 - #39 c
+INFO  12:54:00,815 - #5 ;
+INFO  12:54:00,815 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  12:54:00,815 - #3 {
+INFO  12:54:00,815 - #39 c
+INFO  12:54:00,815 - #11 =
+INFO  12:54:00,815 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  12:54:00,815 - #36 0
+INFO  12:54:00,815 - #5 ;

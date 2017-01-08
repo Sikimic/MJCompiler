@@ -1,0 +1,36 @@
+INFO  11:56:40,628 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  11:56:40,664 - #2 program
+INFO  11:56:40,664 - #39 MJProgram
+INFO  11:56:40,664 - #42 const
+INFO  11:56:40,664 - #39 int
+INFO  11:56:40,664 - #39 c
+INFO  11:56:40,664 - #11 =
+INFO  11:56:40,664 - #36 10
+INFO  11:56:40,664 - #5 ;
+INFO  11:56:40,664 - Deklasirana globalna konstanta c na liniji 2
+INFO  11:56:40,664 - #3 {
+INFO  11:56:40,664 - #16 void
+INFO  11:56:40,664 - #39 main
+INFO  11:56:40,664 - #6 (
+INFO  11:56:40,668 - Obradjuje se metoda main na liniji 6
+INFO  11:56:40,668 - #7 )
+INFO  11:56:40,668 - #39 int
+INFO  11:56:40,668 - #39 x
+INFO  11:56:40,668 - #8 ,
+INFO  11:56:40,668 - Deklasirana lokalna promenljiva x na liniji 6
+INFO  11:56:40,668 - #39 y
+INFO  11:56:40,668 - #5 ;
+INFO  11:56:40,668 - Deklasirana lokalna promenljiva y na liniji 6
+INFO  11:56:40,668 - #3 {
+INFO  11:56:40,672 - #39 x
+INFO  11:56:40,672 - #11 =
+INFO  11:56:40,672 - Detektovano koriscenje lokalne promenljive x na liniji 7
+INFO  11:57:02,622 - #36 2
+INFO  11:57:02,626 - #5 ;
+INFO  11:57:27,184 - #39 x
+INFO  11:57:27,184 - #26 +=
+INFO  11:57:27,184 - Detektovano koriscenje lokalne promenljive x na liniji 8
+INFO  11:57:39,215 - #39 c
+INFO  11:57:39,215 - #5 ;
+INFO  11:57:39,215 - Detektovano koriscenje konstante c na liniji 8
+ERROR 11:58:07,816 - Greska: designator nije promenljiva, na linij 8

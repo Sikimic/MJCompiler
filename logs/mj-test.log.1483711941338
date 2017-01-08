@@ -1,0 +1,172 @@
+INFO  15:11:53,261 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:11:53,265 - #2 program
+INFO  15:11:53,265 - #39 MJProgram
+INFO  15:11:53,265 - #42 const
+INFO  15:11:53,265 - #39 int
+INFO  15:11:53,265 - #39 y
+INFO  15:11:53,265 - #5 ;
+INFO  15:11:53,265 - Deklasirana globalna konstanta y na liniji 2
+INFO  15:11:53,265 - #39 int
+INFO  15:11:53,265 - #39 haos
+INFO  15:11:53,265 - #8 ,
+INFO  15:11:53,265 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  15:11:53,265 - #39 niz
+INFO  15:11:53,265 - #34 [
+INFO  15:11:53,265 - #35 ]
+INFO  15:11:53,265 - #5 ;
+INFO  15:11:53,265 - Deklasiran globalni niz niz na liniji 3
+INFO  15:11:53,265 - #41 class
+INFO  15:11:53,265 - #39 A
+INFO  15:11:53,265 - #3 {
+INFO  15:11:53,265 - #4 }
+INFO  15:11:53,265 - #3 {
+INFO  15:11:53,265 - #39 int
+INFO  15:11:53,265 - #39 k
+INFO  15:11:53,265 - #6 (
+INFO  15:11:53,265 - Obradjuje se metoda k na liniji 10
+INFO  15:11:53,265 - #7 )
+INFO  15:11:53,265 - #39 int
+INFO  15:11:53,265 - #39 c
+INFO  15:11:53,265 - #5 ;
+INFO  15:11:53,265 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  15:11:53,265 - #3 {
+INFO  15:11:53,265 - #39 c
+INFO  15:11:53,265 - #11 =
+INFO  15:11:53,265 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  15:11:53,265 - #36 0
+INFO  15:11:53,265 - #5 ;
+INFO  15:11:53,265 - #10 return
+INFO  15:11:53,265 - #39 c
+INFO  15:11:53,265 - #13 -
+INFO  15:11:53,265 - Detektovano koriscenje lokalne promenljive c na liniji 12
+INFO  15:11:53,265 - #36 5
+INFO  15:11:53,265 - #5 ;
+INFO  15:11:53,265 - #4 }
+INFO  15:11:53,265 - #16 void
+INFO  15:11:53,265 - #39 func
+INFO  15:11:53,265 - #6 (
+INFO  15:11:53,265 - Obradjuje se metoda func na liniji 15
+INFO  15:11:53,265 - #7 )
+INFO  15:11:53,265 - #3 {
+INFO  15:11:53,265 - #4 }
+INFO  15:11:53,265 - #39 char
+INFO  15:11:53,265 - #39 f
+INFO  15:11:53,265 - #6 (
+INFO  15:11:53,265 - Obradjuje se metoda f na liniji 19
+INFO  15:11:53,265 - #7 )
+INFO  15:11:53,265 - #3 {
+INFO  15:11:53,265 - #10 return
+INFO  15:11:53,265 - #37 a
+INFO  15:11:53,265 - #5 ;
+INFO  15:11:53,265 - #4 }
+INFO  15:11:53,265 - #16 void
+INFO  15:11:53,265 - #39 main
+INFO  15:11:53,265 - #6 (
+INFO  15:11:53,280 - Obradjuje se metoda main na liniji 24
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - #39 int
+INFO  15:11:53,280 - #39 i
+INFO  15:11:53,280 - #8 ,
+INFO  15:11:53,280 - Deklasirana lokalna promenljiva i na liniji 24
+INFO  15:11:53,280 - #39 x
+INFO  15:11:53,280 - #8 ,
+INFO  15:11:53,280 - Deklasirana lokalna promenljiva x na liniji 24
+INFO  15:11:53,280 - #39 c
+INFO  15:11:53,280 - #8 ,
+INFO  15:11:53,280 - Deklasirana lokalna promenljiva c na liniji 24
+INFO  15:11:53,280 - #39 x1
+INFO  15:11:53,280 - #34 [
+INFO  15:11:53,280 - #35 ]
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - Deklasiran lokalni niz x1 na liniji 24
+INFO  15:11:53,280 - #39 bool
+INFO  15:11:53,280 - #39 b
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - Deklasirana lokalna promenljiva b na liniji 24
+INFO  15:11:53,280 - #3 {
+INFO  15:11:53,280 - #9 print
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #36 1
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #39 x
+INFO  15:11:53,280 - #11 =
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive x na liniji 26
+INFO  15:11:53,280 - #36 1
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #39 c
+INFO  15:11:53,280 - #11 =
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive c na liniji 28
+INFO  15:11:53,280 - #36 3
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #9 print
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #36 2
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #39 c
+INFO  15:11:53,280 - #31 ++
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive c na liniji 30
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #9 print
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #39 y
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - Detektovano koriscenje konstante y na liniji 36
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #39 x
+INFO  15:11:53,280 - #11 =
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive x na liniji 37
+INFO  15:11:53,280 - #36 3
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #9 print
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #39 x
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive x na liniji 38
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #49 if
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #39 x
+INFO  15:11:53,280 - #19 ==
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive x na liniji 39
+INFO  15:11:53,280 - #36 1
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - #3 {
+INFO  15:11:53,280 - #4 }
+INFO  15:11:53,280 - #50 else
+INFO  15:11:53,280 - #3 {
+INFO  15:11:53,280 - #4 }
+INFO  15:11:53,280 - #45 for
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #39 i
+INFO  15:11:53,280 - #11 =
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive i na liniji 46
+INFO  15:11:53,280 - #36 0
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #39 i
+INFO  15:11:53,280 - #18 >
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive i na liniji 46
+INFO  15:11:53,280 - #36 0
+INFO  15:11:53,280 - #24 &&
+INFO  15:11:53,280 - #39 i
+INFO  15:11:53,280 - #22 <
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive i na liniji 46
+INFO  15:11:53,280 - #36 10
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #39 i
+INFO  15:11:53,280 - #31 ++
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive i na liniji 46
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - #3 {
+INFO  15:11:53,280 - #9 print
+INFO  15:11:53,280 - #6 (
+INFO  15:11:53,280 - #39 i
+INFO  15:11:53,280 - #7 )
+INFO  15:11:53,280 - Detektovano koriscenje lokalne promenljive i na liniji 47
+INFO  15:11:53,280 - #5 ;
+INFO  15:11:53,280 - #4 }
+INFO  15:11:53,280 - #4 }
+INFO  15:11:53,280 - #4 }
+INFO  15:11:53,280 - Print calls = 5
+INFO  15:11:53,280 - Parsiranje uspesno zavrseno!

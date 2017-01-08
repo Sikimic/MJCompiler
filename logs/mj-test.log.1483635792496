@@ -1,0 +1,219 @@
+INFO  17:58:40,944 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  17:58:40,959 - #2 program
+INFO  17:58:40,959 - #39 MJProgram
+INFO  17:58:40,959 - #42 const
+INFO  17:58:40,959 - #39 int
+INFO  17:58:40,959 - #39 x
+INFO  17:58:40,959 - #11 =
+INFO  17:58:40,959 - #36 3
+INFO  17:58:40,959 - #8 ,
+INFO  17:58:40,959 - Deklasirana globalna konstanta x na liniji 2
+INFO  17:58:40,959 - #39 y
+INFO  17:58:40,959 - #5 ;
+INFO  17:58:40,959 - Deklasirana globalna konstanta y na liniji 2
+INFO  17:58:40,959 - #39 int
+INFO  17:58:40,959 - #39 haos
+INFO  17:58:40,959 - #8 ,
+INFO  17:58:40,959 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  17:58:40,959 - #39 niz
+INFO  17:58:40,959 - #34 [
+INFO  17:58:40,959 - #35 ]
+INFO  17:58:40,959 - #5 ;
+INFO  17:58:40,959 - Deklasiran globalni niz niz na liniji 3
+INFO  17:58:40,959 - #41 class
+INFO  17:58:40,959 - #39 A
+INFO  17:58:40,959 - #3 {
+INFO  17:58:40,959 - #4 }
+INFO  17:58:40,959 - #3 {
+INFO  17:58:40,959 - #39 int
+INFO  17:58:40,959 - #39 k
+INFO  17:58:40,959 - #6 (
+INFO  17:58:40,959 - Obradjuje se metoda k na liniji 10
+INFO  17:58:40,959 - #7 )
+INFO  17:58:40,959 - #39 int
+INFO  17:58:40,959 - #39 c
+INFO  17:58:40,959 - #5 ;
+INFO  17:58:40,959 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  17:58:40,959 - #3 {
+INFO  17:58:40,959 - #39 c
+INFO  17:58:40,959 - #11 =
+INFO  17:58:40,959 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  17:58:40,959 - #36 0
+INFO  17:58:40,959 - #5 ;
+ERROR 17:58:40,959 - Greska: nekompatibilni tipovi, na liniji 11
+ERROR 17:58:40,959 - Greska: nekompatibilni tipovi, na liniji 11
+INFO  17:58:40,959 - #10 return
+INFO  17:58:40,959 - #39 c
+INFO  17:58:40,959 - #13 -
+INFO  17:58:40,959 - Detektovano koriscenje lokalne promenljive c na liniji 12
+INFO  17:58:40,959 - #36 5
+INFO  17:58:40,959 - #5 ;
+INFO  17:58:40,959 - #4 }
+INFO  17:58:40,959 - #16 void
+INFO  17:58:40,959 - #39 func
+INFO  17:58:40,959 - #6 (
+INFO  17:58:40,959 - Obradjuje se metoda func na liniji 15
+INFO  17:58:40,959 - #7 )
+INFO  17:58:40,959 - #3 {
+INFO  17:58:40,959 - #4 }
+INFO  17:58:40,959 - #39 char
+INFO  17:58:40,959 - #39 f
+INFO  17:58:40,959 - #6 (
+INFO  17:58:40,959 - Obradjuje se metoda f na liniji 19
+INFO  17:58:40,959 - #7 )
+INFO  17:58:40,959 - #3 {
+INFO  17:58:40,959 - #10 return
+INFO  17:58:40,959 - #37 a
+INFO  17:58:40,959 - #5 ;
+ERROR 17:58:40,959 - Greska: nekompatibilni tipovi, na liniji 21
+INFO  17:58:40,959 - #4 }
+ERROR 17:58:40,959 - Greska: nekompatibilni return izrazi, na liniji 21
+INFO  17:58:40,959 - #16 void
+INFO  17:58:40,959 - #39 main
+INFO  17:58:40,959 - #6 (
+INFO  17:58:40,959 - Obradjuje se metoda main na liniji 24
+INFO  17:58:40,959 - #7 )
+INFO  17:58:40,975 - #39 int
+INFO  17:58:40,975 - #39 i
+INFO  17:58:40,975 - #8 ,
+INFO  17:58:40,975 - Deklasirana lokalna promenljiva i na liniji 24
+INFO  17:58:40,975 - #39 c
+INFO  17:58:40,975 - #8 ,
+INFO  17:58:40,975 - Deklasirana lokalna promenljiva c na liniji 24
+INFO  17:58:40,975 - #39 x1
+INFO  17:58:40,975 - #34 [
+INFO  17:58:40,975 - #35 ]
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - Deklasiran lokalni niz x1 na liniji 24
+INFO  17:58:40,975 - #39 bool
+INFO  17:58:40,975 - #39 b
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - Deklasirana lokalna promenljiva b na liniji 24
+INFO  17:58:40,975 - #3 {
+INFO  17:58:40,975 - #9 print
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #36 1
+INFO  17:58:40,975 - #7 )
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 25
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #39 x
+ERROR 17:58:40,975 - Greska: operand instrukcije PRINT mora biti char, int ili bool. Na liniji 25
+INFO  17:58:40,975 - #11 =
+INFO  17:58:40,975 - Detektovano koriscenje konstante x na liniji 26
+INFO  17:58:40,975 - #36 1
+INFO  17:58:40,975 - #5 ;
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 26
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 26
+INFO  17:58:40,975 - #39 c
+INFO  17:58:40,975 - #11 =
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive c na liniji 28
+INFO  17:58:40,975 - #36 3
+INFO  17:58:40,975 - #5 ;
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 28
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 28
+INFO  17:58:40,975 - #9 print
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #36 2
+INFO  17:58:40,975 - #7 )
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 29
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #39 c
+ERROR 17:58:40,975 - Greska: operand instrukcije PRINT mora biti char, int ili bool. Na liniji 29
+INFO  17:58:40,975 - #31 ++
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive c na liniji 30
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #39 x
+INFO  17:58:40,975 - #32 --
+INFO  17:58:40,975 - Detektovano koriscenje konstante x na liniji 31
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #39 x1
+INFO  17:58:40,975 - #34 [
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive x1 na liniji 32
+INFO  17:58:40,975 - #36 2
+INFO  17:58:40,975 - #35 ]
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 32
+INFO  17:58:40,975 - #11 =
+INFO  17:58:40,975 - #36 1
+INFO  17:58:40,975 - #5 ;
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 32
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 32
+INFO  17:58:40,975 - #44 read
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #39 x1
+INFO  17:58:40,975 - #34 [
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive x1 na liniji 34
+INFO  17:58:40,975 - #36 1
+INFO  17:58:40,975 - #35 ]
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 34
+INFO  17:58:40,975 - #7 )
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #9 print
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #39 x
+INFO  17:58:40,975 - #7 )
+INFO  17:58:40,975 - Detektovano koriscenje konstante x na liniji 36
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 36
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #39 x
+ERROR 17:58:40,975 - Greska: operand instrukcije PRINT mora biti char, int ili bool. Na liniji 36
+INFO  17:58:40,975 - #11 =
+INFO  17:58:40,975 - Detektovano koriscenje konstante x na liniji 37
+INFO  17:58:40,975 - #36 3
+INFO  17:58:40,975 - #5 ;
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 37
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 37
+INFO  17:58:40,975 - #49 if
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #39 x
+INFO  17:58:40,975 - #19 ==
+INFO  17:58:40,975 - Detektovano koriscenje konstante x na liniji 39
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 39
+INFO  17:58:40,975 - #36 1
+INFO  17:58:40,975 - #7 )
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 39
+INFO  17:58:40,975 - #3 {
+INFO  17:58:40,975 - #4 }
+INFO  17:58:40,975 - #50 else
+INFO  17:58:40,975 - #3 {
+INFO  17:58:40,975 - #4 }
+INFO  17:58:40,975 - #45 for
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #39 i
+INFO  17:58:40,975 - #11 =
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive i na liniji 46
+INFO  17:58:40,975 - #36 0
+INFO  17:58:40,975 - #5 ;
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 46
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 46
+INFO  17:58:40,975 - #39 i
+INFO  17:58:40,975 - #18 >
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive i na liniji 46
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 46
+INFO  17:58:40,975 - #36 0
+INFO  17:58:40,975 - #24 &&
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 46
+INFO  17:58:40,975 - #39 i
+INFO  17:58:40,975 - #22 <
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive i na liniji 46
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 46
+INFO  17:58:40,975 - #36 10
+INFO  17:58:40,975 - #5 ;
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 46
+INFO  17:58:40,975 - #39 i
+INFO  17:58:40,975 - #31 ++
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive i na liniji 46
+INFO  17:58:40,975 - #7 )
+INFO  17:58:40,975 - #3 {
+INFO  17:58:40,975 - #9 print
+INFO  17:58:40,975 - #6 (
+INFO  17:58:40,975 - #39 i
+INFO  17:58:40,975 - #7 )
+INFO  17:58:40,975 - Detektovano koriscenje lokalne promenljive i na liniji 47
+ERROR 17:58:40,975 - Greska: nekompatibilni tipovi, na liniji 47
+INFO  17:58:40,975 - #5 ;
+INFO  17:58:40,975 - #4 }
+ERROR 17:58:40,975 - Greska: operand instrukcije PRINT mora biti char, int ili bool. Na liniji 47
+INFO  17:58:40,975 - #4 }
+INFO  17:58:40,975 - #4 }
+INFO  17:58:40,975 - Print calls = 4
+ERROR 17:58:40,975 - Greske pri parsiranju!

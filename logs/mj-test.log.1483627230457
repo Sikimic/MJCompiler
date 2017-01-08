@@ -1,0 +1,150 @@
+INFO  15:40:00,373 - Compiling source file: D:\Developer\NetBeansProjects\MJCompiler\test\mjcompiler\program.mj
+INFO  15:40:00,389 - #2 program
+INFO  15:40:00,389 - #39 MJProgram
+INFO  15:40:00,389 - #42 const
+INFO  15:40:00,389 - #39 int
+INFO  15:40:00,389 - #39 x
+INFO  15:40:00,389 - #11 =
+INFO  15:40:00,389 - #37 3
+INFO  15:40:00,389 - #8 ,
+INFO  15:40:00,389 - Deklasirana globalna konstanta x na liniji 2
+INFO  15:40:00,389 - #39 y
+INFO  15:40:00,389 - #5 ;
+INFO  15:40:00,389 - Deklasirana globalna konstanta y na liniji 2
+INFO  15:40:00,389 - #39 int
+INFO  15:40:00,389 - #39 haos
+INFO  15:40:00,389 - #8 ,
+INFO  15:40:00,389 - Deklasirana globalna promenljiva haos na liniji 3
+INFO  15:40:00,389 - #39 niz
+INFO  15:40:00,389 - #34 [
+INFO  15:40:00,389 - #35 ]
+INFO  15:40:00,389 - #5 ;
+INFO  15:40:00,389 - Deklasiran globalni niz niz na liniji 3
+INFO  15:40:00,389 - #41 class
+INFO  15:40:00,389 - #39 A
+INFO  15:40:00,389 - #3 {
+INFO  15:40:00,389 - #4 }
+INFO  15:40:00,389 - #3 {
+INFO  15:40:00,389 - #39 int
+INFO  15:40:00,389 - #39 k
+INFO  15:40:00,389 - #6 (
+INFO  15:40:00,389 - Obradjuje se metoda k na liniji 10
+INFO  15:40:00,389 - #7 )
+INFO  15:40:00,389 - #39 int
+INFO  15:40:00,389 - #39 c
+INFO  15:40:00,389 - #5 ;
+INFO  15:40:00,389 - Deklasirana lokalna promenljiva c na liniji 10
+INFO  15:40:00,389 - #3 {
+INFO  15:40:00,389 - #39 c
+INFO  15:40:00,389 - #11 =
+INFO  15:40:00,389 - Detektovano koriscenje lokalne promenljive c na liniji 11
+INFO  15:40:00,389 - #37 0
+INFO  15:40:00,389 - #5 ;
+INFO  15:40:00,389 - #10 return
+INFO  15:40:00,389 - #39 c
+INFO  15:40:00,389 - #13 -
+INFO  15:40:00,389 - Detektovano koriscenje lokalne promenljive c na liniji 12
+INFO  15:40:00,389 - #37 5
+INFO  15:40:00,389 - #5 ;
+INFO  15:40:00,389 - #4 }
+INFO  15:40:00,389 - #16 void
+INFO  15:40:00,389 - #39 func
+INFO  15:40:00,389 - #6 (
+INFO  15:40:00,389 - Obradjuje se metoda func na liniji 15
+INFO  15:40:00,389 - #7 )
+INFO  15:40:00,389 - #3 {
+INFO  15:40:00,389 - #4 }
+INFO  15:40:00,389 - #39 char
+INFO  15:40:00,389 - #39 f
+INFO  15:40:00,389 - #6 (
+INFO  15:40:00,389 - Obradjuje se metoda f na liniji 19
+INFO  15:40:00,389 - #7 )
+INFO  15:40:00,389 - #3 {
+INFO  15:40:00,389 - #10 return
+INFO  15:40:00,389 - #38 a
+INFO  15:40:00,389 - #5 ;
+INFO  15:40:00,389 - #4 }
+INFO  15:40:00,389 - #16 void
+INFO  15:40:00,389 - #39 main
+INFO  15:40:00,389 - #6 (
+INFO  15:40:00,389 - Obradjuje se metoda main na liniji 24
+INFO  15:40:00,389 - #7 )
+INFO  15:40:00,389 - #39 int
+INFO  15:40:00,389 - #39 i
+INFO  15:40:00,389 - #8 ,
+INFO  15:40:00,389 - Deklasirana lokalna promenljiva i na liniji 24
+INFO  15:40:00,404 - #39 c
+INFO  15:40:00,404 - #8 ,
+INFO  15:40:00,404 - Deklasirana lokalna promenljiva c na liniji 24
+INFO  15:40:00,404 - #39 x1
+INFO  15:40:00,404 - #34 [
+INFO  15:40:00,404 - #35 ]
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - Deklasiran lokalni niz x1 na liniji 24
+INFO  15:40:00,404 - #3 {
+INFO  15:40:00,404 - #9 print
+INFO  15:40:00,404 - #6 (
+INFO  15:40:00,404 - #37 1
+INFO  15:40:00,404 - #7 )
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #39 x
+INFO  15:40:00,404 - #11 =
+INFO  15:40:00,404 - Detektovano koriscenje konstante x na liniji 26
+INFO  15:40:00,404 - #38 a
+INFO  15:40:00,404 - #5 ;
+ERROR 15:40:00,404 - Greska: nekompatibilni tipovi x i rs.etf.pp1.symboltable.concepts.Struct@1a6c5a9e , na liniji 26
+INFO  15:40:00,404 - #39 c
+INFO  15:40:00,404 - #11 =
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive c na liniji 28
+INFO  15:40:00,404 - #37 3
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #9 print
+INFO  15:40:00,404 - #6 (
+INFO  15:40:00,404 - #37 2
+INFO  15:40:00,404 - #7 )
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #39 x
+INFO  15:40:00,404 - #32 --
+INFO  15:40:00,404 - Detektovano koriscenje konstante x na liniji 31
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #39 x1
+INFO  15:40:00,404 - #34 [
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive x1 na liniji 32
+INFO  15:40:00,404 - #37 2
+INFO  15:40:00,404 - #35 ]
+INFO  15:40:00,404 - #11 =
+INFO  15:40:00,404 - #37 1
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #45 for
+INFO  15:40:00,404 - #6 (
+INFO  15:40:00,404 - #39 i
+INFO  15:40:00,404 - #11 =
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive i na liniji 34
+INFO  15:40:00,404 - #37 0
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #39 i
+INFO  15:40:00,404 - #18 >
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive i na liniji 34
+INFO  15:40:00,404 - #37 0
+INFO  15:40:00,404 - #24 &&
+INFO  15:40:00,404 - #39 i
+INFO  15:40:00,404 - #22 <
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive i na liniji 34
+INFO  15:40:00,404 - #37 10
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #39 i
+INFO  15:40:00,404 - #31 ++
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive i na liniji 34
+INFO  15:40:00,404 - #7 )
+INFO  15:40:00,404 - #3 {
+INFO  15:40:00,404 - #9 print
+INFO  15:40:00,404 - #6 (
+INFO  15:40:00,404 - #39 i
+INFO  15:40:00,404 - #7 )
+INFO  15:40:00,404 - Detektovano koriscenje lokalne promenljive i na liniji 35
+INFO  15:40:00,404 - #5 ;
+INFO  15:40:00,404 - #4 }
+INFO  15:40:00,404 - #4 }
+INFO  15:40:00,404 - #4 }
+INFO  15:40:00,404 - Print calls = 3
+ERROR 15:40:00,404 - Greske pri parsiranju!
