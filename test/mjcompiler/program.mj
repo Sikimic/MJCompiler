@@ -12,11 +12,7 @@ program test301
 	void main()	int bodovi;
 	{
 	
-		bodovi = 0;
-		bodovi++;
-		bodovi = bodovi + jedan;
-		bodovi+= bodovi *= pet;
-		bodovi--;
+		bodovi = 10 - 2 - 3 - 7;
 		print(bodovi); 
 			
 		
